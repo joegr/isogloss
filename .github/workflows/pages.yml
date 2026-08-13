@@ -1,0 +1,69 @@
+name: test and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install --disable-pip-version-check numpy scipy
+
+      - name: Signal chain
+        run: python3 backend/tests/test_dsp.py
+
+      - name: Voice round trip
+        run: python3 backend/tests/test_voice.py
+
+      # presets.js is generated from the SQL seed. If someone edits the seed and
+      # forgets to regenerate, the site silently ships stale varieties — so the
+      # check is that regenerating produces no diff.
+      - name: Presets are in sync with the seed
+        run: |
+          python3 web/build_presets.py
+          if ! git diff --quiet -- web/presets.js; then
+            echo "::error file=web/presets.js::Out of date. Run: python3 web/build_presets.py"
+            git diff -- web/presets.js
+            exit 1
+          fi
+
+      - name: Static site is self-contained
+        run: python3 web/check_site.py
+
+  deploy:
+    name: deploy to pages
+    needs: test
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: deploy
+        uses: actions/deploy-pages@v4

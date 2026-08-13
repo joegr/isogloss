@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Isogloss — hear an accent as a set of numbers</title>
+<meta name="description" content="A formant synthesiser you steer with fourteen
+  sociophonetic parameters. Move a slider, hear the accent move.">
+<link rel="icon" href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16'
+  r='11' fill='none' stroke='%236ea8fe' stroke-width='3'/></svg>">
+<link rel="stylesheet" href="./style.css">
+<!-- Paper.js is vendored rather than pulled from a CDN: the page then has no
+     third-party runtime dependency, works offline, and cannot break because
+     someone else's host had a bad day. -->
+<script src="./vendor/paper-core.min.js"></script>
+</head>
+<body>
+
+<canvas id="stage" resize></canvas>
+
+<div id="hud">
+  <div id="now"></div>
+  <div id="variety">RP</div>
+</div>
+
+<button id="panel-toggle" aria-label="Toggle controls">☰</button>
+
+<aside id="panel">
+  <header>
+    <h1>Isogloss</h1>
+    <p>An accent is fourteen numbers. Move one and listen to what changes.</p>
+  </header>
+
+  <div class="row">
+    <label for="preset">Variety</label>
+    <select id="preset"></select>
+  </div>
+  <div class="row">
+    <label for="phrase">Phrase</label>
+    <select id="phrase"></select>
+  </div>
+  <p class="hint" id="probe"></p>
+  <div class="row">
+    <label for="voice">Voice</label>
+    <select id="voice">
+      <option value="male">male</option>
+      <option value="female">female</option>
+      <option value="child">child</option>
+    </select>
+  </div>
+
+  <div class="buttons">
+    <button id="play" class="primary">▶ Speak</button>
+    <button id="randomise">Randomise</button>
+    <button id="download" disabled>WAV</button>
+  </div>
+  <p class="hint" id="status">Press Speak, or hit space.</p>
+
+  <div id="sliders"></div>
+
+  <footer>
+    <p><b>What you are hearing.</b> A Klatt-style formant synthesiser, running
+      entirely in this tab. It sounds like 1980s speech synthesis because that is
+      what it is — the point is not realism but <i>control</i>: every parameter
+      here is a quantity the analyser measures, so the same fourteen numbers
+      describe an accent and generate one.</p>
+    <p><b>What you are seeing.</b> The circle is driven by the synthesiser's own
+      parameter track. Hue is the second formant, so the colour <i>is</i> the
+      front/back axis of the vowel space: front vowels burn amber, back vowels go
+      cold blue. Lobes are formants, spin is pitch, the barb on one side is
+      r-colouring, the pixel storm is frication, and each ghost ring is one
+      glottal pulse.</p>
+    <p><b>Caveat.</b> The preset varieties are expert approximations synthesised
+      from the descriptive literature — Wells' lexical sets, the Atlas of North
+      American English, the Survey of English Dialects — not measurements from a
+      corpus. They reproduce the well-known isoglosses; they are not evidence.</p>
+    <p class="links">
+      <a href="https://github.com/josephgruenbaum/isogloss">source</a> ·
+      <a href="https://github.com/josephgruenbaum/isogloss/blob/main/docs/DIFFUSION.md">why accents diffuse the way they do</a> ·
+      <a href="https://github.com/josephgruenbaum/isogloss/blob/main/docs/VOICE.md">how the synthesiser works</a>
+    </p>
+  </footer>
+</aside>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>
