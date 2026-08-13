@@ -29,6 +29,14 @@ from .dsp import Frames
 REF_F3 = 2500.0            # adult-male reference third formant, for VTLN
 SONORANT = {"vowel", "approximant", "nasal"}
 
+# Acoustic scale. Frame emissions are correlated across a segment, so summing
+# them frame by frame overstates the acoustic evidence relative to the
+# transition model — the usual consequence being a decoder that will not leave a
+# state and merges a whole passage into a few enormous segments. Every ASR
+# decoder carries a knob for this; scaling the transitions down is the same
+# thing as scaling the emissions up, and keeps the emission values readable.
+TRANSITION_SCALE = 0.15
+
 
 @dataclass
 class Phone:
@@ -222,7 +230,7 @@ def _transitions(phones: Sequence[Phone], hop_s: float,
         trans = bigram.copy()
     np.fill_diagonal(trans, -60.0)          # leaving means leaving
     trans = trans + log_leave[:, None]
-    return log_stay, trans
+    return log_stay * TRANSITION_SCALE, trans * TRANSITION_SCALE
 
 
 def viterbi(emis: np.ndarray, phones: Sequence[Phone], hop_s: float,

@@ -197,14 +197,30 @@ def pitch(frames: np.ndarray, sr: int, fmin: float = 60.0,
     zero = np.maximum(ac[:, :1], 1e-12)
     ac = ac / zero
 
+    # Divide out the window's own autocorrelation (Boersma). Zero-padded
+    # correlation only overlaps (n − τ) samples at lag τ, so a perfectly
+    # periodic signal peaks at (n − τ)/n, not 1. At 16 kHz with a 25 ms frame
+    # that caps voicing near 0.67 for a 120 Hz voice — which silently made every
+    # `voicing > 0.6` test in the codebase unreachable, and cost the recogniser
+    # its single best cue for telling a vowel from a stop burst.
+    lags = np.arange(n)
+    window_ac = np.maximum((n - lags) / n, 0.20)
+    ac = ac / window_ac
+
     lo = max(2, int(sr / fmax))
     hi = min(n - 1, int(sr / fmin))
     if hi <= lo:
         return np.full(len(frames), np.nan), np.zeros(len(frames))
 
     seg = ac[:, lo:hi]
-    lag = np.argmax(seg, axis=1) + lo
-    strength = seg.max(axis=1)
+    peak = seg.max(axis=1)
+    # Octave-error guard: take the *shortest* lag that gets within 85% of the
+    # best one, not the best one itself. The sub-harmonic at 2T is a genuine
+    # correlation peak and the window correction amplifies long lags, so
+    # plain argmax happily reports half the true pitch.
+    good = seg >= 0.85 * peak[:, None]
+    lag = np.argmax(good, axis=1) + lo
+    strength = seg[np.arange(len(seg)), lag - lo]
 
     # Parabolic refinement around the peak — worth it, because f0_span is
     # measured in semitones and a one-sample lag error is ~1 semitone at 200 Hz.
@@ -216,7 +232,25 @@ def pitch(frames: np.ndarray, sr: int, fmin: float = 60.0,
         denom = y0 - 2 * y1 + y2
         delta = 0.5 * (y0 - y2) / denom if abs(denom) > 1e-9 else 0.0
         f0[i] = sr / (l + np.clip(delta, -1, 1))
-    return f0, strength
+
+    # A 5-frame median filter over the voiced track. Autocorrelation pitch makes
+    # isolated octave errors, and f0_span is a *range* statistic — a single
+    # frame at half the true pitch adds 12 semitones to it. Smoothing the track
+    # is far cheaper than making the tracker never slip.
+    return _median_f0(f0, 5), strength
+
+
+def _median_f0(f0: np.ndarray, k: int) -> np.ndarray:
+    out = f0.copy()
+    half = k // 2
+    for i in range(len(f0)):
+        if not np.isfinite(f0[i]):
+            continue
+        w = f0[max(0, i - half) : i + half + 1]
+        w = w[np.isfinite(w)]
+        if w.size >= 3:
+            out[i] = float(np.median(w))
+    return out
 
 
 # ---------------------------------------------------------------------------

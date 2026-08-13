@@ -239,7 +239,9 @@ def measure(frames: Frames, rec: Recognition) -> dict[str, Measurement]:
     f0 = f0[np.isfinite(f0)]
     span = None
     if f0.size >= 20:
-        lo, hi = np.percentile(f0, 5), np.percentile(f0, 95)
+        # 10th/90th rather than 5th/95th: the tails of an autocorrelation pitch
+        # track are where its octave errors live, and this is a range statistic.
+        lo, hi = np.percentile(f0, 10), np.percentile(f0, 90)
         if lo > 0:
             span = 12.0 * math.log2(hi / lo)
     put("f0_span", span, _reliability(int(f0.size), 60), int(f0.size))
