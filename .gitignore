@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.wav
+!backend/tests/fixtures/*.wav
+.DS_Store
+.pytest_cache/
+out/

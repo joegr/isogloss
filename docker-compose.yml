@@ -1,0 +1,55 @@
+# Isogloss — two services: PostGIS holds the accent field and does all the
+# geometry; the API does the signal processing and the linear algebra.
+#
+# The db/*.sql files are mounted into the Postgres entrypoint directory, so a
+# fresh volume builds the whole field — schema, functions, phonetics, geography,
+# reference varieties, then every derived layer — on first boot.
+
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${PGUSER:-isogloss}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-isogloss}
+      POSTGRES_DB: ${PGDATABASE:-isogloss}
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d:ro
+      - isogloss-db:/var/lib/postgresql/data
+    ports:
+      - "${PGPORT:-5432}:5432"
+    healthcheck:
+      # The seed takes a little while (the interaction graph is a spatial join
+      # over every settlement pair), so healthy means "derived layers exist",
+      # not merely "accepting connections".
+      test: ["CMD-SHELL",
+             "pg_isready -U ${PGUSER:-isogloss} -d ${PGDATABASE:-isogloss} && \
+              psql -U ${PGUSER:-isogloss} -d ${PGDATABASE:-isogloss} -tAc \
+              'SELECT count(*) > 0 FROM site_cell' | grep -q t"]
+      interval: 5s
+      timeout: 10s
+      retries: 60
+      start_period: 20s
+
+  api:
+    build: ./backend
+    image: isogloss/api:latest
+    restart: unless-stopped
+    environment:
+      ISOGLOSS_DSN: postgresql://${PGUSER:-isogloss}:${PGPASSWORD:-isogloss}@db:5432/${PGDATABASE:-isogloss}
+      ISOGLOSS_RECOGNIZER: ${ISOGLOSS_RECOGNIZER:-template}
+      ISOGLOSS_LOG_INFERENCES: ${ISOGLOSS_LOG_INFERENCES:-0}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${API_PORT:-8000}:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  isogloss-db:

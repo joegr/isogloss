@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Isogloss — phonemes, language, and where an accent comes from</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span class="mark">◍</span>
+    <div>
+      <h1>Isogloss</h1>
+      <p>Phoneme recognition → language ID → accent geolocation, over a diffusion field in PostGIS</p>
+    </div>
+  </div>
+  <nav id="tabs">
+    <button data-tab="analyse" class="on">Analyse</button>
+    <button data-tab="field">The field</button>
+    <button data-tab="diffusion">Diffusion</button>
+    <button data-tab="about">About</button>
+  </nav>
+</header>
+
+<main>
+
+<!-- ------------------------------------------------------------------ -->
+<section id="tab-analyse" class="tab on">
+  <div class="split">
+    <div class="col">
+      <div class="card">
+        <h2>Record or upload</h2>
+        <p class="hint">Read a paragraph aloud — 15–30 seconds of connected speech.
+           Short clips and telephone-quality audio degrade the measurements, and the
+           results say so explicitly rather than guessing.</p>
+        <div class="controls">
+          <button id="rec" class="primary">● Record</button>
+          <button id="stop" disabled>■ Stop</button>
+          <label class="filebtn">Upload WAV<input id="file" type="file" accept=".wav,audio/wav"></label>
+          <select id="langhint">
+            <option value="">Identify language</option>
+          </select>
+        </div>
+        <div id="meter"><div id="meterbar"></div></div>
+        <div id="status" class="status"></div>
+        <audio id="playback" controls hidden></audio>
+      </div>
+
+      <div class="card" id="langcard" hidden>
+        <h2>Language</h2>
+        <div id="langtop"></div>
+        <table id="langtable" class="mini"></table>
+      </div>
+
+      <div class="card" id="phonecard" hidden>
+        <h2>Phones</h2>
+        <div id="phonestrip" class="strip"></div>
+        <div id="phonestring" class="ipa"></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <h2>Where is this accent from?</h2>
+        <div class="mapwrap"><svg id="map-analyse" class="map"></svg></div>
+        <div class="legend">
+          <span><i class="sw p50"></i>50%</span>
+          <span><i class="sw p80"></i>80%</span>
+          <span><i class="sw p95"></i>95% credible region</span>
+          <span><i class="sw pt"></i>most probable origin</span>
+        </div>
+        <div id="locsummary" class="summary"></div>
+      </div>
+
+      <div class="card" id="accentcard" hidden>
+        <h2>Accent measurements</h2>
+        <p class="hint">The bar is reliability, not the value. Features the audio could
+           not support are weighted out of the posterior.</p>
+        <table id="accenttable" class="feat"></table>
+      </div>
+
+      <div class="card" id="caveatcard" hidden>
+        <h2>Caveats</h2>
+        <ul id="caveats"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------ -->
+<section id="tab-field" class="tab">
+  <div class="card">
+    <h2>The accent field</h2>
+    <p class="hint">Everything drawn here is geometry the database constructed:
+       Thiessen cells over the reference sites, isoglosses as the shared boundary
+       between cells above and below a threshold, bundles where many isoglosses run
+       together, and dialect regions clustered in feature space then unioned in map space.</p>
+    <div class="controls">
+      <select id="area"></select>
+      <select id="isokey"><option value="">All isoglosses</option></select>
+      <label class="chk"><input type="checkbox" id="l-cells" checked> Cells</label>
+      <label class="chk"><input type="checkbox" id="l-regions" checked> Dialect regions</label>
+      <label class="chk"><input type="checkbox" id="l-iso" checked> Isoglosses</label>
+      <label class="chk"><input type="checkbox" id="l-bundles"> Bundles</label>
+      <label class="chk"><input type="checkbox" id="l-barriers" checked> Barriers</label>
+      <label class="chk"><input type="checkbox" id="l-corridors"> Corridors</label>
+      <label class="chk"><input type="checkbox" id="l-edges"> Interaction graph</label>
+      <button id="recluster">Recluster regions</button>
+    </div>
+    <div class="mapwrap tall"><svg id="map-field" class="map"></svg></div>
+    <div id="fieldinfo" class="summary"></div>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------ -->
+<section id="tab-diffusion" class="tab">
+  <div class="card">
+    <h2>Diffusion of a sound change</h2>
+    <p class="hint">One simulator, four regimes. Watch where the wavefront appears:
+       under <b>wave</b> it expands as a ring from the origin; under
+       <b>hierarchical</b> it materialises around distant cities first and only later
+       joins up. That difference is the whole argument of the design note.</p>
+    <div class="controls">
+      <select id="d-area"></select>
+      <select id="d-origin"></select>
+      <select id="d-regime">
+        <option value="hierarchical">hierarchical (cascade)</option>
+        <option value="wave">wave</option>
+        <option value="contagion">contagion</option>
+        <option value="contra-hierarchical">contra-hierarchical</option>
+      </select>
+      <label class="num">steps <input id="d-steps" type="number" value="24" min="4" max="80"></label>
+      <label class="num">contact λ <input id="d-contact" type="number" value="3.2" step="0.1"></label>
+      <label class="num">resistance θ <input id="d-res" type="number" value="0.9" step="0.1"></label>
+      <label class="num">identity ι <input id="d-identity" type="number" value="0" step="0.05"></label>
+      <button id="d-run" class="primary">Run</button>
+    </div>
+    <div class="mapwrap tall"><svg id="map-diffusion" class="map"></svg></div>
+    <div class="controls">
+      <button id="d-play">▶ Play</button>
+      <input id="d-t" type="range" min="0" max="0" value="0">
+      <span id="d-label" class="mono"></span>
+    </div>
+    <div id="d-info" class="summary"></div>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------ -->
+<section id="tab-about" class="tab">
+  <div class="card prose">
+    <h2>What this is doing</h2>
+    <p>Audio is framed at 25 ms / 10 ms, and every frame gets an energy, a zero-crossing
+      rate, a pitch estimate from normalised autocorrelation, four LPC formants, and a set
+      of spectral moments. Vocal-tract length is normalised out before anything is compared,
+      because otherwise the system measures the speaker's height rather than their hometown.</p>
+    <p>Phones are recognised by scoring each frame against acoustic templates and decoding
+      with a Viterbi pass that carries duration and phonotactic costs. The language is then
+      identified from the phone string plus rhythm metrics — PRLM, in Zissman's sense — and
+      the audio is decoded a second time under the winning language's phonotactics.</p>
+    <p>Fourteen sociophonetic measurements are extracted, each with a reliability. Those
+      are compared against a field of reference varieties using a Gaussian process whose
+      covariance is <em>the heat kernel of a gravity/barrier interaction graph</em> rather
+      than a distance kernel: barriers, settlement hierarchy and migration links are
+      inherited by the interpolator instead of bolted onto it.</p>
+    <p>The answer is a posterior over the earth's surface, returned as credible-region
+      polygons. It is usually broad, and often multimodal across continents. That is the
+      honest information content of fourteen acoustic numbers, and it is why the output type
+      is a geometry and not a coordinate pair.</p>
+    <h3>Known limits</h3>
+    <ul>
+      <li>The reference field is expert-approximated from the descriptive literature, not
+        measured from a corpus.</li>
+      <li>The template recogniser is inspectable but much weaker than a trained model; the
+        recogniser interface exists so one can be dropped in.</li>
+      <li>Second-language accent is a different axis from dialect geography. The pipeline
+        flags it rather than silently placing a Spanish-accented English speaker in Spain.</li>
+      <li>Narrowband audio destroys F3, and with it rhoticity — the single most informative
+        English feature.</li>
+    </ul>
+    <p class="hint">Design note: <code>docs/DIFFUSION.md</code>. Schema and spatial
+      functions: <code>db/01_schema.sql</code>, <code>db/02_functions.sql</code>.</p>
+  </div>
+</section>
+
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>
