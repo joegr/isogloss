@@ -1,5 +1,8 @@
 # Isogloss
 
+**[Try the synthesiser →](https://joegr.github.io/isogloss/)** — an accent is
+fourteen numbers; move a slider and hear what changes. Runs entirely in the tab.
+
 Record speech. Get back the phones, the language, fourteen sociophonetic
 measurements, and **where the accent is from — as a probability distribution
 drawn on a map.**
@@ -108,13 +111,55 @@ sitting, deliberately.
   informative English feature. The pipeline measures the effective bandwidth and
   says so instead of guessing confidently.
 
+## Producing the accents, not just recognising them
+
+The accent vector is already a set of phonetic control parameters, so a formant
+synthesiser can be driven by it directly — which means generation and
+recognition share one representation. See **[docs/VOICE.md](docs/VOICE.md)**.
+
+The payoff is a **round trip**: synthesise Cork from the reference field, feed
+the audio back through the recogniser, and see where it geolocates. That turns
+a hand-authored field from an assertion into something measurable.
+
+```bash
+python3 backend/tests/test_voice.py     # synthesise → measure → compare
+```
+
+Transcriptions are stored in Wells' lexical sets, never as sounds. `park` is
+`p START k`, where START is *the class of park, car, hard* — so one
+transcription renders in any accent, and the accent parameters fall out as
+interpolations between classes:
+
+```python
+BATH = lerp(TRAP, PALM, trap_bath)              # the north/south English isogloss
+LOT, THOUGHT = converge(LOT, THOUGHT, low_back_merge)
+```
+
+Each line is the generative statement of a measurement in `accent.py`. Building
+this immediately paid for itself by exposing three real bugs in the analysis
+path — including a normalisation error that capped voicing at 0.67 and so made
+every `voicing > 0.6` test in the codebase unreachable.
+
+It sounds like 1980s DECtalk, and that is the accepted cost: the point is
+steerability, not realism. A neural voice would sound better and could not be
+driven by "set `low_back_merge` to 0.9".
+
 ## Layout
 
 ```
 db/       PostGIS schema, spatial functions, the reference field
 backend/  FastAPI + numpy/scipy; the signal chain and the linear algebra
+  app/voice/    the formant synthesiser and the round-trip harness
   app/static/   vanilla client, SVG GeoJSON renderer, no tiles or CDN
-docs/     DIFFUSION.md — the design argument
+web/      the static Pages site: the synthesiser ported to run in a browser
+docs/     DIFFUSION.md — the design argument; VOICE.md — the synthesiser
 ```
+
+`web/synth.js` is a port of the Python synthesiser, not a client for it, because
+Pages is static. CI keeps them honest: the Python round-trip tests run on every
+push, `web/presets.js` is generated from the SQL seed and CI fails if
+regenerating it produces a diff, and `web/check_site.py` walks the module graph
+and checks named imports against exports — a mistyped import path on a
+build-step-free static site is a blank page, and nothing else would catch it.
 
 Sources for the ideas are listed at the end of `docs/DIFFUSION.md`.
