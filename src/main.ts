@@ -10,6 +10,7 @@ import { initLanguages, initTimeline } from "./charts";
 import { initConcordance } from "./concordance";
 import { initContacts } from "./contacts";
 import { initRouter } from "./router";
+import { initChat } from "./chat";
 import { initDrilldown } from "./drilldown";
 import { initInput } from "./input";
 import { initMap } from "./map";
@@ -149,6 +150,7 @@ async function main() {
   const contacts = initContacts($("page-contacts"), reload);
   initDrilldown();
   initRouter(contacts.route);
+  initChat();
   subscribe((_s, changed) => changed.has("records") && contacts.refreshCount());
 
   subscribe((_s, changed) => {

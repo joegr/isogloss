@@ -837,3 +837,28 @@ fieldset legend { font-size: 12px; font-weight: 600; color: var(--text-secondary
 .radio { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; cursor: pointer; }
 .radio input { accent-color: var(--person); margin: 0; }
 .verdict { padding-top: 4px; border-top: 1px dashed var(--border); }
+
+/* ---------- Ask (chat) panel */
+.chat-panel { position: fixed; right: 16px; bottom: 16px; z-index: 60; width: min(440px, calc(100vw - 32px));
+  height: min(640px, calc(100vh - 32px)); display: flex; flex-direction: column; background: var(--surface, var(--bg));
+  color: var(--text); border: 1px solid var(--border, rgba(127,127,127,.3)); border-radius: 14px;
+  box-shadow: 0 18px 48px rgba(0,0,0,.28); }
+.chat-panel[hidden] { display: none; }
+.chat-head { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--border, rgba(127,127,127,.3)); }
+.chat-model { flex: 1; font-size: 12px; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chat-log { flex: 1; overflow-y: auto; margin: 0; padding: 12px; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.msg { max-width: 92%; padding: 8px 11px; border-radius: 10px; line-height: 1.45; font-size: 14px; }
+.msg.user { align-self: flex-end; background: var(--accent-strong); color: #fff; }
+.msg.bot { align-self: flex-start; background: rgba(127,127,127,.1); }
+.msg .steps { font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
+.msg .meta { font-size: 11px; color: var(--text-muted); margin-top: 6px; }
+.answer.streaming::after { content: "▍"; animation: blink 1s steps(2) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.sent.u-medium { background: rgba(230,170,40,.18); border-radius: 3px; }
+.sent.u-high { background: rgba(220,60,60,.2); border-radius: 3px; text-decoration: underline dotted; }
+.cite { text-decoration: none; margin-left: 2px; }
+.chat-error { color: #c33; }
+.chat-form { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--border, rgba(127,127,127,.3)); }
+.chat-form textarea { flex: 1; resize: none; font: inherit; padding: 8px; border-radius: 8px;
+  border: 1px solid var(--border, rgba(127,127,127,.4)); background: transparent; color: inherit; }
+@media (prefers-reduced-motion: reduce) { .answer.streaming::after { animation: none; } }
