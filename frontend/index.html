@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoCRM</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%232a78d6' stroke-width='3'/><circle cx='16' cy='16' r='4' fill='%23eb6834'/></svg>" />
+  </head>
+  <body>
+    <nav class="rail" aria-label="Main">
+      <a class="rail-brand" href="#/" aria-label="GeoCRM home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="rail-name">Geo<b>CRM</b></span>
+      </a>
+      <a class="rail-link" href="#/" data-nav="explore">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>
+        <span>Explore</span>
+      </a>
+      <a class="rail-link" href="#/contacts" data-nav="contacts">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.2-6 6.5-6s5.9 2.4 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16 14.2c2.7-.2 4.9 1.8 5.5 5.3"/></svg>
+        <span>Contacts</span><span class="rail-count" id="contact-count"></span>
+      </a>
+      <button class="rail-link" id="chat-open" type="button" aria-controls="chat-panel" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+        <span>Ask</span>
+      </button>
+      <span class="rail-spacer"></span>
+      <button class="rail-link" id="theme-toggle" type="button" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>
+        <span>Theme</span>
+      </button>
+    </nav>
+
+    <aside id="chat-panel" class="chat-panel" aria-label="Ask the knowledge base" hidden>
+      <header class="chat-head"><b>Ask GeoCRM</b><span id="chat-model" class="chat-model"></span>
+        <button id="chat-close" class="btn" type="button" aria-label="Close chat">×</button></header>
+      <ol id="chat-log" class="chat-log" aria-live="polite"></ol>
+      <form id="chat-form" class="chat-form">
+        <textarea id="chat-input" rows="2" maxlength="2000" placeholder="Who was in Berlin in 1963? What happened near Baikonur?" aria-label="Question"></textarea>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+    </aside>
+    <div id="page-contacts" class="page contacts-page" hidden></div>
+
+    <div id="app" class="page">
+      <header class="topbar">
+        <div class="page-title">
+          <h1>Explore</h1>
+          <span class="brand-sub">records → people · places · time · language</span>
+        </div>
+        <div class="stats" id="stats"></div>
+        <div class="topbar-actions">
+          <button class="btn ghost" id="load-samples" type="button">Load samples</button>
+        </div>
+      </header>
+
+      <aside class="panel left" id="input-panel"></aside>
+
+      <main class="center">
+        <div class="filters" id="filters"></div>
+        <section class="card map-card" id="map-card">
+          <div class="card-head">
+            <div class="segmented view-switch" role="group" aria-label="View">
+              <button type="button" data-view="globe" class="active">Globe</button>
+              <button type="button" data-view="flat">Flat</button>
+              <button type="button" data-view="network">Network</button>
+            </div>
+            <div class="map-legend" id="map-legend"></div>
+            <button type="button" class="icon-btn" id="fullscreen" title="Full screen (F)" aria-label="Toggle full screen">⛶</button>
+          </div>
+          <div class="map" id="map"></div>
+        </section>
+        <div class="charts">
+          <section class="card">
+            <div class="card-head"><h2>Records over time</h2><span class="hint">drag to filter</span></div>
+            <div id="timeline" class="chart"></div>
+          </section>
+          <section class="card">
+            <div class="card-head"><h2>Languages</h2><span class="hint">click to filter</span></div>
+            <div id="languages" class="chart"></div>
+          </section>
+        </div>
+      </main>
+
+      <aside class="panel right" id="records-panel"></aside>
+    </div>
+    <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
