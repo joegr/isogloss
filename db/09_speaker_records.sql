@@ -34,6 +34,12 @@ CREATE TABLE IF NOT EXISTS saa_entity (
 CREATE INDEX IF NOT EXISTS saa_entity_speaker ON saa_entity (speakerid);
 CREATE INDEX IF NOT EXISTS saa_entity_gg ON saa_entity USING GIST (geog);
 
+-- Where a recording came from, and its content hash: attaching the same file
+-- twice (re-dropping a folder of archive MP3s) is then a no-op, not a duplicate.
+ALTER TABLE audio_recording ADD COLUMN IF NOT EXISTS source_file text;
+ALTER TABLE audio_recording ADD COLUMN IF NOT EXISTS sha256 text;
+CREATE UNIQUE INDEX IF NOT EXISTS audio_recording_node_sha ON audio_recording (node_id, sha256);
+
 -- A speaker's recordings live on an audio node at the speaker's point.
 ALTER TABLE audio_node ADD COLUMN IF NOT EXISTS speakerid int
   REFERENCES saa_speaker(speakerid) ON DELETE SET NULL;

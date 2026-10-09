@@ -18,7 +18,7 @@ check-docker:
 up: check-docker ## Build and start PostGIS + the API (seeds the field on first run)
 	$(COMPOSE) up --build -d
 	@$(MAKE) --no-print-directory wait
-	@echo "ready → http://localhost:$${API_PORT:-8000}"
+	@echo "speaker map → http://localhost:$${WEB_PORT:-8080}   analyser → http://localhost:$${API_PORT:-8000}"
 
 .PHONY: wait
 wait: ## Block until the field has finished building
@@ -62,6 +62,14 @@ migrate: ## Apply the additive scripts (audio nodes, Speech Accent Archive, spea
 		$(COMPOSE) exec -T db psql -U isogloss -d isogloss -v ON_ERROR_STOP=1 -q \
 			-f /docker-entrypoint-initdb.d/$$f && echo "applied $$f"; done
 
+.PHONY: ner
+ner: ## Run NER over every speaker record that has not had it
+	@curl -fsS -X POST localhost:$${API_PORT:-8000}/api/speakers/ner; echo
+
+.PHONY: geocode
+geocode: ## Re-geocode the Speech Accent Archive birthplaces into db/data/saa_birthplaces.csv
+	cd backend && python3 -m app.datasets.geocode
+
 .PHONY: refresh
 refresh: ## Rebuild every derived layer (edges, cells, isoglosses, bundles)
 	@$(PSQL) -c 'SELECT * FROM iso_refresh_all();'
@@ -84,8 +92,11 @@ stats: ## Row counts across the field
 	  UNION ALL SELECT 'regions', count(*) FROM dialect_region;"
 
 .PHONY: test
-test: ## Run the offline DSP/pipeline checks (no database needed)
+test: ## Run the offline checks (no database needed)
 	python3 backend/tests/test_dsp.py
+	python3 backend/tests/test_voice.py
+	python3 backend/tests/test_saa.py
+	python3 backend/tests/test_geocode.py
 
 .PHONY: demo
 demo: ## Run a hierarchical diffusion from London and print the signature

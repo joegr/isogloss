@@ -17,6 +17,7 @@ Two backends with one interface:
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -63,11 +64,14 @@ class Recording:
     speaker: str | None = None
     phone_string: str = ""
     created: str = field(default_factory=_now)
+    source_file: str | None = None
+    sha256: str | None = None
 
     def public(self) -> dict:
         return {"id": self.id, "node_id": self.node_id, "duration_s": self.duration_s,
                 "speaker": self.speaker, "feature_version": self.feature_version,
-                "phone_string": self.phone_string, "created": self.created}
+                "phone_string": self.phone_string, "created": self.created,
+                "source_file": self.source_file}
 
 
 def validate_point(lon: float, lat: float) -> None:
@@ -82,7 +86,7 @@ class NodeStore(Protocol):
     def get_node(self, node_id: str) -> Node | None: ...
     def delete_node(self, node_id: str) -> bool: ...
     def add_recording(self, node_id: str, wav: bytes, feat: Featurized,
-                      speaker: str | None = None) -> Recording: ...
+                      speaker: str | None = None, source_file: str | None = None) -> Recording: ...
     def recordings(self) -> list[Recording]: ...
     def audio(self, rec_id: str) -> bytes | None: ...
     def update_features(self, rec_id: str, feat: Featurized) -> None: ...
@@ -137,13 +141,10 @@ class FileNodeStore:
         self._save()
         return True
 
-    def add_recording(self, node_id, wav, feat, speaker=None) -> Recording:
+    def add_recording(self, node_id, wav, feat, speaker=None, source_file=None) -> Recording:
         if node_id not in self._nodes:
             raise KeyError(f"no node {node_id!r}")
-        rec = Recording(id=_new_id("rec"), node_id=node_id, features=feat.vector,
-                        phone_rates=feat.phone_rates, duration_s=feat.duration_s,
-                        feature_version=feat.version, speaker=speaker,
-                        phone_string=feat.phone_string)
+        rec = _new_recording(node_id, wav, feat, speaker, source_file)
         (self.root / "audio" / f"{rec.id}.wav").write_bytes(wav)
         self._recs[rec.id] = _rec_json(rec)
         self._save()
@@ -161,6 +162,15 @@ class FileNodeStore:
         v.update(features=_nan_list(feat.vector), phone_rates=_nan_list(feat.phone_rates),
                  feature_version=feat.version, phone_string=feat.phone_string)
         self._save()
+
+
+def _new_recording(node_id: str, wav: bytes, feat: Featurized, speaker: str | None,
+                   source_file: str | None) -> Recording:
+    return Recording(id=_new_id("rec"), node_id=node_id, features=feat.vector,
+                     phone_rates=feat.phone_rates, duration_s=feat.duration_s,
+                     feature_version=feat.version, speaker=speaker,
+                     phone_string=feat.phone_string, source_file=source_file,
+                     sha256=hashlib.sha256(wav).hexdigest())
 
 
 def _nan_list(a: np.ndarray) -> list:
@@ -218,23 +228,27 @@ class PgNodeStore:
     def delete_node(self, node_id) -> bool:
         return bool(self.db.one("DELETE FROM audio_node WHERE id = %s RETURNING id", (node_id,)))
 
-    def add_recording(self, node_id, wav, feat, speaker=None) -> Recording:
-        rec = Recording(id=_new_id("rec"), node_id=node_id, features=feat.vector,
-                        phone_rates=feat.phone_rates, duration_s=feat.duration_s,
-                        feature_version=feat.version, speaker=speaker,
-                        phone_string=feat.phone_string)
+    def add_recording(self, node_id, wav, feat, speaker=None, source_file=None) -> Recording:
+        rec = _new_recording(node_id, wav, feat, speaker, source_file)
         self.db.execute("""
             INSERT INTO audio_recording (id, node_id, speaker, duration_s, wav, features,
-                                         phone_rates, feature_version, phone_string)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+                                         phone_rates, feature_version, phone_string,
+                                         source_file, sha256)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """, (rec.id, node_id, speaker, rec.duration_s, wav, _nan_list(rec.features),
-              _nan_list(rec.phone_rates), rec.feature_version, rec.phone_string))
+              _nan_list(rec.phone_rates), rec.feature_version, rec.phone_string,
+              source_file, rec.sha256))
         return rec
+
+    def find_recording(self, node_id: str, wav: bytes) -> str | None:
+        r = self.db.one("SELECT id FROM audio_recording WHERE node_id = %s AND sha256 = %s",
+                        (node_id, hashlib.sha256(wav).hexdigest()))
+        return r["id"] if r else None
 
     def recordings(self) -> list[Recording]:
         rows = self.db.query("""
             SELECT id, node_id, speaker, duration_s, features, phone_rates, feature_version,
-                   phone_string, created::text AS created
+                   phone_string, created::text AS created, source_file, sha256
             FROM audio_recording ORDER BY created, id
         """)
         return [_rec_from_json(dict(r)) for r in rows]

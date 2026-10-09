@@ -31,6 +31,7 @@ from __future__ import annotations
 
 import csv
 import difflib
+import math
 import json
 import os
 import re
@@ -40,6 +41,8 @@ import urllib.request
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
+
+import numpy as np
 
 from ..geomath import haversine_km
 from . import saa
@@ -190,6 +193,8 @@ class Gazetteer:
             # GeoNames admin1 names fill gaps in the state table ("Guangdong").
             for v in variants(c["admin1"] or ""):
                 self.states[c["country"]].setdefault(v, None)
+        self.country_name = {iso: name for iso, (_, _, name) in self.country_point.items()}
+        self._flat: tuple | None = None
 
     # -- the cascade -----------------------------------------------------------------
 
@@ -300,6 +305,112 @@ class Gazetteer:
             p = self.country_point[iso]
             return Fix(p[0], p[1], "country", p[2], "", iso)
         return Fix(None, None, "", "", "", iso)
+
+
+    # -- runtime: linking entities, reverse lookup, search ---------------------------
+
+    # Place words that are also ordinary English. Linking them would put "bath"
+    # and "reading" on the map every time someone mentions a bath or reading.
+    COMMON = {"us", "bath", "reading", "march", "may", "of", "and", "the", "home", "school",
+              "university", "college", "church", "city", "town", "village", "state",
+              "university of", "english", "french", "spanish", "german", "college of"}
+    SHORT_COUNTRIES = {"us": "US", "u s": "US", "uk": "GB", "u k": "GB"}
+
+    def link(self, text: str, hint: list[str] = (), min_pop: int = 100_000,
+             spacy_loc: bool = False) -> Fix:
+        """A place name found in running text → a point, or an unresolved Fix.
+
+        Stricter than `geocode`, which is told which column is the city: here
+        the string could be anything, so a city outside the speaker's own
+        countries (`hint`) must be large to count, and a bare common word only
+        counts when spaCy already called it a location."""
+        n = norm(text)
+        if not n or (n in self.COMMON and not spacy_loc):
+            return Fix(None, None, "")
+        # A state of the speaker's own country beats a foreign country of the
+        # same name: "georgia" in an American's notes is the state.
+        if hint:
+            k, pt = self.state(hint[0], text)
+            if pt is not None and k == n:
+                return Fix(pt[0], pt[1], "state", pt[2], "", hint[0])
+        iso, implied = self.country(text) if len(n) > 2 else ("", "")
+        if spacy_loc and n in self.SHORT_COUNTRIES:     # "various us and overseas locations"
+            iso, implied = self.SHORT_COUNTRIES[n], ""
+        if iso and not implied and iso in self.country_point:
+            p = self.country_point[iso]
+            return Fix(p[0], p[1], "country", p[2], "", iso)
+        # The literal name as a sizeable city first: "new york city" is the city,
+        # though stripping "city" would also make it the state.
+        for h in hint:
+            cs = [c for c in self.cities.get(h, {}).get(n, ()) if c[4] >= 50_000]
+            if cs:
+                c = max(cs, key=lambda c: c[4])
+                return Fix(c[2], c[3], "city", c[0], c[1], h)
+        for h in hint:
+            _, pt = self.state(h, text)
+            if pt is not None:
+                return Fix(pt[0], pt[1], "state", pt[2], "", h)
+        for h in hint:
+            hit, how = self.city(h, text, "")
+            if hit is not None:
+                return Fix(hit[2], hit[3], "city", hit[0], hit[1], h)
+        best = None
+        for v in variants(text):
+            for iso2, table in self.cities.items():
+                for c in table.get(v, ()):
+                    if c[4] >= min_pop and (best is None or c[4] > best[0][4]):
+                        best = (c, iso2)
+            if best:
+                break
+        if best:
+            c, iso2 = best
+            return Fix(c[2], c[3], "city", c[0], c[1], iso2)
+        return Fix(None, None, "")
+
+    def _arrays(self):
+        if self._flat is None:
+            rows = [(iso, c) for iso, t in self.cities.items() for cs in t.values() for c in cs]
+            self._flat = (np.array([c[2] for _, c in rows]), np.array([c[3] for _, c in rows]),
+                          rows)
+        return self._flat
+
+    def reverse(self, lon: float, lat: float, min_pop: int = 0) -> dict | None:
+        """Nearest populated place to a point — what a map click prefills."""
+        lons, lats, rows = self._arrays()
+        if not len(rows):
+            return None
+        d = haversine_km(lon, lat, lons, lats)
+        if min_pop:
+            d = np.where(np.array([c[4] for _, c in rows]) >= min_pop, d, np.inf)
+        i = int(np.argmin(d))
+        iso, c = rows[i]
+        return {"name": c[0], "admin1": c[1], "country_code": iso,
+                "country": self.country_name.get(iso, iso), "lon": c[2], "lat": c[3],
+                "population": c[4], "distance_km": round(float(d[i]), 1)}
+
+    def search(self, q: str) -> dict | None:
+        """'city, state, country' typed into the form → the cascade's answer."""
+        parts = [p.strip() for p in q.split(",") if p.strip()]
+        if not parts:
+            return None
+        city, state, country = (parts + ["", ""])[:3] if len(parts) >= 3 else \
+            (parts[0], "", parts[1]) if len(parts) == 2 else (parts[0], "", "")
+        fx = self.geocode(city, state, country) if country else self.link(parts[0], min_pop=0)
+        if fx.lon is None:
+            return None
+        return {"lon": fx.lon, "lat": fx.lat, "match": fx.match, "name": fx.matched_name,
+                "admin1": fx.matched_admin1, "country_code": fx.country_code}
+
+
+_GAZ: Gazetteer | None = None
+
+
+def gazetteer() -> Gazetteer:
+    """The process-wide gazetteer, fetched and loaded on first use."""
+    global _GAZ
+    if _GAZ is None:
+        _GAZ = Gazetteer(fetch())
+    return _GAZ
 
 
 def fetch(root: Path = CACHE) -> Path:
