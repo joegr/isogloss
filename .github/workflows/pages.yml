@@ -36,6 +36,9 @@ jobs:
       - name: Voice round trip
         run: python3 backend/tests/test_voice.py
 
+      - name: Speech Accent Archive table
+        run: python3 backend/tests/test_saa.py
+
       # presets.js is generated from the SQL seed. If someone edits the seed and
       # forgets to regenerate, the site silently ships stale varieties — so the
       # check is that regenerating produces no diff.
@@ -51,9 +54,49 @@ jobs:
       - name: Static site is self-contained
         run: python3 web/check_site.py
 
+  # Boots the real image with db/ mounted exactly as docker-compose.yml mounts
+  # it, so the entrypoint runs every script in order and stops at the first
+  # error. Nothing else exercises the SQL, and a function that fails to
+  # create leaves `make up` waiting forever on a field that never builds.
+  database:
+    name: database builds from db/*.sql
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Boot PostGIS with the seed mounted
+        run: |
+          docker run -d --name db \
+            -e POSTGRES_USER=isogloss -e POSTGRES_PASSWORD=isogloss -e POSTGRES_DB=isogloss \
+            -v "$PWD/db:/docker-entrypoint-initdb.d:ro" postgis/postgis:16-3.4
+
+      - name: Wait for every init script to finish
+        run: |
+          for i in $(seq 1 120); do
+            if [ "$(docker inspect -f '{{.State.Running}}' db)" != "true" ]; then
+              docker logs db; echo "::error::database init failed"; exit 1
+            fi
+            # 08 is the last script; its table is populated only once all ran.
+            n=$(docker exec db psql -U isogloss -d isogloss -tAc \
+                "SELECT count(*) FROM saa_speaker" 2>/dev/null || true)
+            if [ "$n" = "3031" ]; then exit 0; fi
+            sleep 2
+          done
+          docker logs db; echo "::error::timed out waiting for init"; exit 1
+
+      - name: Every layer is populated
+        run: |
+          docker exec db psql -U isogloss -d isogloss -v ON_ERROR_STOP=1 -c "
+            DO \$\$ BEGIN
+              IF (SELECT count(*) FROM site_cell) = 0 THEN RAISE 'no Voronoi cells'; END IF;
+              IF (SELECT count(*) FROM interaction_edge) = 0 THEN RAISE 'no interaction graph'; END IF;
+              IF (SELECT count(*) FROM isogloss) = 0 THEN RAISE 'no isoglosses'; END IF;
+              IF (SELECT count(*) FROM saa_birthplace) = 0 THEN RAISE 'no birthplaces'; END IF;
+            END \$\$;"
+
   deploy:
     name: deploy to pages
-    needs: test
+    needs: [test, database]
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:

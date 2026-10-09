@@ -56,6 +56,12 @@ health: ## Check the API
 psql: ## Open a psql shell on the field
 	$(COMPOSE) exec db psql -U isogloss -d isogloss
 
+.PHONY: migrate
+migrate: ## Apply the additive scripts (audio nodes, Speech Accent Archive) to an existing volume
+	@for f in 07_audio_nodes.sql 08_speech_accent_archive.sql; do \
+		$(COMPOSE) exec -T db psql -U isogloss -d isogloss -v ON_ERROR_STOP=1 -q \
+			-f /docker-entrypoint-initdb.d/$$f && echo "applied $$f"; done
+
 .PHONY: refresh
 refresh: ## Rebuild every derived layer (edges, cells, isoglosses, bundles)
 	@$(PSQL) -c 'SELECT * FROM iso_refresh_all();'
