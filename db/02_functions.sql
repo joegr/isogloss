@@ -25,7 +25,8 @@ RETURNS real LANGUAGE sql STABLE AS $$
       SUM(ST_Length(ST_Intersection(seg.g, ST_Buffer(c.geom, c.width_m / 111320.0))))
         / NULLIF(ST_Length(seg.g), 0), 0))::real
   FROM seg LEFT JOIN corridor c
-    ON ST_Intersects(seg.g, ST_Buffer(c.geom, c.width_m / 111320.0));
+    ON ST_Intersects(seg.g, ST_Buffer(c.geom, c.width_m / 111320.0))
+  GROUP BY seg.g;
 $$;
 
 -- The metric the whole model runs on. Barriers stretch it, corridors compress it.

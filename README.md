@@ -29,14 +29,50 @@ make up
 
 PostGIS builds the whole field on first boot — schema, spatial functions, phone
 inventory, twenty languages, the geographic substrate, a hundred reference
-varieties, then every derived layer. Then open **http://localhost:8000**.
+varieties, every derived layer, then the Speech Accent Archive's 3,031 speakers
+with their geocoded birthplaces. Then open:
+
+* **http://localhost:8080** — the speaker map (below);
+* **http://localhost:8000** — the analyser: record, analyse, geolocate.
 
 ```bash
 make reseed     # wipe the volume and rebuild the field from db/*.sql
+make migrate    # add the audio-node and speaker tables to an existing volume
+make ner        # run NER over every speaker record that has not had it
 make stats      # row counts across the field
 make psql       # a shell on the field
-make test       # offline DSP checks, no database needed
+make test       # offline checks, no database needed
 ```
+
+## The speaker map
+
+One dot per speaker, at their birthplace, on the globe from
+[Demogi](https://github.com/joegr/demogi). It opens with the
+[Speech Accent Archive](https://accent.gmu.edu)'s 3,031 speakers — everyone
+reading the same "Please call Stella" paragraph, which is the elicitation
+design accent geography needs: what is said is fixed, so the differences are
+how it is said.
+
+**Creating a dot is a cascade**, in one transaction (`backend/app/speakers.py`):
+
+1. **record** — a row with every field the archive has, from a form the API
+   describes (`GET /api/speakers/schema`), so the form is the record;
+2. **place** — the dropped pin, and the typed birthplace geocoded so it joins
+   every other speaker born there;
+3. **entities** — NER over the free text: spaCy's multilingual model (the one
+   Demogi runs), patterns for dates, durations, age ranges and course codes,
+   the residence list parsed as a list — and every place linked to the
+   gazetteer and drawn on the globe next to the speaker;
+4. **audio** — converted to 16 kHz mono WAV *in the browser* (so MP3 needs no
+   ffmpeg server-side), stored byte for byte on an audio node at the speaker's
+   point, and featurised. A whole folder of archive files attaches by name
+   (`english656.mp3` → speaker 3034); sending a file twice is a no-op.
+
+**Birthplaces** are geocoded against GeoNames (`backend/app/datasets/geocode.py`)
+by a cascade — city in state, city, close spelling, state, country — with the
+rung recorded for every place, because a city fix and a country centroid are
+different evidence. 620 of the 658 native English speakers land on a city.
+`db/data/README.md` has the provenance, the normalisation and the numbers.
 
 ## What happens to a recording
 
@@ -148,9 +184,16 @@ driven by "set `low_back_merge` to 0.9".
 
 ```
 db/       PostGIS schema, spatial functions, the reference field
+  data/         the Speech Accent Archive speakers and their geocoded birthplaces
 backend/  FastAPI + numpy/scipy; the signal chain and the linear algebra
+  app/speakers.py  the speaker-dot cascade; app/ner.py its NER
+  app/datasets/    archive import (saa.py) and birthplace geocoding (geocode.py)
+  app/field/       the audio field: nodes holding raw audio, a graph-heat-kernel
+                   GP over them in PyTorch (work in progress)
   app/voice/    the formant synthesiser and the round-trip harness
   app/static/   vanilla client, SVG GeoJSON renderer, no tiles or CDN
+frontend/ the speaker map — Demogi's TypeScript/D3 globe (src/speakers/)
+libs/phonemescape/  IPA segments and distinctive features (from joegr/ipaba)
 web/      the static Pages site: the synthesiser ported to run in a browser
 docs/     DIFFUSION.md — the design argument; VOICE.md — the synthesiser
 ```

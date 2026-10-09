@@ -11,11 +11,11 @@ from __future__ import annotations
 from pathlib import Path
 
 from fastapi import Body, FastAPI, HTTPException, Query, Request
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import audio, catalog, config, db, diffusion, geo, pipeline
+from . import audio, catalog, config, db, diffusion, geo, pipeline, speakers
 
 app = FastAPI(title="Isogloss", version=config.VERSION,
               description="Phoneme recognition, language ID, and accent geolocation "
@@ -36,6 +36,23 @@ def model() -> geo.SpatialModel:
 @app.exception_handler(audio.AudioError)
 async def _audio_error(_: Request, exc: audio.AudioError):
     return JSONResponse({"detail": str(exc)}, status_code=400)
+
+
+@app.exception_handler(speakers.NotFound)
+async def _not_found(_: Request, exc: speakers.NotFound):
+    return JSONResponse({"detail": str(exc)}, status_code=404)
+
+
+@app.exception_handler(speakers.Invalid)
+async def _invalid(_: Request, exc: speakers.Invalid):
+    return JSONResponse({"detail": str(exc)}, status_code=422)
+
+
+@app.on_event("startup")
+def _warm() -> None:
+    # The gazetteer and the NER model take ~10 s to load; start now so the first
+    # map click does not wait for them.
+    speakers.warm()
 
 
 # ---------------------------------------------------------------------------
@@ -302,6 +319,104 @@ def front_lines(run_id: int) -> dict:
 def regimes() -> dict:
     return {"regimes": diffusion.REGIMES,
             "defaults": diffusion.Params().__dict__}
+
+
+# ---------------------------------------------------------------------------
+# Speakers: the map's speaker dots (frontend/src/speakers/)
+# ---------------------------------------------------------------------------
+
+
+@app.get("/api/speakers")
+def speaker_dots(native_english: bool | None = None, language: str | None = None,
+                 origin: str | None = None, with_audio: bool | None = None) -> dict:
+    """Every placed speaker as a GeoJSON point — the dots on the globe."""
+    return speakers.geojson(native_english, language, origin, with_audio)
+
+
+@app.get("/api/speakers/schema")
+def speaker_schema() -> dict:
+    """The speaker record's fields, which the create form renders, plus the
+    archive's languages and country spellings for autocomplete."""
+    return speakers.schema()
+
+
+@app.post("/api/speakers")
+def speaker_create(payload: dict = Body(...)) -> dict:
+    """Create a dot: record → place → named entities, in one transaction.
+    Body: any of the schema's fields, plus lon/lat where the dot was dropped."""
+    return speakers.create(payload)
+
+
+@app.post("/api/speakers/match-samples")
+def speaker_match_samples(filenames: list[str] = Body(..., embed=True)) -> dict:
+    """Archive filenames (english656.mp3) → speaker ids, for attaching a folder."""
+    return speakers.match_samples(filenames)
+
+
+@app.post("/api/speakers/ner")
+def speaker_ner_all(only_missing: bool = True) -> dict:
+    """Run NER over every speaker that has not had it (the archive's included)."""
+    return speakers.ner_all(only_missing)
+
+
+@app.get("/api/speakers/{speakerid}")
+def speaker_get(speakerid: int) -> dict:
+    return speakers.get(speakerid)
+
+
+@app.patch("/api/speakers/{speakerid}")
+def speaker_update(speakerid: int, payload: dict = Body(...)) -> dict:
+    return speakers.update(speakerid, payload)
+
+
+@app.delete("/api/speakers/{speakerid}")
+def speaker_delete(speakerid: int) -> dict:
+    speakers.delete(speakerid)
+    return {"deleted": speakerid}
+
+
+@app.post("/api/speakers/{speakerid}/audio")
+async def speaker_audio(speakerid: int, request: Request,
+                        filename: str | None = Query(None)) -> dict:
+    """Attach audio (16-bit WAV; the browser converts MP3 and others first):
+    node at the speaker's point → recording → features."""
+    data = await request.body()
+    if not data:
+        raise HTTPException(400, "Empty request body; POST WAV bytes.")
+    if len(data) > config.MAX_UPLOAD:
+        raise HTTPException(413, f"Audio exceeds {config.MAX_UPLOAD} bytes.")
+    return speakers.attach_audio(speakerid, data, filename)
+
+
+@app.get("/api/recordings/{rec_id}/audio")
+def recording_audio(rec_id: str) -> Response:
+    row = db.one("SELECT wav FROM audio_recording WHERE id = %s", (rec_id,))
+    if not row:
+        raise HTTPException(404, f"no recording {rec_id}")
+    return Response(bytes(row["wav"]), media_type="audio/wav")
+
+
+@app.delete("/api/recordings/{rec_id}")
+def recording_delete(rec_id: str) -> dict:
+    return speakers.delete_recording(rec_id)
+
+
+@app.get("/api/geo/reverse")
+def geo_reverse(lon: float, lat: float) -> dict:
+    """Nearest populated place to a map click, with the birthplace fields the
+    form should prefill, spelt the archive's way."""
+    hit = speakers.reverse(lon, lat)
+    if hit is None:
+        raise HTTPException(404, "gazetteer is empty")
+    return hit
+
+
+@app.get("/api/geo/search")
+def geo_search(q: str) -> dict:
+    hit = speakers.search(q)
+    if hit is None:
+        raise HTTPException(404, f"no place found for {q!r}")
+    return hit
 
 
 # ---------------------------------------------------------------------------
