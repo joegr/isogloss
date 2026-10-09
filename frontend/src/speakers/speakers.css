@@ -1,0 +1,65 @@
+/* Speaker module: everything here builds on the GeoCRM tokens in style.css. */
+
+/* ---------- dots ---------- */
+.spk-dot { stroke: var(--surface-1); stroke-width: 0.8; cursor: pointer; fill-opacity: 0.85; transition: opacity .2s; }
+.spk-dot:hover { stroke: var(--text-primary); stroke-width: 1.4; }
+.spk-dot.audio { stroke: var(--text-primary); stroke-width: 1; fill-opacity: 1; }
+.spk-dot.ui { stroke: var(--text-primary); stroke-width: 1.8; stroke-dasharray: 2 1.5; }
+/* A state or country centroid is a guess a few hundred km wide; say so. */
+.spk-dot.coarse { fill-opacity: 0.45; }
+.spk-dot.selected { stroke: var(--text-primary); stroke-width: 2.2; fill-opacity: 1; }
+.spk-dot.dimmed { opacity: 0.28; }
+.spk-place { fill: var(--surface-1); stroke: var(--text-primary); stroke-width: 1.4; cursor: default; }
+.spk-link { stroke: var(--series-3); stroke-opacity: 0.85; }
+
+/* ---------- placing ---------- */
+.map-svg.placing { cursor: crosshair; }
+.pin-core { fill: var(--danger); stroke: var(--surface-1); stroke-width: 1.5; }
+.pin-pulse { fill: none; stroke: var(--danger); stroke-width: 1.5; animation: pin-pulse 1.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pin-pulse { from { transform: scale(0.5); opacity: 1; } to { transform: scale(2.2); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .pin-pulse { animation: none; } }
+.spk-hint {
+  position: absolute; top: 10px; left: 50%; transform: translateX(-50%); z-index: 2;
+  background: var(--text-primary); color: var(--surface-1); font-size: 12px; font-weight: 500;
+  padding: 5px 12px; border-radius: 999px; box-shadow: var(--shadow); pointer-events: none;
+}
+.spk-hint[hidden] { display: none; }
+
+/* ---------- legend ---------- */
+.legend-item .dot.ring { background: transparent; border: 1.6px dashed var(--text-primary); width: 9px; height: 9px; }
+.legend-item .dot.big { width: 10px; height: 10px; background: var(--series-1); box-shadow: 0 0 0 1px var(--text-primary); }
+.legend-item .diamond { width: 8px; height: 8px; transform: rotate(45deg); border: 1.4px solid var(--text-primary); background: var(--surface-1); display: inline-block; }
+.legend-item b { font-weight: 600; margin-left: 2px; }
+
+/* ---------- panels ---------- */
+#spk-add-card.active { border-color: var(--danger); }
+.check { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; color: var(--text-secondary); cursor: pointer; }
+.spk-form { margin-top: 10px; border-top: 1px solid var(--border); padding-top: 10px; }
+.spk-form input[type="number"] {
+  width: 100%; border: 1px solid var(--border); background: var(--surface-1);
+  border-radius: 7px; padding: 7px 9px; font-size: 13px;
+}
+.spk-form input[type="file"] { font-size: 12px; }
+.spk-form textarea { min-height: 72px; }
+.spk-pinline { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; font-size: 13px; }
+.pin-dot { background: var(--danger); align-self: center; }
+.cascade, .progress { margin: 8px 0 0; padding-left: 20px; font-size: 12px; display: flex; flex-direction: column; gap: 4px; }
+.cascade li::marker { color: var(--series-3); }
+.progress li.ok::marker, .progress li.ok { color: var(--series-3); }
+.progress li.error { color: var(--danger); }
+.progress li.warn { color: var(--text-secondary); }
+.f-result { margin-top: 10px; }
+.mono { font-family: var(--mono); font-size: 12px; }
+code { font-family: var(--mono); font-size: 12px; background: var(--surface-2); padding: 0 4px; border-radius: 4px; }
+
+/* ---------- record ---------- */
+.detail-card .card-head { flex-wrap: wrap; }
+.pill.warn { border-color: var(--series-2); color: var(--series-2); }
+.facet { grid-template-columns: 112px 1fr; }
+mark.hl.per { background: var(--person-bg); box-shadow: inset 0 -2px 0 var(--person); }
+mark.hl.other { background: var(--surface-2); box-shadow: inset 0 -2px 0 var(--text-muted); }
+.ent { font-size: 13px; }
+.rec-list { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.rec-list audio { width: 100%; height: 32px; }
+.phones { color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card.empty h2 { margin-bottom: 6px; }

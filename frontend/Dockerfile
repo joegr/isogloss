@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.7
-# GeoCRM gateway: builds the TypeScript/D3 frontend and serves it with nginx (+ /api proxy).
+# Isogloss gateway: builds the TypeScript/D3 speaker map and serves it with nginx (+ /api proxy).
 FROM node:22-alpine AS build
 WORKDIR /src
 COPY package.json package-lock.json ./

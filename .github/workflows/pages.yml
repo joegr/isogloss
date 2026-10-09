@@ -42,6 +42,19 @@ jobs:
       - name: Birthplace geocoding
         run: python3 backend/tests/test_geocode.py
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Speaker map — typecheck and unit tests
+        working-directory: frontend
+        run: |
+          npm ci --no-audit --no-fund
+          npx tsc --noEmit
+          npx vitest run
+
       # presets.js is generated from the SQL seed. If someone edits the seed and
       # forgets to regenerate, the site silently ships stale varieties — so the
       # check is that regenerating produces no diff.
@@ -61,15 +74,19 @@ jobs:
   # it, so the entrypoint runs every script in order and stops at the first
   # error. Nothing else exercises the SQL, and a function that fails to
   # create leaves `make up` waiting forever on a field that never builds.
+  # Boots the real image with db/ mounted exactly as docker-compose.yml mounts
+  # it, so the entrypoint runs every script in order and stops at the first
+  # error. Then drives the API and the speaker map against it: the cascade
+  # behind a speaker dot only exists end to end.
   database:
-    name: database builds from db/*.sql
+    name: database, API and speaker map
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Boot PostGIS with the seed mounted
         run: |
-          docker run -d --name db \
+          docker run -d --name db -p 5432:5432 \
             -e POSTGRES_USER=isogloss -e POSTGRES_PASSWORD=isogloss -e POSTGRES_DB=isogloss \
             -v "$PWD/db:/docker-entrypoint-initdb.d:ro" postgis/postgis:16-3.4
 
@@ -79,10 +96,16 @@ jobs:
             if [ "$(docker inspect -f '{{.State.Running}}' db)" != "true" ]; then
               docker logs db; echo "::error::database init failed"; exit 1
             fi
-            # 08 is the last script; its table is populated only once all ran.
+            # saa_speaker_geo is created by the last script (09), so it only
+            # answers once every script has run; then wait for the restart.
             n=$(docker exec db psql -U isogloss -d isogloss -tAc \
-                "SELECT count(*) FROM saa_speaker" 2>/dev/null || true)
-            if [ "$n" = "3031" ]; then exit 0; fi
+                "SELECT count(*) FROM saa_speaker_geo" 2>/dev/null || true)
+            if [ "$n" = "3031" ] && docker logs db 2>&1 | grep -q "PostgreSQL init process complete"; then
+              for j in $(seq 1 30); do
+                pg_isready -h localhost -p 5432 -U isogloss -q && exit 0
+                sleep 1
+              done
+            fi
             sleep 2
           done
           docker logs db; echo "::error::timed out waiting for init"; exit 1
@@ -96,6 +119,67 @@ jobs:
               IF (SELECT count(*) FROM isogloss) = 0 THEN RAISE 'no isoglosses'; END IF;
               IF (SELECT count(geog) FROM saa_speaker_geo) < 3000 THEN RAISE 'birthplaces not geocoded'; END IF;
             END \$\$;"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the API
+        run: |
+          pip install --disable-pip-version-check -r backend/requirements.txt httpx
+          pip install --disable-pip-version-check --no-deps ./libs/phonemescape
+
+      - name: Speaker cascade through the API
+        env:
+          ISOGLOSS_DSN: postgresql://isogloss:isogloss@localhost:5432/isogloss
+        run: python3 backend/tests/test_speakers_api.py
+
+      - name: Start the API
+        env:
+          ISOGLOSS_DSN: postgresql://isogloss:isogloss@localhost:5432/isogloss
+        run: |
+          cd backend
+          nohup python3 -m uvicorn app.main:app --host 127.0.0.1 --port 8000 > ../api.log 2>&1 &
+          for i in $(seq 1 60); do curl -fsS localhost:8000/health && exit 0; sleep 1; done
+          cat ../api.log; exit 1
+
+      - name: Audio fixtures (synthesised, then MP3 as the archive ships them)
+        run: |
+          mkdir -p "$RUNNER_TEMP/audio"
+          cd backend && python3 -c "
+          from app.voice import synth
+          import sys
+          d = sys.argv[1]
+          open(f'{d}/a.wav', 'wb').write(synth.synthesise('northwind', {'rhoticity': .9}, voice='female', seed=11).wav)
+          open(f'{d}/b.wav', 'wb').write(synth.synthesise('northwind', {'rhoticity': .05}, voice='male', seed=12).wav)
+          " "$RUNNER_TEMP/audio"
+          cd "$RUNNER_TEMP/audio"
+          ffmpeg -loglevel error -y -i a.wav -ar 44100 -ac 2 -b:a 96k my-speaker.mp3
+          ffmpeg -loglevel error -y -i b.wav -ar 44100 -ac 2 -b:a 96k english656.mp3
+          ffmpeg -loglevel error -y -i a.wav -ar 22050 -ac 1 english1.mp3
+          cp b.wav not-in-archive.wav
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Speaker map in a browser
+        working-directory: frontend
+        env:
+          SPK_FIXTURES: ${{ runner.temp }}/audio
+          E2E_BASE_URL: http://127.0.0.1:5173
+        run: |
+          npm ci --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          nohup npx vite --host 127.0.0.1 --port 5173 --strictPort > ../vite.log 2>&1 &
+          for i in $(seq 1 60); do curl -fsS -o /dev/null localhost:5173 && break; sleep 1; done
+          npx playwright test -c playwright.speakers.config.ts
+
+      - name: Logs
+        if: failure()
+        run: cat api.log vite.log 2>/dev/null || true
 
   deploy:
     name: deploy to pages

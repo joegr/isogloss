@@ -1,11 +1,14 @@
 import { defineConfig } from "vite";
 
-const backend = process.env.GEOMAP_BACKEND ?? "http://127.0.0.1:5050";
+// The Isogloss API (backend/app/main.py, `make up` serves it on :8000).
+const backend = process.env.ISOGLOSS_BACKEND ?? "http://127.0.0.1:8000";
+const proxy = { target: backend, changeOrigin: true };
 
 export default defineConfig({
   server: {
     port: 5173,
-    proxy: { "/api": { target: backend, changeOrigin: true } },
+    // /classic is the original analyser UI the API serves at its root.
+    proxy: { "/api": proxy, "/static": proxy, "/classic": { ...proxy, rewrite: () => "/" } },
   },
   build: { outDir: "dist", sourcemap: true },
 });
