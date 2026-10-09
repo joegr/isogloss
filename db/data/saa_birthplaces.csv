@@ -1,0 +1,1628 @@
+city,state_or_province,country,query,lon,lat,source,match,matched_name,matched_admin1,country_code
+,an giang,vietnam,"an giang, vietnam",105.04325,10.31887,geonames-cities500+dr5hn,state,An Giang,,VN
+,bangkok,thailand,"bangkok, thailand",100.50177,13.75633,geonames-cities500+dr5hn,state,Bangkok,,TH
+aarhus,,denmark,"aarhus, denmark",10.21076,56.15674,geonames-cities500+dr5hn,city~,Århus,Central Jutland,DK
+abadan,,iran,"abadan, iran",48.3043,30.3392,geonames-cities500+dr5hn,city,Abadan,Khuzestan,IR
+abak,akwa ibom,nigeria,"abak, akwa ibom, nigeria",7.78922,4.98236,geonames-cities500+dr5hn,city+state,Abak,Akwa Ibom State,NG
+abha,,saudi arabia,"abha, saudi arabia",42.50528,18.21639,geonames-cities500+dr5hn,city,Abha,'Asir Region,SA
+abidjan,,ivory coast,"abidjan, ivory coast",-4.00167,5.35444,geonames-cities500+dr5hn,city,Abidjan,Abidjan Autonomous District,CI
+abingdon,virginia,usa,"abingdon, virginia, usa",-81.97735,36.70983,geonames-cities500+dr5hn,city+state,Abingdon,Virginia,US
+abu dhabi,,united arab emirates,"abu dhabi, united arab emirates",54.39696,24.45118,geonames-cities500+dr5hn,city,Abu Dhabi,Abu Dhabi,AE
+accra,,ghana,"accra, ghana",-0.1969,5.55602,geonames-cities500+dr5hn,city,Accra,Greater Accra,GH
+ad dammam,,saudi arabia,"ad dammam, saudi arabia",50.10326,26.43442,geonames-cities500+dr5hn,city,Dammam,Eastern Province,SA
+adana,,turkey,"adana, turkey",35.32531,36.98615,geonames-cities500+dr5hn,city,Adana,Adana,TR
+addis ababa,,ethiopia,"addis ababa, ethiopia",38.74689,9.02497,geonames-cities500+dr5hn,city,Addis Ababa,Addis Ababa,ET
+adelaide,,australia,"adelaide, australia",138.59863,-34.92866,geonames-cities500+dr5hn,city,Adelaide,South Australia,AU
+adigrat,,ethiopia,"adigrat, ethiopia",39.462,14.277,geonames-cities500+dr5hn,city,Ādīgrat,Tigray,ET
+ahmedabad,,india,"ahmedabad, india",72.58727,23.02579,geonames-cities500+dr5hn,city,Ahmedabad,Gujarat,IN
+ahmedabad,gujarat,india,"ahmedabad, gujarat, india",72.58727,23.02579,geonames-cities500+dr5hn,city+state,Ahmedabad,Gujarat,IN
+ahvaz,,iran,"ahvaz, iran",48.6842,31.31901,geonames-cities500+dr5hn,city,Ahvaz,Khuzestan,IR
+aiken,south carolina,usa,"aiken, south carolina, usa",-81.71955,33.56042,geonames-cities500+dr5hn,city+state,Aiken,South Carolina,US
+ain defla,,algeria,"ain defla, algeria",1.9679,36.26405,geonames-cities500+dr5hn,city,Aïn Defla,Aïn Defla,DZ
+airdrie,alberta,canada,"airdrie, alberta, canada",-114.03528,51.30011,geonames-cities500+dr5hn,city+state,Airdrie,Alberta,CA
+aix-en-provence,,france,"aix-en-provence, france",5.44973,43.5283,geonames-cities500+dr5hn,city,Aix-en-Provence,Provence-Alpes-Côte d'Azur,FR
+ajumako,,ghana,"ajumako, ghana",-2.0,8.0,geonames-cities500+dr5hn,country,Ghana,,GH
+akashi,,japan,"akashi, japan",135.00687,34.65524,geonames-cities500+dr5hn,city,Akashi,Hyōgo,JP
+akhmeta,,republic of georgia,"akhmeta, republic of georgia",45.20804,42.03495,geonames-cities500+dr5hn,city,Akhmeta,Kakheti,GE
+akhtyrka,,ukraine,"akhtyrka, ukraine",34.89879,50.31036,geonames-cities500+dr5hn,city~,Okhtyrka,Sumy,UA
+akkrum,friesland,netherlands,"akkrum, friesland, netherlands",5.83087,53.05024,geonames-cities500+dr5hn,city+state,Akkrum,Friesland,NL
+ako,,japan,"ako, japan",138.0,36.0,geonames-cities500+dr5hn,country,Japan,,JP
+akranes,,iceland,"akranes, iceland",-22.0749,64.32179,geonames-cities500+dr5hn,city,Akranes,West,IS
+akron,ohio,usa,"akron, ohio, usa",-81.51901,41.08144,geonames-cities500+dr5hn,city+state,Akron,Ohio,US
+akure,,nigeria,"akure, nigeria",5.19312,7.25256,geonames-cities500+dr5hn,city,Akure,Ondo State,NG
+al mahalla,,egypt,"al mahalla, egypt",30.0,27.0,geonames-cities500+dr5hn,country,Egypt,,EG
+al ras,,saudi arabia,"al ras, saudi arabia",45.0,25.0,geonames-cities500+dr5hn,country,Saudi Arabia,,SA
+al-ayn,,united arab emirates,"al-ayn, united arab emirates",55.76056,24.19167,geonames-cities500+dr5hn,city~,Al Ain City,Abu Dhabi,AE
+albion,new york,usa,"albion, new york, usa",-78.19363,43.24645,geonames-cities500+dr5hn,city+state,Albion,New York,US
+alborg,,denmark,"alborg, denmark",9.9187,57.048,geonames-cities500+dr5hn,city~,Aalborg,North Denmark,DK
+albury,new south wales,australia,"albury, new south wales, australia",146.92401,-36.07482,geonames-cities500+dr5hn,city+state,Albury,New South Wales,AU
+aldie,virginia,usa,"aldie, virginia, usa",-78.49277,37.12322,geonames-cities500+dr5hn,state,Virginia,,US
+alessandria,,italy,"alessandria, italy",8.61007,44.90924,geonames-cities500+dr5hn,city,Alessandria,Piedmont,IT
+alexandria,,egypt,"alexandria, egypt",29.91582,31.20176,geonames-cities500+dr5hn,city,Alexandria,Alexandria,EG
+alexandria,va,usa,"alexandria, va, usa",-77.04692,38.80484,geonames-cities500+dr5hn,city+state,Alexandria,Virginia,US
+alexandria,virginia,usa,"alexandria, virginia, usa",-77.04692,38.80484,geonames-cities500+dr5hn,city+state,Alexandria,Virginia,US
+algiers,,algeria,"algiers, algeria",3.08746,36.73225,geonames-cities500+dr5hn,city,Algiers,Algiers,DZ
+algona,iowa,usa,"algona, iowa, usa",-94.23302,43.06997,geonames-cities500+dr5hn,city+state,Algona,Iowa,US
+alkharj,,saudi arabia,"alkharj, saudi arabia",47.33457,24.15541,geonames-cities500+dr5hn,city~,Al Kharj,Riyadh Region,SA
+alkmaar,,netherlands,"alkmaar, netherlands",4.74861,52.63167,geonames-cities500+dr5hn,city,Alkmaar,North Holland,NL
+allahabad,,india,"allahabad, india",81.84322,25.44478,geonames-cities500+dr5hn,city,Prayagraj,Uttar Pradesh,IN
+allahabad,utter pardesh,india,"allahabad, utter pardesh, india",81.84322,25.44478,geonames-cities500+dr5hn,city,Prayagraj,Uttar Pradesh,IN
+alma,quebec,canada,"alma, quebec, canada",-71.6491,48.55009,geonames-cities500+dr5hn,city+state,Alma,Quebec,CA
+almada,,portugal,"almada, portugal",-9.1569,38.67902,geonames-cities500+dr5hn,city,Almada,Setúbal,PT
+almajmaah,,saudi arabia,"almajmaah, saudi arabia",45.0,25.0,geonames-cities500+dr5hn,country,Saudi Arabia,,SA
+almaty,,kazakhstan,"almaty, kazakhstan",76.9115,43.25249,geonames-cities500+dr5hn,city,Almaty,Almaty,KZ
+almelo,,netherlands,"almelo, netherlands",6.6625,52.35667,geonames-cities500+dr5hn,city,Almelo,Overijssel,NL
+almeria,,spain,"almeria, spain",-2.45974,36.83814,geonames-cities500+dr5hn,city,Almería,Andalusia,ES
+alphen aan de ryn,,netherlands,"alphen aan de ryn, netherlands",4.65546,52.12917,geonames-cities500+dr5hn,city~,Alphen aan den Rijn,South Holland,NL
+alto,georgia,usa,"alto, georgia, usa",-83.57378,34.46732,geonames-cities500+dr5hn,city+state,Alto,Georgia,US
+ambato,,ecuador,"ambato, ecuador",-78.61675,-1.24908,geonames-cities500+dr5hn,city,Ambato,Tungurahua Province,EC
+ambon,,indonesia,"ambon, indonesia",128.18333,-3.69583,geonames-cities500+dr5hn,city,Ambon,Maluku,ID
+amiens,,france,"amiens, france",2.3,49.9,geonames-cities500+dr5hn,city,Amiens,Hauts-de-France,FR
+amman,,jordan,"amman, jordan",35.94503,31.95522,geonames-cities500+dr5hn,city,Amman,Amman,JO
+amsterdam,,netherlands,"amsterdam, netherlands",4.88969,52.37403,geonames-cities500+dr5hn,city,Amsterdam,North Holland,NL
+an yang,,south korea,"an yang, south korea",126.92694,37.3925,geonames-cities500+dr5hn,city~,Anyang-si,Gyeonggi-do,KR
+anaheim,california,usa,"anaheim, california, usa",-117.9145,33.83529,geonames-cities500+dr5hn,city+state,Anaheim,California,US
+ankara,,turkey,"ankara, turkey",32.85427,39.91987,geonames-cities500+dr5hn,city,Ankara,Ankara,TR
+anniston,alabama,usa,"anniston, alabama, usa",-85.83163,33.65983,geonames-cities500+dr5hn,city+state,Anniston,Alabama,US
+anqing,anhui,china,"anqing, anhui, china",117.04723,30.51365,geonames-cities500+dr5hn,city+state,Anqing,Anhui,CN
+anseong,,south korea,"anseong, south korea",127.27028,37.01083,geonames-cities500+dr5hn,city,Anseong,Gyeonggi-do,KR
+anseong,kyong gi,south korea,"anseong, kyong gi, south korea",127.27028,37.01083,geonames-cities500+dr5hn,city,Anseong,Gyeonggi-do,KR
+antananarivo,,madagascar,"antananarivo, madagascar",47.53613,-18.91368,geonames-cities500+dr5hn,city,Antananarivo,Analamanga,MG
+antwerp,,belgium,"antwerp, belgium",4.40246,51.21945,geonames-cities500+dr5hn,state,Antwerp,,BE
+araure,,venezuela,"araure, venezuela",-69.23851,9.58144,geonames-cities500+dr5hn,city,Araure,Portuguesa,VE
+arba minch,,ethiopia,"arba minch, ethiopia",37.55,6.03333,geonames-cities500+dr5hn,city,Arba Minch,South Ethiopia Regional State,ET
+arbil,,iraq,"arbil, iraq",44.00943,36.19117,geonames-cities500+dr5hn,city,Erbil,Erbil,IQ
+arcadia,wisconsin,usa,"arcadia, wisconsin, usa",-91.50154,44.25274,geonames-cities500+dr5hn,city+state,Arcadia,Wisconsin,US
+arequipa,,peru,"arequipa, peru",-71.53747,-16.39899,geonames-cities500+dr5hn,city,Arequipa,Arequipa,PE
+arlington,,virginia,"arlington, virginia",-77.10428,38.88101,geonames-cities500+dr5hn,city+state,Arlington,Virginia,US
+arlington,virginia,usa,"arlington, virginia, usa",-77.10428,38.88101,geonames-cities500+dr5hn,city+state,Arlington,Virginia,US
+armavir,,russia,"armavir, russia",41.11472,44.99849,geonames-cities500+dr5hn,city,Armavir,Krasnodar Krai,RU
+ashiya,,japan,"ashiya, japan",135.30264,34.72807,geonames-cities500+dr5hn,city,Ashiya,Hyōgo,JP
+askim,,norway,"askim, norway",11.16286,59.58326,geonames-cities500+dr5hn,city,Askim,Østfold,NO
+asmara,,eritrea,"asmara, eritrea",38.93184,15.33805,geonames-cities500+dr5hn,city,Asmara,Maekel,ER
+asuncion,,paraguay,"asuncion, paraguay",-57.647,-25.28646,geonames-cities500+dr5hn,city,Asunción,Asunción,PY
+athens,,greece,"athens, greece",23.72784,37.98376,geonames-cities500+dr5hn,city,Athens,Attica,GR
+atlanta,georgia,usa,"atlanta, georgia, usa",-84.38798,33.749,geonames-cities500+dr5hn,city+state,Atlanta,Georgia,US
+auburn,,australia,"auburn, australia",138.68521,-34.02691,geonames-cities500+dr5hn,city,Auburn,South Australia,AU
+auburn,indiana,usa,"auburn, indiana, usa",-85.05886,41.36699,geonames-cities500+dr5hn,city+state,Auburn,Indiana,US
+auckland,,new zealand,"auckland, new zealand",174.76349,-36.84853,geonames-cities500+dr5hn,city,Auckland,Auckland,NZ
+augusta,georgia,usa,"augusta, georgia, usa",-81.97484,33.47097,geonames-cities500+dr5hn,city+state,Augusta,Georgia,US
+aurora,colorado,usa,"aurora, colorado, usa",-104.83192,39.72943,geonames-cities500+dr5hn,city+state,Aurora,Colorado,US
+austin,minnesota,usa,"austin, minnesota, usa",-92.97464,43.66663,geonames-cities500+dr5hn,city+state,Austin,Minnesota,US
+avon,new york,usa,"avon, new york, usa",-77.74556,42.91201,geonames-cities500+dr5hn,city+state,Avon,New York,US
+ayaguz,,kazakhstan,"ayaguz, kazakhstan",68.0,48.0,geonames-cities500+dr5hn,country,Kazakhstan,,KZ
+aylesbury,buckinghamshire,uk,"aylesbury, buckinghamshire, uk",-0.81458,51.81665,geonames-cities500+dr5hn,city+state,Aylesbury,England,GB
+ayod,,sudan,"ayod, sudan",30.0,15.0,geonames-cities500+dr5hn,country,Sudan,,SD
+azuaga,,spain,"azuaga, spain",-5.68333,38.26667,geonames-cities500+dr5hn,city,Azuaga,Extremadura,ES
+babadag,,romanian,"babadag, romanian",28.71667,44.9,geonames-cities500+dr5hn,city,Babadag,Tulcea County,RO
+bacau,,romania,"bacau, romania",26.91384,46.56718,geonames-cities500+dr5hn,city,Bacău,Bacău County,RO
+bad aussee,,austria,"bad aussee, austria",13.78243,47.60998,geonames-cities500+dr5hn,city,Bad Aussee,Styria,AT
+baghdad,,iraq,"baghdad, iraq",44.40088,33.34058,geonames-cities500+dr5hn,city,Baghdad,Baghdad,IQ
+baglung,,nepal,"baglung, nepal",83.59956,28.26728,geonames-cities500+dr5hn,city~,Bāgluṅ,Province 4,NP
+bago city,,philippines,"bago city, philippines",122.83333,10.53333,geonames-cities500+dr5hn,city,Bago City,Western Visayas,PH
+baha,,saudi arabia,"baha, saudi arabia",45.0,25.0,geonames-cities500+dr5hn,country,Saudi Arabia,,SA
+bahia,,brazil,"bahia, brazil",-41.92948,-12.28525,geonames-cities500+dr5hn,state,Bahia,,BR
+baku,,azerbaijan,"baku, azerbaijan",49.89201,40.37767,geonames-cities500+dr5hn,city,Baku,Baki,AZ
+balikesir,,turkey,"balikesir, turkey",27.88611,39.64917,geonames-cities500+dr5hn,city,Balıkesir,Balıkesir,TR
+baling,kampongthum,cambodia,"baling, kampongthum, cambodia",105.0,13.0,geonames-cities500+dr5hn,country,Cambodia,,KH
+balkanabat,,turkmenistan,"balkanabat, turkmenistan",54.36713,39.51075,geonames-cities500+dr5hn,city,Balkanabat,Balkan,TM
+baltic,south dakota,usa,"baltic, south dakota, usa",-96.74033,43.76136,geonames-cities500+dr5hn,city+state,Baltic,South Dakota,US
+baltimore,maryland,usa,"baltimore, maryland, usa",-76.61219,39.29038,geonames-cities500+dr5hn,city+state,Baltimore,Maryland,US
+bamako,,mali,"bamako, mali",-7.97522,12.60915,geonames-cities500+dr5hn,city,Bamako,Bamako,ML
+bamenda,,cameroon,"bamenda, cameroon",10.14597,5.9597,geonames-cities500+dr5hn,city,Bamenda,North-West,CM
+banda aceh,,indonesia,"banda aceh, indonesia",95.33333,5.54167,geonames-cities500+dr5hn,city,Banda Aceh,Aceh,ID
+bandung,jawa barat,indonesia,"bandung, jawa barat, indonesia",107.60694,-6.92222,geonames-cities500+dr5hn,city+state,Bandung,West Java,ID
+bang na,,thailand,"bang na, thailand",100.64206,13.66744,geonames-cities500+dr5hn,city,Bang Na,Bangkok,TH
+bangalore,,india,"bangalore, india",77.59369,12.97194,geonames-cities500+dr5hn,city,Bengaluru,Karnataka,IN
+bangalore,karnataka,india,"bangalore, karnataka, india",77.59369,12.97194,geonames-cities500+dr5hn,city+state,Bengaluru,Karnataka,IN
+bangalore,kerala,india,"bangalore, kerala, india",76.51204,10.35287,geonames-cities500+dr5hn,state,Kerala,,IN
+bangkok,,thailand,"bangkok, thailand",100.50144,13.75398,geonames-cities500+dr5hn,city,Bangkok,Bangkok,TH
+bani walid,,libya,"bani walid, libya",13.98354,31.74554,geonames-cities500+dr5hn,city,Bani Walid,Mişrātah,LY
+baoding,hebei,china,"baoding, hebei, china",115.46246,38.87288,geonames-cities500+dr5hn,city+state,Baoding,Hebei,CN
+baotou,inner mongolia,china,"baotou, inner mongolia, china",109.84389,40.6516,geonames-cities500+dr5hn,city+state,Baotou,Inner Mongolia,CN
+barcelona,,spain,"barcelona, spain",2.15899,41.38879,geonames-cities500+dr5hn,city,Barcelona,Catalonia,ES
+bargarh,orissa,india,"bargarh, orissa, india",83.61905,21.33348,geonames-cities500+dr5hn,city+state,Bargarh,Odisha,IN
+bari,,italy,"bari, italy",16.86982,41.12066,geonames-cities500+dr5hn,city,Bari,Apulia,IT
+barneys river,nova scotia,canada,"barneys river, nova scotia, canada",-63.16538,45.19604,geonames-cities500+dr5hn,state,Nova Scotia,,CA
+barranquilla,,colombia,"barranquilla, colombia",-74.78132,10.96854,geonames-cities500+dr5hn,city,Barranquilla,Atlántico,CO
+barton,vermont,usa,"barton, vermont, usa",-72.17621,44.7481,geonames-cities500+dr5hn,city+state,Barton,Vermont,US
+batangos,,philippines,"batangos, philippines",121.0584,13.7567,geonames-cities500+dr5hn,city~,Batangas,Calabarzon,PH
+bati,amhara,ethiopia,"bati, amhara, ethiopia",40.01675,11.19152,geonames-cities500+dr5hn,city+state,Batī,Amhara,ET
+baucau,,timor-leste,"baucau, timor-leste",126.4576,-8.47143,geonames-cities500+dr5hn,state,Baucau,,TL
+bauchi,,nigeria,"bauchi, nigeria",9.84388,10.31032,geonames-cities500+dr5hn,city,Bauchi,Bauchi,NG
+bay shore,new york,usa,"bay shore, new york, usa",-73.24539,40.7251,geonames-cities500+dr5hn,city+state,Bay Shore,New York,US
+bayside,new york,usa,"bayside, new york, usa",-74.00597,40.71278,geonames-cities500+dr5hn,state,New York,,US
+beaumont,texas,usa,"beaumont, texas, usa",-94.10185,30.08605,geonames-cities500+dr5hn,city+state,Beaumont,Texas,US
+beaumont-le-roger,,france,"beaumont-le-roger, france",0.78081,49.07839,geonames-cities500+dr5hn,city,Beaumont-le-Roger,Normandy,FR
+beersheba,,israel,"beersheba, israel",34.7913,31.25181,geonames-cities500+dr5hn,city,Beersheba,Southern District,IL
+beijing,,china,"beijing, china",116.39723,39.9075,geonames-cities500+dr5hn,city,Beijing,Beijing,CN
+beirut,,lebanon,"beirut, lebanon",35.50157,33.89332,geonames-cities500+dr5hn,city,Beirut,Beyrouth,LB
+belchatow,,poland,"belchatow, poland",19.35671,51.36883,geonames-cities500+dr5hn,city,Bełchatów,Łódź Voivodeship,PL
+belfast,northern ireland,uk,"belfast, northern ireland, uk",-5.92541,54.59682,geonames-cities500+dr5hn,city+state,Belfast,Northern Ireland,GB
+belfort,,france,"belfort, france",6.85385,47.64218,geonames-cities500+dr5hn,city,Belfort,Bourgogne,FR
+belgorod,,russia,"belgorod, russia",36.58091,50.60343,geonames-cities500+dr5hn,city,Belgorod,Belgorod Oblast,RU
+belgrade,,serbia,"belgrade, serbia",20.46513,44.80401,geonames-cities500+dr5hn,city,Belgrade,Central Serbia,RS
+belize city,,belize,"belize city, belize",-88.19756,17.49952,geonames-cities500+dr5hn,city,Belize City,Belize District,BZ
+bellary,karnataka,india,"bellary, karnataka, india",75.72235,14.52039,geonames-cities500+dr5hn,state,Karnataka,,IN
+bellinzona,,switzerland,"bellinzona, switzerland",9.01703,46.19278,geonames-cities500+dr5hn,city,Bellinzona,Ticino,CH
+belmont,mississippi,usa,"belmont, mississippi, usa",-88.20921,34.50982,geonames-cities500+dr5hn,city+state,Belmont,Mississippi,US
+belo horizonte,,brazil,"belo horizonte, brazil",-43.93778,-19.92083,geonames-cities500+dr5hn,city,Belo Horizonte,Minas Gerais,BR
+bemberg,,germany,"bemberg, germany",9.0,51.0,geonames-cities500+dr5hn,country,Germany,,DE
+benin city,,nigeria,"benin city, nigeria",5.62575,6.33815,geonames-cities500+dr5hn,city,Benin City,Edo State,NG
+berchtesgaden,,germany,"berchtesgaden, germany",13.00187,47.63236,geonames-cities500+dr5hn,city,Berchtesgaden,Bavaria,DE
+berkeley,california,usa,"berkeley, california, usa",-122.27275,37.87159,geonames-cities500+dr5hn,city+state,Berkeley,California,US
+berlin,,germany,"berlin, germany",13.41053,52.52437,geonames-cities500+dr5hn,city,Berlin,State of Berlin,DE
+bern,,switzerland,"bern, switzerland",7.44744,46.94809,geonames-cities500+dr5hn,city,Bern,Bern,CH
+bernburg,,germany,"bernburg, germany",11.7401,51.79464,geonames-cities500+dr5hn,city,Bernburg,Saxony-Anhalt,DE
+bethel,alaska,usa,"bethel, alaska, usa",-161.75583,60.79222,geonames-cities500+dr5hn,city+state,Bethel,Alaska,US
+bethesda,maryland,usa,"bethesda, maryland, usa",-77.10026,38.98067,geonames-cities500+dr5hn,city+state,Bethesda,Maryland,US
+bethlehem,pennsylvania,usa,"bethlehem, pennsylvania, usa",-75.37046,40.62593,geonames-cities500+dr5hn,city+state,Bethlehem,Pennsylvania,US
+bethpage,new york,usa,"bethpage, new york, usa",-73.48207,40.74427,geonames-cities500+dr5hn,city+state,Bethpage,New York,US
+beveren,,belgium,"beveren, belgium",4.25633,51.21187,geonames-cities500+dr5hn,city,Beveren,Flanders,BE
+bhadrapur,,nepal,"bhadrapur, nepal",88.09436,26.54404,geonames-cities500+dr5hn,city,Bhadrapur,Koshi,NP
+bhilwara,rajisthan,india,"bhilwara, rajisthan, india",74.64081,25.34707,geonames-cities500+dr5hn,city+state,Bhilwara,Rajasthan,IN
+bialogard,,poland,"bialogard, poland",15.98751,54.00696,geonames-cities500+dr5hn,city,Białogard,West Pomerania,PL
+bialystok,,poland,"bialystok, poland",23.16433,53.13333,geonames-cities500+dr5hn,city,Białystok,Podlasie,PL
+bielefeld,,germany,"bielefeld, germany",8.53333,52.03333,geonames-cities500+dr5hn,city,Bielefeld,North Rhine-Westphalia,DE
+bien hoa,,vietnam,"bien hoa, vietnam",106.82432,10.94469,geonames-cities500+dr5hn,city,Biên Hòa,Dong Nai,VN
+bijelijina,,bosnia and herzegovina,"bijelijina, bosnia and herzegovina",19.21437,44.75874,geonames-cities500+dr5hn,city~,Bijeljina,Srpska,BA
+bilbao,,spain,"bilbao, spain",-2.92528,43.26271,geonames-cities500+dr5hn,city,Bilbao,Basque Country,ES
+billings,montana,usa,"billings, montana, usa",-108.50069,45.78329,geonames-cities500+dr5hn,city+state,Billings,Montana,US
+bilwas karma,rio coco,nicaragua,"bilwas karma, rio coco, nicaragua",-85.0,13.0,geonames-cities500+dr5hn,country,Nicaragua,,NI
+bilwi,puerto cabezas,nicaragua,"bilwi, puerto cabezas, nicaragua",-85.0,13.0,geonames-cities500+dr5hn,country,Nicaragua,,NI
+bilzen,flanders,belgium,"bilzen, flanders, belgium",5.5184,50.87325,geonames-cities500+dr5hn,city+state,Bilzen,Flanders,BE
+bingerbruk,,germany,"bingerbruk, germany",9.0,51.0,geonames-cities500+dr5hn,country,Germany,,DE
+bingol,,turkey,"bingol, turkey",40.49389,38.88472,geonames-cities500+dr5hn,city,Bingöl,Bingöl,TR
+binh dinh,,vietnam,"binh dinh, vietnam",108.63545,14.02014,geonames-cities500+dr5hn,state,Gia Lai,,VN
+birkenhead,,uk,"birkenhead, uk",-3.01479,53.39337,geonames-cities500+dr5hn,city,Birkenhead,England,GB
+birmingham,,uk,"birmingham, uk",-1.89983,52.48142,geonames-cities500+dr5hn,city,Birmingham,England,GB
+birmingham 1,,uk,"birmingham 1, uk",-1.89983,52.48142,geonames-cities500+dr5hn,city~,Birmingham,England,GB
+birmingham 2,alabama,usa,"birmingham 2, alabama, usa",-86.80249,33.52066,geonames-cities500+dr5hn,city~,Birmingham,Alabama,US
+birtem,,romania,"birtem, romania",25.0,46.0,geonames-cities500+dr5hn,country,Romania,,RO
+bishkek,,kyrgystan,"bishkek, kyrgystan",74.59,42.87,geonames-cities500+dr5hn,city,Bishkek,Bishkek,KG
+bishkek,,kyrgyzstan,"bishkek, kyrgyzstan",74.59,42.87,geonames-cities500+dr5hn,city,Bishkek,Bishkek,KG
+bitonto,,italy,"bitonto, italy",16.69086,41.11006,geonames-cities500+dr5hn,city,Bitonto,Apulia,IT
+blackpool,lancashire,uk,"blackpool, lancashire, uk",-3.05,53.81667,geonames-cities500+dr5hn,city+state,Blackpool,England,GB
+bloomington,indiana,usa,"bloomington, indiana, usa",-86.52639,39.16533,geonames-cities500+dr5hn,city+state,Bloomington,Indiana,US
+blue bell,pennsylvania,usa,"blue bell, pennsylvania, usa",-75.26629,40.15233,geonames-cities500+dr5hn,city+state,Blue Bell,Pennsylvania,US
+blue earth,minnesota,usa,"blue earth, minnesota, usa",-94.10218,43.63746,geonames-cities500+dr5hn,city+state,Blue Earth,Minnesota,US
+bluefield,west virginia,usa,"bluefield, west virginia, usa",-81.22232,37.26984,geonames-cities500+dr5hn,city+state,Bluefield,West Virginia,US
+blumenau,,brazil,"blumenau, brazil",-49.06611,-26.91944,geonames-cities500+dr5hn,city,Blumenau,Santa Catarina,BR
+blytheville,arkansas,usa,"blytheville, arkansas, usa",-89.91898,35.9273,geonames-cities500+dr5hn,city+state,Blytheville,Arkansas,US
+bocas del toro,,panama,"bocas del toro, panama",-82.24204,9.34031,geonames-cities500+dr5hn,city,Bocas del Toro,Bocas del Toro Province,PA
+bochum,,germany,"bochum, germany",7.21648,51.48165,geonames-cities500+dr5hn,city,Bochum,North Rhine-Westphalia,DE
+bogota,,colombia,"bogota, colombia",-74.08175,4.60971,geonames-cities500+dr5hn,city,Bogotá,Bogota D.C.,CO
+boise,idaho,usa,"boise, idaho, usa",-116.20345,43.6135,geonames-cities500+dr5hn,city+state,Boise,Idaho,US
+bologna,,italy,"bologna, italy",11.33875,44.49381,geonames-cities500+dr5hn,city,Bologna,Emilia-Romagna,IT
+bombay,,india,"bombay, india",72.88261,19.07283,geonames-cities500+dr5hn,city,Mumbai,Maharashtra,IN
+bombay,maharashtra,india,"bombay, maharashtra, india",72.88261,19.07283,geonames-cities500+dr5hn,city+state,Mumbai,Maharashtra,IN
+bonao,,dominican republic,"bonao, dominican republic",-70.41111,18.94154,geonames-cities500+dr5hn,city,Bonao,Monseñor Nouel,DO
+booue,,gabon,"booue, gabon",11.93846,-0.09207,geonames-cities500+dr5hn,city,Booué,Ogooué-Ivindo,GA
+borama,,somalia,"borama, somalia",43.18278,9.93611,geonames-cities500+dr5hn,city,Borama,Awdal,SO
+bordeaux,,france,"bordeaux, france",-0.58046,44.84124,geonames-cities500+dr5hn,city,Bordeaux,Nouvelle-Aquitaine,FR
+bornem,,belgium,"bornem, belgium",4.24364,51.09716,geonames-cities500+dr5hn,city,Bornem,Flanders,BE
+bosanska krupa,,bosnia,"bosanska krupa, bosnia",16.15139,44.8825,geonames-cities500+dr5hn,city,Bosanska Krupa,Federation of B&H,BA
+boston,massachusetts,usa,"boston, massachusetts, usa",-71.05977,42.35843,geonames-cities500+dr5hn,city+state,Boston,Massachusetts,US
+bota,,cameroon,"bota, cameroon",12.0,6.0,geonames-cities500+dr5hn,country,Cameroon,,CM
+bournesmouth,,uk,"bournesmouth, uk",-1.8795,50.72048,geonames-cities500+dr5hn,city~,Bournemouth,England,GB
+bouznika,,morocco,"bouznika, morocco",-7.15968,33.78942,geonames-cities500+dr5hn,city,Bouznika,Casablanca-Settat,MA
+brasilia,,brazil,"brasilia, brazil",-47.92972,-15.77972,geonames-cities500+dr5hn,city,Brasília,Federal District,BR
+brasov,,romania,"brasov, romania",25.60613,45.64861,geonames-cities500+dr5hn,city,Braşov,Brașov County,RO
+brasschaat,,belgium,"brasschaat, belgium",4.49182,51.2912,geonames-cities500+dr5hn,city,Brasschaat,Flanders,BE
+bratislava,,slovakia,"bratislava, slovakia",17.10674,48.14816,geonames-cities500+dr5hn,city,Bratislava,Bratislava Region,SK
+bremen,,germany,"bremen, germany",8.80717,53.07582,geonames-cities500+dr5hn,city,Bremen,City state Bremen,DE
+bridgetown,,barbados,"bridgetown, barbados",-59.62021,13.10732,geonames-cities500+dr5hn,city,Bridgetown,Saint Michael,BB
+brisbane,,australia,"brisbane, australia",153.02809,-27.46794,geonames-cities500+dr5hn,city,Brisbane,Queensland,AU
+brisbane,queensland,australia,"brisbane, queensland, australia",153.02809,-27.46794,geonames-cities500+dr5hn,city+state,Brisbane,Queensland,AU
+bristol,connecticut,usa,"bristol, connecticut, usa",-72.94927,41.67176,geonames-cities500+dr5hn,city+state,Bristol,Connecticut,US
+brooklyn,,New York,"brooklyn, New York",-73.94958,40.6501,geonames-cities500+dr5hn,city+state,Brooklyn,New York,US
+brooklyn,new york,usa,"brooklyn, new york, usa",-73.94958,40.6501,geonames-cities500+dr5hn,city+state,Brooklyn,New York,US
+brownsville,kentucky,usa,"brownsville, kentucky, usa",-86.26775,37.19255,geonames-cities500+dr5hn,city+state,Brownsville,Kentucky,US
+bruges,,france,"bruges, france",-0.61222,44.88287,geonames-cities500+dr5hn,city,Bruges,Nouvelle-Aquitaine,FR
+brugge,,belgium,"brugge, belgium",3.22424,51.20892,geonames-cities500+dr5hn,city,Brugge,Flanders,BE
+brussels,,belgium,"brussels, belgium",4.34878,50.85045,geonames-cities500+dr5hn,city,Brussels,Brussels Capital,BE
+bucharest,,romania,"bucharest, romania",26.10626,44.43225,geonames-cities500+dr5hn,city,Bucharest,București,RO
+bucheon,,south korea,"bucheon, south korea",126.78306,37.49889,geonames-cities500+dr5hn,city~,Bucheon-si,Gyeonggi-do,KR
+budapest,,hungary,"budapest, hungary",19.04045,47.49835,geonames-cities500+dr5hn,city,Budapest,Budapest,HU
+buea,,cameroon,"buea, cameroon",9.24231,4.15342,geonames-cities500+dr5hn,city,Buea,South-West,CM
+buenos aires,,argentina,"buenos aires, argentina",-58.37723,-34.61315,geonames-cities500+dr5hn,city,Buenos Aires,Buenos Aires F.D.,AR
+bulawayo,,zimbabwe,"bulawayo, zimbabwe",28.58333,-20.15,geonames-cities500+dr5hn,city,Bulawayo,Bulawayo,ZW
+bulawyo,,zimbabwe,"bulawyo, zimbabwe",28.58333,-20.15,geonames-cities500+dr5hn,city~,Bulawayo,Bulawayo,ZW
+buraydah,,saudi arabia,"buraydah, saudi arabia",43.97497,26.32599,geonames-cities500+dr5hn,city,Buraydah,Al-Qassim Region,SA
+burgos,,spain,"burgos, spain",-3.70184,42.34106,geonames-cities500+dr5hn,city,Burgos,Castille and León,ES
+burlington,vermont,usa,"burlington, vermont, usa",-73.21207,44.47588,geonames-cities500+dr5hn,city+state,Burlington,Vermont,US
+burnsville,minnesota,usa,"burnsville, minnesota, usa",-93.27772,44.76774,geonames-cities500+dr5hn,city+state,Burnsville,Minnesota,US
+bururi,,burundi,"bururi, burundi",29.62438,-3.94877,geonames-cities500+dr5hn,city,Bururi,Bururi,BI
+bury st. edmunds,,uk,"bury st. edmunds, uk",0.71111,52.2463,geonames-cities500+dr5hn,city,Bury St Edmunds,England,GB
+buston,,tajikistan,"buston, tajikistan",69.69481,40.23417,geonames-cities500+dr5hn,city,Buston,Sughd,TJ
+buzau,,romania,"buzau, romania",26.83333,45.15,geonames-cities500+dr5hn,city,Buzău,Buzău County,RO
+bytow,,poland,"bytow, poland",17.49187,54.17057,geonames-cities500+dr5hn,city,Bytów,Pomerania,PL
+byumba,,rwanda,"byumba, rwanda",30.0675,-1.5763,geonames-cities500+dr5hn,city,Byumba,Northern Province,RW
+cabanas,,el salvador,"cabanas, el salvador",-88.73831,13.88329,geonames-cities500+dr5hn,state,Cabañas,,SV
+cabanatuan city,,philippines,"cabanatuan city, philippines",120.96648,15.48586,geonames-cities500+dr5hn,city,Cabanatuan City,Central Luzon,PH
+cabinda,,angola,"cabinda, angola",12.19476,-5.56198,geonames-cities500+dr5hn,city,Cabinda,Cabinda,AO
+cabusao,,philippines,"cabusao, philippines",123.1169,13.7227,geonames-cities500+dr5hn,city,Cabusao,Bicol Region,PH
+cagliari,,italy,"cagliari, italy",9.11917,39.23054,geonames-cities500+dr5hn,city,Cagliari,Sardinia,IT
+caguas,,puerto rico,"caguas, puerto rico",-66.0485,18.23412,geonames-cities500+dr5hn,city,Caguas,Caguas,PR
+cairns,queensland,australia,"cairns, queensland, australia",145.76613,-16.92366,geonames-cities500+dr5hn,city+state,Cairns,Queensland,AU
+cairo,,egypt,"cairo, egypt",31.24967,30.06263,geonames-cities500+dr5hn,city,Cairo,Cairo,EG
+calgary,alberta,canada,"calgary, alberta, canada",-114.08529,51.05011,geonames-cities500+dr5hn,city+state,Calgary,Alberta,CA
+cali,,colombia,"cali, colombia",-76.5199,3.43054,geonames-cities500+dr5hn,city,Cali,Valle del Cauca Department,CO
+caltanissetta,sicily,italy,"caltanissetta, sicily, italy",14.06216,37.49025,geonames-cities500+dr5hn,city+state,Caltanissetta,Sicily,IT
+cam ranh,,vietnam,"cam ranh, vietnam",109.15913,11.92144,geonames-cities500+dr5hn,city,Cam Ranh,Khanh Hoa,VN
+camberley,surrey,uk,"camberley, surrey, uk",-0.74261,51.33705,geonames-cities500+dr5hn,city+state,Camberley,England,GB
+campinas,,brazil,"campinas, brazil",-47.06083,-22.90556,geonames-cities500+dr5hn,city,Campinas,São Paulo,BR
+campo grande,,brazil,"campo grande, brazil",-54.64639,-20.44278,geonames-cities500+dr5hn,city,Campo Grande,Mato Grosso do Sul,BR
+can tho,,vietnam,"can tho, vietnam",105.78825,10.03711,geonames-cities500+dr5hn,city,Cần Thơ,Can Tho City,VN
+can tho,,vietnamese,"can tho, vietnamese",105.78825,10.03711,geonames-cities500+dr5hn,city,Cần Thơ,Can Tho City,VN
+canberra,,australia,"canberra, australia",149.12807,-35.28346,geonames-cities500+dr5hn,city,Canberra,Australian Capital Territory,AU
+cannes,,france,"cannes, france",7.01275,43.55135,geonames-cities500+dr5hn,city,Cannes,Provence-Alpes-Côte d'Azur,FR
+cape town,,south africa,"cape town, south africa",18.42322,-33.92584,geonames-cities500+dr5hn,city,Cape Town,Western Cape,ZA
+capetown,,south africa,"capetown, south africa",18.42322,-33.92584,geonames-cities500+dr5hn,city~,Cape Town,Western Cape,ZA
+caracas,,venezuela,"caracas, venezuela",-66.87919,10.48801,geonames-cities500+dr5hn,city,Caracas,Distrito Federal,VE
+carbonia,,italy,"carbonia, italy",8.5213,39.16465,geonames-cities500+dr5hn,city,Carbonia,Sardinia,IT
+cardenas,,cuba,"cardenas, cuba",-81.20596,23.03661,geonames-cities500+dr5hn,city,Cárdenas,Matanzas Province,CU
+cardiff,wales,uk,"cardiff, wales, uk",-3.18,51.48,geonames-cities500+dr5hn,city+state,Cardiff,Wales,GB
+caribou,maine,usa,"caribou, maine, usa",-68.01197,46.8606,geonames-cities500+dr5hn,city+state,Caribou,Maine,US
+cartagena,,spain,"cartagena, spain",-0.98397,37.60197,geonames-cities500+dr5hn,city,Cartagena,Murcia,ES
+cartago,,costa rica,"cartago, costa rica",-83.9195,9.86371,geonames-cities500+dr5hn,city,Cartago,Cartago Province,CR
+carthage,missouri,usa,"carthage, missouri, usa",-94.31022,37.17645,geonames-cities500+dr5hn,city+state,Carthage,Missouri,US
+carthage,texas,usa,"carthage, texas, usa",-94.33742,32.15738,geonames-cities500+dr5hn,city+state,Carthage,Texas,US
+casablanca,,morocco,"casablanca, morocco",-7.61138,33.58831,geonames-cities500+dr5hn,city,Casablanca,Casablanca-Settat,MA
+cascais,,portugal,"cascais, portugal",-9.42147,38.69681,geonames-cities500+dr5hn,city,Cascais,Lisbon,PT
+casper,wyoming,usa,"casper, wyoming, usa",-106.31308,42.86663,geonames-cities500+dr5hn,city+state,Casper,Wyoming,US
+castle donington,,uk,"castle donington, uk",-1.34188,52.84291,geonames-cities500+dr5hn,city,Castle Donington,England,GB
+castro valley,california,usa,"castro valley, california, usa",-122.08635,37.6941,geonames-cities500+dr5hn,city+state,Castro Valley,California,US
+catanduva,sao paulo,brazil,"catanduva, sao paulo, brazil",-48.97278,-21.13778,geonames-cities500+dr5hn,city+state,Catanduva,São Paulo,BR
+cave valley,,jamaica,"cave valley, jamaica",-77.5,18.25,geonames-cities500+dr5hn,country,Jamaica,,JM
+cavite city,,philippines,"cavite city, philippines",120.89878,14.48369,geonames-cities500+dr5hn,city,Cavite City,Calabarzon,PH
+cebu,,philippines,"cebu, philippines",123.90192,10.29356,geonames-cities500+dr5hn,state,Cebu,,PH
+cegled,,hungary,"cegled, hungary",19.79952,47.17266,geonames-cities500+dr5hn,city,Cegléd,Pest County,HU
+cerete,,colombia,"cerete, colombia",-75.79052,8.88479,geonames-cities500+dr5hn,city,Cereté,Córdoba,CO
+chalatenango,,el salvador,"chalatenango, el salvador",-88.93951,14.04138,geonames-cities500+dr5hn,city,Chalatenango,Chalatenango Department,SV
+chamiancy,vilejka,belarus,"chamiancy, vilejka, belarus",28.0,53.0,geonames-cities500+dr5hn,country,Belarus,,BY
+chandigarh,,india,"chandigarh, india",76.7884,30.73629,geonames-cities500+dr5hn,city,Chandigarh,Chandigarh,IN
+changchun,jilin,china,"changchun, jilin, china",125.32278,43.88,geonames-cities500+dr5hn,city+state,Changchun,Jilin,CN
+changsha,hunan,china,"changsha, hunan, china",112.97087,28.19874,geonames-cities500+dr5hn,city+state,Changsha,Hunan,CN
+changwon,,south korea,"changwon, south korea",128.68111,35.22806,geonames-cities500+dr5hn,city,Changwon,Gyeongsangnam-do,KR
+charleston,south carolina,usa,"charleston, south carolina, usa",-79.93275,32.77632,geonames-cities500+dr5hn,city+state,Charleston,South Carolina,US
+charleston,west virginia,usa,"charleston, west virginia, usa",-81.63262,38.34982,geonames-cities500+dr5hn,city+state,Charleston,West Virginia,US
+charlotte,north carolina,usa,"charlotte, north carolina, usa",-80.84313,35.22709,geonames-cities500+dr5hn,city+state,Charlotte,North Carolina,US
+chatenay malabry,,france,"chatenay malabry, france",2.26655,48.76507,geonames-cities500+dr5hn,city,Châtenay-Malabry,Île-de-France,FR
+chattanooga,tennessee,usa,"chattanooga, tennessee, usa",-85.30968,35.04563,geonames-cities500+dr5hn,city+state,Chattanooga,Tennessee,US
+cheju-do,,south korea,"cheju-do, south korea",126.52194,33.50972,geonames-cities500+dr5hn,city,Jeju City,Jeju-do,KR
+chengde,hebei,china,"chengde, hebei, china",117.95883,40.9519,geonames-cities500+dr5hn,city+state,Chengde,Hebei,CN
+chengdu,sichuan,china,"chengdu, sichuan, china",104.06667,30.66667,geonames-cities500+dr5hn,city+state,Chengdu,Sichuan,CN
+chennai,,india,"chennai, india",80.27847,13.08784,geonames-cities500+dr5hn,city,Chennai,Tamil Nadu,IN
+chennai,tamil nadu,india,"chennai, tamil nadu, india",80.27847,13.08784,geonames-cities500+dr5hn,city+state,Chennai,Tamil Nadu,IN
+chesapeake,virginia,usa,"chesapeake, virginia, usa",-76.27494,36.81904,geonames-cities500+dr5hn,city+state,Chesapeake,Virginia,US
+chester,england,uk,"chester, england, uk",-2.89189,53.1905,geonames-cities500+dr5hn,city+state,Chester,England,GB
+chesterfield,virginia,usa,"chesterfield, virginia, usa",-77.50499,37.37709,geonames-cities500+dr5hn,city~,Chesterfield Court House,Virginia,US
+chiang mai,,thailand,"chiang mai, thailand",98.98468,18.79038,geonames-cities500+dr5hn,city,Chiang Mai,Chiang Mai,TH
+chiangrai,,thailand,"chiangrai, thailand",99.8325,19.90858,geonames-cities500+dr5hn,city~,Chiang Rai,Chiang Rai,TH
+chiba,,japan,"chiba, japan",140.11667,35.6,geonames-cities500+dr5hn,city,Chiba,Chiba,JP
+chicago,illinois,usa,"chicago, illinois, usa",-87.65005,41.85003,geonames-cities500+dr5hn,city+state,Chicago,Illinois,US
+chinhoyi,,zimbabwe,"chinhoyi, zimbabwe",30.2,-17.36667,geonames-cities500+dr5hn,city,Chinhoyi,Mashonaland West,ZW
+chiplun,maharashtra,india,"chiplun, maharashtra, india",73.50935,17.53339,geonames-cities500+dr5hn,city+state,Chiplūn,Maharashtra,IN
+chirpan,,bulgaria,"chirpan, bulgaria",25.33333,42.2,geonames-cities500+dr5hn,city,Chirpan,Stara Zagora,BG
+chisapani,,nepal,"chisapani, nepal",84.0,28.0,geonames-cities500+dr5hn,country,Nepal,,NP
+chisinau,,moldova,"chisinau, moldova",28.85938,47.00902,geonames-cities500+dr5hn,city,Chisinau,Chișinău Municipality,MD
+chittagong,,bangladesh,"chittagong, bangladesh",91.88399,22.68005,geonames-cities500+dr5hn,state,Chittagong,,BD
+chitwan,,nepal,"chitwan, nepal",84.0,28.0,geonames-cities500+dr5hn,country,Nepal,,NP
+chongqing,,china,"chongqing, china",106.55771,29.56026,geonames-cities500+dr5hn,city,Chongqing,Chongqing,CN
+christchurch,,new zealand,"christchurch, new zealand",172.63333,-43.53333,geonames-cities500+dr5hn,city,Christchurch,Canterbury,NZ
+christiansburg,virginia,usa,"christiansburg, virginia, usa",-80.40894,37.12985,geonames-cities500+dr5hn,city+state,Christiansburg,Virginia,US
+chtaura,beqa valley,lebanon,"chtaura, beqa valley, lebanon",35.83333,33.83333,geonames-cities500+dr5hn,country,Lebanon,,LB
+chuncheon,gangwon-do,south korea,"chuncheon, gangwon-do, south korea",127.73417,37.87472,geonames-cities500+dr5hn,city+state,Chuncheon,Gangwon-do,KR
+chur,,switzerland,"chur, switzerland",9.53287,46.84986,geonames-cities500+dr5hn,city,Chur,Grisons,CH
+cincinnati,ohio,usa,"cincinnati, ohio, usa",-84.51439,39.12711,geonames-cities500+dr5hn,city+state,Cincinnati,Ohio,US
+cixi,zhejiang,china,"cixi, zhejiang, china",121.2457,30.1764,geonames-cities500+dr5hn,city+state,Cixi,Zhejiang,CN
+clare,,ireland,"clare, ireland",-8.98605,53.34549,geonames-cities500+dr5hn,state,Clare,,IE
+clark field,,philippines,"clark field, philippines",122.0,13.0,geonames-cities500+dr5hn,country,Philippines,,PH
+clausthal-zellerfeld,,germany,"clausthal-zellerfeld, germany",10.33821,51.80949,geonames-cities500+dr5hn,city,Clausthal-Zellerfeld,Lower Saxony,DE
+cleveland,mississippi,usa,"cleveland, mississippi, usa",-90.72482,33.744,geonames-cities500+dr5hn,city+state,Cleveland,Mississippi,US
+cleveland,ohio,usa,"cleveland, ohio, usa",-81.69541,41.4995,geonames-cities500+dr5hn,city+state,Cleveland,Ohio,US
+clifton,new jersey,usa,"clifton, new jersey, usa",-74.16376,40.85843,geonames-cities500+dr5hn,city+state,Clifton,New Jersey,US
+clug,,romania,"clug, romania",23.6,46.76667,geonames-cities500+dr5hn,city,Cluj-Napoca,Cluj County,RO
+cluj-napoca,,romania,"cluj-napoca, romania",23.6,46.76667,geonames-cities500+dr5hn,city,Cluj-Napoca,Cluj County,RO
+coaticook,quebec,canada,"coaticook, quebec, canada",-71.79907,45.13339,geonames-cities500+dr5hn,city+state,Coaticook,Quebec,CA
+coburg,,germany,"coburg, germany",10.96384,50.25937,geonames-cities500+dr5hn,city,Coburg,Bavaria,DE
+cochabamba,,bolivia,"cochabamba, bolivia",-66.15995,-17.38195,geonames-cities500+dr5hn,city,Cochabamba,Cochabamba,BO
+coimbatore,tamil nadu,india,"coimbatore, tamil nadu, india",76.96612,11.00555,geonames-cities500+dr5hn,city+state,Coimbatore,Tamil Nadu,IN
+colombo,,sri lanka,"colombo, sri lanka",79.84868,6.93548,geonames-cities500+dr5hn,city,Colombo,Western Province,LK
+colon,,panama,"colon, panama",-79.90019,9.36025,geonames-cities500+dr5hn,city,Colón,Colón,PA
+colorado springs,colorado,usa,"colorado springs, colorado, usa",-104.82136,38.83388,geonames-cities500+dr5hn,city+state,Colorado Springs,Colorado,US
+columbus,ohio,usa,"columbus, ohio, usa",-82.99879,39.96118,geonames-cities500+dr5hn,city+state,Columbus,Ohio,US
+conakry,,guinea,"conakry, guinea",-13.67729,9.53795,geonames-cities500+dr5hn,city,Conakry,Conakry,GN
+concord,new hampshire,usa,"concord, new hampshire, usa",-71.53757,43.20814,geonames-cities500+dr5hn,city+state,Concord,New Hampshire,US
+copenhagen,,denmark,"copenhagen, denmark",12.56553,55.67594,geonames-cities500+dr5hn,city,Copenhagen,Capital Region,DK
+cordoba,,argentina,"cordoba, argentina",-64.18853,-31.40648,geonames-cities500+dr5hn,city,Córdoba,Cordoba,AR
+corentyne,,guyana,"corentyne, guyana",-59.0,5.0,geonames-cities500+dr5hn,country,Guyana,,GY
+cork,,ireland,"cork, ireland",-8.47061,51.89797,geonames-cities500+dr5hn,city,Cork,Munster,IE
+coronel fabriciano,minas gerais,brazil,"coronel fabriciano, minas gerais, brazil",-42.62889,-19.51861,geonames-cities500+dr5hn,city+state,Coronel Fabriciano,Minas Gerais,BR
+corriverton,,guyana,"corriverton, guyana",-59.0,5.0,geonames-cities500+dr5hn,country,Guyana,,GY
+cosenza,,italy,"cosenza, italy",16.25307,39.2989,geonames-cities500+dr5hn,city,Cosenza,Calabria,IT
+costesti,,moldova,"costesti, moldova",29.0,47.0,geonames-cities500+dr5hn,country,Moldova,,MD
+cotabalo,,philippines,"cotabalo, philippines",124.24639,7.22361,geonames-cities500+dr5hn,city~,Cotabato,Autonomous Region in Muslim Mindanao,PH
+cotonou,,benin,"cotonou, benin",2.41833,6.36536,geonames-cities500+dr5hn,city,Cotonou,Littoral,BJ
+coudersport,pennsylvania,usa,"coudersport, pennsylvania, usa",-78.02056,41.77479,geonames-cities500+dr5hn,city+state,Coudersport,Pennsylvania,US
+cremona,,italy,"cremona, italy",10.02129,45.13325,geonames-cities500+dr5hn,city,Cremona,Lombardy,IT
+creswell,north carolina,usa,"creswell, north carolina, usa",-79.03929,35.67296,geonames-cities500+dr5hn,state,North Carolina,,US
+creteil,,france,"creteil, france",2.46569,48.79266,geonames-cities500+dr5hn,city,Créteil,Île-de-France,FR
+crisfield,maryland,usa,"crisfield, maryland, usa",-75.85382,37.98346,geonames-cities500+dr5hn,city+state,Crisfield,Maryland,US
+cromwell,connecticut,usa,"cromwell, connecticut, usa",-72.64537,41.5951,geonames-cities500+dr5hn,city+state,Cromwell,Connecticut,US
+cuggiono,,italy,"cuggiono, italy",8.8155,45.50683,geonames-cities500+dr5hn,city,Cuggiono,Lombardy,IT
+culpeper,virginia,usa,"culpeper, virginia, usa",-77.99666,38.47318,geonames-cities500+dr5hn,city+state,Culpeper,Virginia,US
+cuneo,,italy,"cuneo, italy",7.54828,44.39071,geonames-cities500+dr5hn,city,Cuneo,Piedmont,IT
+curitiba,,brazil,"curitiba, brazil",-49.27306,-25.42778,geonames-cities500+dr5hn,city,Curitiba,Paraná,BR
+dagana,,senegal,"dagana, senegal",-15.6,16.47667,geonames-cities500+dr5hn,city,Dagana,Saint-Louis,SN
+dakar,,senegal,"dakar, senegal",-17.44406,14.6937,geonames-cities500+dr5hn,city,Dakar,Dakar,SN
+dalian,liaoning,china,"dalian, liaoning, china",121.60222,38.91222,geonames-cities500+dr5hn,city+state,Dalian,Liaoning,CN
+dallas,texas,usa,"dallas, texas, usa",-96.80667,32.78306,geonames-cities500+dr5hn,city+state,Dallas,Texas,US
+damascus,,syria,"damascus, syria",36.29128,33.5102,geonames-cities500+dr5hn,city,Damascus,Dimashq,SY
+dangriga,,belize,"dangriga, belize",-88.23313,16.9697,geonames-cities500+dr5hn,city,Dangriga,Southern District,BZ
+dangyang,hubei,china,"dangyang, hubei, china",109.97781,31.4056,geonames-cities500+dr5hn,city+state,Dangyang,Chongqing,CN
+danli,,honduras,"danli, honduras",-86.58333,14.03333,geonames-cities500+dr5hn,city,Danlí,El Paraíso Department,HN
+danville,virginia,usa,"danville, virginia, usa",-79.39502,36.58597,geonames-cities500+dr5hn,city+state,Danville,Virginia,US
+dar-es-salaam,,tanzania,"dar-es-salaam, tanzania",39.26951,-6.82349,geonames-cities500+dr5hn,city,Dar es Salaam,Dar es Salaam Region,TZ
+darhan,,mongolia,"darhan, mongolia",105.92278,49.48667,geonames-cities500+dr5hn,city,Darhan,Darhan Uul,MN
+darmstadt,,germany,"darmstadt, germany",8.65027,49.87167,geonames-cities500+dr5hn,city,Darmstadt,Hesse,DE
+darwin,,australia,"darwin, australia",130.84185,-12.46113,geonames-cities500+dr5hn,city,Darwin,Northern Territory,AU
+darwin va,virginia,usa,"darwin va, virginia, usa",-78.49277,37.12322,geonames-cities500+dr5hn,state,Virginia,,US
+datong,shanxi,china,"datong, shanxi, china",113.29139,40.09361,geonames-cities500+dr5hn,city+state,Datong,Shanxi,CN
+datteln,,germany,"datteln, germany",7.3453,51.65598,geonames-cities500+dr5hn,city,Datteln,North Rhine-Westphalia,DE
+davenport,iowa,usa,"davenport, iowa, usa",-90.57764,41.52364,geonames-cities500+dr5hn,city+state,Davenport,Iowa,US
+david,,panama,"david, panama",-82.43085,8.42729,geonames-cities500+dr5hn,city,David,Chiriquí Province,PA
+delavan,wisconsin,usa,"delavan, wisconsin, usa",-88.64371,42.63307,geonames-cities500+dr5hn,city+state,Delavan,Wisconsin,US
+delaware,ohio,usa,"delaware, ohio, usa",-83.06797,40.29867,geonames-cities500+dr5hn,city+state,Delaware,Ohio,US
+delft,,netherlands,"delft, netherlands",4.35556,52.00667,geonames-cities500+dr5hn,city,Delft,South Holland,NL
+dembi dollo,,ethiopia,"dembi dollo, ethiopia",34.8,8.53333,geonames-cities500+dr5hn,city~,Dembī Dolo,Oromiya,ET
+derby,england,uk,"derby, england, uk",-1.47663,52.92277,geonames-cities500+dr5hn,city+state,Derby,England,GB
+detroit,michigan,usa,"detroit, michigan, usa",-83.04575,42.33143,geonames-cities500+dr5hn,city+state,Detroit,Michigan,US
+deventer,,netherlands,"deventer, netherlands",6.16389,52.255,geonames-cities500+dr5hn,city,Deventer,Overijssel,NL
+dhaka,,bangladesh,"dhaka, bangladesh",90.40744,23.7104,geonames-cities500+dr5hn,city,Dhaka,Dhaka Division,BD
+dharan,,nepal,"dharan, nepal",87.27972,26.81436,geonames-cities500+dr5hn,city,Dharān,Koshi,NP
+dickenson county,virginia,usa,"dickenson county, virginia, usa",-78.49277,37.12322,geonames-cities500+dr5hn,state,Virginia,,US
+diekabo,,ivory coast,"diekabo, ivory coast",-4.52103,6.50784,geonames-cities500+dr5hn,city,Diékabo,Comoé District,CI
+diest,,belgium,"diest, belgium",5.05062,50.98923,geonames-cities500+dr5hn,city,Diest,Flanders,BE
+dilla,,ethiopia,"dilla, ethiopia",38.31667,6.41667,geonames-cities500+dr5hn,city~,Dīla,South Ethiopia Regional State,ET
+diyarbakir,,turkey,"diyarbakir, turkey",40.21721,37.91363,geonames-cities500+dr5hn,city,Diyarbakır,Diyarbakır Province,TR
+doboj,,bosnia and herzegovina,"doboj, bosnia and herzegovina",18.08698,44.73179,geonames-cities500+dr5hn,city,Doboj,Srpska,BA
+dobrich,,bulgaria,"dobrich, bulgaria",27.83138,43.56491,geonames-cities500+dr5hn,city,Dobrich,Dobrich,BG
+dodge city,kansas,usa,"dodge city, kansas, usa",-100.01708,37.7528,geonames-cities500+dr5hn,city+state,Dodge City,Kansas,US
+doha,,qatar,"doha, qatar",51.53096,25.28545,geonames-cities500+dr5hn,city,Doha,Baladīyat ad Dawḩah,QA
+dombivli,maharashtra,india,"dombivli, maharashtra, india",73.08333,19.21667,geonames-cities500+dr5hn,city~,Dombivali,Maharashtra,IN
+dongguan,guangdong,china,"dongguan, guangdong, china",113.74866,23.01797,geonames-cities500+dr5hn,city+state,Dongguan,Guangdong,CN
+dongyang,zhejiang,china,"dongyang, zhejiang, china",120.22528,29.26778,geonames-cities500+dr5hn,city+state,Dongyang,Zhejiang,CN
+dordrecht,,netherlands,"dordrecht, netherlands",4.67361,51.81,geonames-cities500+dr5hn,city,Dordrecht,South Holland,NL
+dormaa,,ghana,"dormaa, ghana",-2.0,8.0,geonames-cities500+dr5hn,country,Ghana,,GH
+douala,,cameroon,"douala, cameroon",9.70428,4.04827,geonames-cities500+dr5hn,city,Douala,Littoral,CM
+downers grove,illinois,usa,"downers grove, illinois, usa",-88.01117,41.80892,geonames-cities500+dr5hn,city+state,Downers Grove,Illinois,US
+drammen,,norway,"drammen, norway",10.20449,59.74389,geonames-cities500+dr5hn,city,Drammen,Buskerud,NO
+dresden,,germany,"dresden, germany",13.73832,51.05089,geonames-cities500+dr5hn,city,Dresden,Saxony,DE
+dripping springs,texas,usa,"dripping springs, texas, usa",-98.08668,30.19021,geonames-cities500+dr5hn,city+state,Dripping Springs,Texas,US
+dubai,,united arab emirates,"dubai, united arab emirates",55.30927,25.07725,geonames-cities500+dr5hn,city,Dubai,Dubai,AE
+dublin,,ireland,"dublin, ireland",-6.24889,53.33306,geonames-cities500+dr5hn,city,Dublin,Leinster,IE
+dudley,,uk,"dudley, uk",-2.08333,52.5,geonames-cities500+dr5hn,city,Dudley,England,GB
+duitama,,colombia,"duitama, colombia",-73.03408,5.8245,geonames-cities500+dr5hn,city,Duitama,Boyacá,CO
+duluth,georgia,usa,"duluth, georgia, usa",-84.14464,34.00288,geonames-cities500+dr5hn,city+state,Duluth,Georgia,US
+dumfries,virginia,usa,"dumfries, virginia, usa",-77.32804,38.56762,geonames-cities500+dr5hn,city+state,Dumfries,Virginia,US
+dundee,scotland,uk,"dundee, scotland, uk",-2.97489,56.46913,geonames-cities500+dr5hn,city+state,Dundee,Scotland,GB
+dunedin,,new zealand,"dunedin, new zealand",170.50361,-45.87416,geonames-cities500+dr5hn,city,Dunedin,Otago,NZ
+dunedin,florida,usa,"dunedin, florida, usa",-82.77323,28.0199,geonames-cities500+dr5hn,city+state,Dunedin,Florida,US
+durame,,ethiopia,"durame, ethiopia",37.88333,7.23333,geonames-cities500+dr5hn,city,Duramē,Central Ethiopia Regional State,ET
+durango,,mexico,"durango, mexico",-93.87325,16.1369,geonames-cities500+dr5hn,city,Durango,Chiapas,MX
+durango,durango,mexico,"durango, durango, mexico",-104.83333,24.83333,geonames-cities500+dr5hn,state,Durango,,MX
+durgapur,west bengal,india,"durgapur, west bengal, india",87.30801,23.51583,geonames-cities500+dr5hn,city+state,Durgapur,West Bengal,IN
+durres,,albania,"durres, albania",19.45469,41.32355,geonames-cities500+dr5hn,city,Durrës,Durrës County,AL
+dushanbe,,tajikistan,"dushanbe, tajikistan",68.77905,38.53575,geonames-cities500+dr5hn,city,Dushanbe,Dushanbe,TJ
+dusseldorf,,germany,"dusseldorf, germany",6.77616,51.22172,geonames-cities500+dr5hn,city,Düsseldorf,North Rhine-Westphalia,DE
+east hartford,connecticut,usa,"east hartford, connecticut, usa",-72.61203,41.78232,geonames-cities500+dr5hn,city+state,East Hartford,Connecticut,US
+east lansing,michigan,usa,"east lansing, michigan, usa",-84.48387,42.73698,geonames-cities500+dr5hn,city+state,East Lansing,Michigan,US
+ede,,netherlands,"ede, netherlands",5.65833,52.03333,geonames-cities500+dr5hn,city,Ede,Gelderland,NL
+edinburgh,scotland,uk,"edinburgh, scotland, uk",-3.19648,55.95206,geonames-cities500+dr5hn,city+state,Edinburgh,Scotland,GB
+edison,new jersey,usa,"edison, new jersey, usa",-74.4121,40.51872,geonames-cities500+dr5hn,city+state,Edison,New Jersey,US
+edmonton,alberta,canada,"edmonton, alberta, canada",-113.46871,53.55014,geonames-cities500+dr5hn,city+state,Edmonton,Alberta,CA
+edubiase,,ghana,"edubiase, ghana",-2.0,8.0,geonames-cities500+dr5hn,country,Ghana,,GH
+eforie nord,,romania,"eforie nord, romania",28.63211,44.0653,geonames-cities500+dr5hn,city,Eforie Nord,Constanța County,RO
+egvad,,denmark,"egvad, denmark",10.0,56.0,geonames-cities500+dr5hn,country,Denmark,,DK
+eischoll,,switzerland,"eischoll, switzerland",7.77995,46.29352,geonames-cities500+dr5hn,city,Eischoll,Valais,CH
+ekenas,,finland,"ekenas, finland",23.43389,59.97359,geonames-cities500+dr5hn,city,Ekenäs,Uusimaa,FI
+elbasan,,albania,"elbasan, albania",20.08224,41.11138,geonames-cities500+dr5hn,city,Elbasan,Elbasan County,AL
+eldoret,,kenya,"eldoret, kenya",35.26993,0.52036,geonames-cities500+dr5hn,city,Eldoret,Uasin Gishu County,KE
+elizabeth city,north carolina,usa,"elizabeth city, north carolina, usa",-76.25105,36.2946,geonames-cities500+dr5hn,city+state,Elizabeth City,North Carolina,US
+elmore,alabama,usa,"elmore, alabama, usa",-86.31497,32.53874,geonames-cities500+dr5hn,city+state,Elmore,Alabama,US
+elsterwerda,,germany,"elsterwerda, germany",13.52001,51.46043,geonames-cities500+dr5hn,city,Elsterwerda,Brandenburg,DE
+emei,sichuan,china,"emei, sichuan, china",102.5,30.5,geonames-cities500+dr5hn,state,Sichuan,,CN
+englewood,tennessee,usa,"englewood, tennessee, usa",-89.15479,36.36673,geonames-cities500+dr5hn,city+state,Englewood,Tennessee,US
+enna,,italy,"enna, italy",14.27433,37.5655,geonames-cities500+dr5hn,city,Enna,Sicily,IT
+erding,bavaria,germany,"erding, bavaria, germany",11.90686,48.30603,geonames-cities500+dr5hn,city+state,Erding,Bavaria,DE
+erie,pennsylvania,usa,"erie, pennsylvania, usa",-80.08506,42.12922,geonames-cities500+dr5hn,city+state,Erie,Pennsylvania,US
+erigavo,,somalia,"erigavo, somalia",49.0,10.0,geonames-cities500+dr5hn,country,Somalia,,SO
+eschen,,liechtenstein,"eschen, liechtenstein",9.52223,47.21071,geonames-cities500+dr5hn,city,Eschen,Eschen,LI
+esfahan,,iran,"esfahan, iran",51.67462,32.65246,geonames-cities500+dr5hn,city,Isfahan,Isfahan,IR
+espoo,,finland,"espoo, finland",24.6522,60.2052,geonames-cities500+dr5hn,city,Espoo,Uusimaa,FI
+essen,,belgium,"essen, belgium",4.46901,51.46791,geonames-cities500+dr5hn,city,Essen,Flanders,BE
+eugene,oregon,usa,"eugene, oregon, usa",-123.08675,44.05207,geonames-cities500+dr5hn,city+state,Eugene,Oregon,US
+exminister,,uk,"exminister, uk",-3.49706,50.68075,geonames-cities500+dr5hn,city~,Exminster,England,GB
+fairborn,ohio,usa,"fairborn, ohio, usa",-84.01938,39.82089,geonames-cities500+dr5hn,city+state,Fairborn,Ohio,US
+fairfax,virginia,usa,"fairfax, virginia, usa",-77.30637,38.84622,geonames-cities500+dr5hn,city+state,Fairfax,Virginia,US
+fairview park,ohio,usa,"fairview park, ohio, usa",-81.8643,41.44144,geonames-cities500+dr5hn,city+state,Fairview Park,Ohio,US
+falcon,,venezuela,"falcon, venezuela",-69.58342,11.27395,geonames-cities500+dr5hn,state,Falcón,,VE
+falls church,virginia,usa,"falls church, virginia, usa",-77.17109,38.88233,geonames-cities500+dr5hn,city+state,Falls Church,Virginia,US
+faridabad,haryana,india,"faridabad, haryana, india",77.31316,28.41124,geonames-cities500+dr5hn,city+state,Faridabad,Haryana,IN
+farjestaden,,sweden,"farjestaden, sweden",16.46859,56.6499,geonames-cities500+dr5hn,city,Färjestaden,Kalmar,SE
+farmington hills,michigan,usa,"farmington hills, michigan, usa",-83.37716,42.48531,geonames-cities500+dr5hn,city+state,Farmington Hills,Michigan,US
+fatick,,senegal,"fatick, senegal",-16.40513,14.33236,geonames-cities500+dr5hn,city,Fatick,Fatick,SN
+feldkirch,,austria,"feldkirch, austria",9.6,47.23306,geonames-cities500+dr5hn,city,Feldkirch,Vorarlberg,AT
+fergana,,uzbekistan,"fergana, uzbekistan",71.78432,40.38421,geonames-cities500+dr5hn,city,Fergana,Fergana,UZ
+findlay,ohio,usa,"findlay, ohio, usa",-83.64993,41.04422,geonames-cities500+dr5hn,city+state,Findlay,Ohio,US
+fiumedinisi,,sicily,"fiumedinisi, sicily",15.38099,38.02596,geonames-cities500+dr5hn,city+state,Fiumedinisi,Sicily,IT
+florence,,italy,"florence, italy",11.24626,43.77925,geonames-cities500+dr5hn,city,Florence,Tuscany,IT
+florence,south carolina,usa,"florence, south carolina, usa",-79.76256,34.19543,geonames-cities500+dr5hn,city+state,Florence,South Carolina,US
+florencia,zacatecas,mexico,"florencia, zacatecas, mexico",-103.55457,21.50448,geonames-cities500+dr5hn,city+state,Florencia,Zacatecas,MX
+florianopolis,,brazil,"florianopolis, brazil",-48.54917,-27.59667,geonames-cities500+dr5hn,city,Florianópolis,Santa Catarina,BR
+forestville,maryland,usa,"forestville, maryland, usa",-76.87497,38.84511,geonames-cities500+dr5hn,city+state,Forestville,Maryland,US
+forli,,italy,"forli, italy",12.04144,44.22177,geonames-cities500+dr5hn,city,Forlì,Emilia-Romagna,IT
+fort collins,colorado,usa,"fort collins, colorado, usa",-105.08442,40.58526,geonames-cities500+dr5hn,city+state,Fort Collins,Colorado,US
+fort kobbe,,panama,"fort kobbe, panama",-80.0,9.0,geonames-cities500+dr5hn,country,Panama,,PA
+fort lauderdale,florida,usa,"fort lauderdale, florida, usa",-80.14338,26.12231,geonames-cities500+dr5hn,city+state,Fort Lauderdale,Florida,US
+fort wayne,indiana,usa,"fort wayne, indiana, usa",-85.12886,41.1306,geonames-cities500+dr5hn,city+state,Fort Wayne,Indiana,US
+fort worth,texas,usa,"fort worth, texas, usa",-97.32085,32.72541,geonames-cities500+dr5hn,city+state,Fort Worth,Texas,US
+fortaleza,,brazil,"fortaleza, brazil",-38.54306,-3.71722,geonames-cities500+dr5hn,city,Fortaleza,Ceará,BR
+foshan,guangdong,china,"foshan, guangdong, china",113.13148,23.02677,geonames-cities500+dr5hn,city+state,Foshan,Guangdong,CN
+foumban,,cameroon,"foumban, cameroon",10.89865,5.72662,geonames-cities500+dr5hn,city,Foumban,West,CM
+francistown,,botswana,"francistown, botswana",27.50778,-21.17,geonames-cities500+dr5hn,city,Francistown,City of Francistown,BW
+frankfurt,,germany,"frankfurt, germany",8.68417,50.11552,geonames-cities500+dr5hn,city~,Frankfurt am Main,Hesse,DE
+fredericksburg,virginia,usa,"fredericksburg, virginia, usa",-77.46054,38.30318,geonames-cities500+dr5hn,city+state,Fredericksburg,Virginia,US
+fredericton,new brunswick,canada,"fredericton, new brunswick, canada",-66.66558,45.94541,geonames-cities500+dr5hn,city+state,Fredericton,New Brunswick,CA
+freemont,california,usa,"freemont, california, usa",-121.98857,37.54827,geonames-cities500+dr5hn,city~,Fremont,California,US
+freeport,,the bahamas,"freeport, the bahamas",-78.7,26.53333,geonames-cities500+dr5hn,city,Freeport,Freeport,BS
+freetown,,sierra leone,"freetown, sierra leone",-13.2356,8.48714,geonames-cities500+dr5hn,city,Freetown,Western Area,SL
+fresno,california,usa,"fresno, california, usa",-119.77237,36.74773,geonames-cities500+dr5hn,city+state,Fresno,California,US
+fribourg,,switzerland,"fribourg, switzerland",7.15128,46.80237,geonames-cities500+dr5hn,city,Fribourg,Fribourg,CH
+fullerton,california,usa,"fullerton, california, usa",-117.92534,33.87029,geonames-cities500+dr5hn,city+state,Fullerton,California,US
+fuyang,anhui,china,"fuyang, anhui, china",115.81667,32.9,geonames-cities500+dr5hn,city+state,Fuyang,Anhui,CN
+fuzhou,fujian,china,"fuzhou, fujian, china",119.30611,26.06139,geonames-cities500+dr5hn,city+state,Fuzhou,Fujian,CN
+gadsden,alabama,usa,"gadsden, alabama, usa",-86.00639,34.01434,geonames-cities500+dr5hn,city+state,Gadsden,Alabama,US
+gainesville,florida,usa,"gainesville, florida, usa",-82.32483,29.65163,geonames-cities500+dr5hn,city+state,Gainesville,Florida,US
+ganzhou,jiangxi,china,"ganzhou, jiangxi, china",114.9326,25.84664,geonames-cities500+dr5hn,city+state,Ganzhou,Jiangxi,CN
+garoua,,cameroon,"garoua, cameroon",13.39771,9.30143,geonames-cities500+dr5hn,city,Garoua,North,CM
+gdansk,,poland,"gdansk, poland",18.64912,54.35227,geonames-cities500+dr5hn,city,Gdańsk,Pomerania,PL
+geelong,,australia,"geelong, australia",144.36069,-38.14711,geonames-cities500+dr5hn,city,Geelong,Victoria,AU
+geislingen,,germany,"geislingen, germany",8.81241,48.28768,geonames-cities500+dr5hn,city,Geislingen,Baden-Wurttemberg,DE
+geulmim,,morocco,"geulmim, morocco",-5.0,32.0,geonames-cities500+dr5hn,country,Morocco,,MA
+ghasreshirin,,iran,"ghasreshirin, iran",53.0,32.0,geonames-cities500+dr5hn,country,Iran,,IR
+ghazi,,pakistan,"ghazi, pakistan",70.0,30.0,geonames-cities500+dr5hn,country,Pakistan,,PK
+ghazni,,afghanistan,"ghazni, afghanistan",68.42096,33.55391,geonames-cities500+dr5hn,city,Ghazni,Ghazni,AF
+ghent,,belgium,"ghent, belgium",3.71667,51.05,geonames-cities500+dr5hn,city~,Gent,Flanders,BE
+gingoog city,,philippines,"gingoog city, philippines",125.09972,8.82778,geonames-cities500+dr5hn,city,Gingoog,Northern Mindanao,PH
+giresun,,turkey,"giresun, turkey",38.38741,40.91698,geonames-cities500+dr5hn,city,Giresun,Giresun,TR
+gjilan,,kosovo,"gjilan, kosovo",21.46986,42.46045,geonames-cities500+dr5hn,city,Gjilan,Gjilan,XK
+glace bay,nova scotia,canada,"glace bay, nova scotia, canada",-59.95698,46.19695,geonames-cities500+dr5hn,city+state,Glace Bay,Nova Scotia,CA
+gladwin,michigan,usa,"gladwin, michigan, usa",-84.4864,43.98085,geonames-cities500+dr5hn,city+state,Gladwin,Michigan,US
+glasgow,scotland,uk,"glasgow, scotland, uk",-4.25763,55.86515,geonames-cities500+dr5hn,city+state,Glasgow,Scotland,GB
+glenside,pennsylvania,usa,"glenside, pennsylvania, usa",-75.15212,40.10233,geonames-cities500+dr5hn,city+state,Glenside,Pennsylvania,US
+gloucester,,uk,"gloucester, uk",-2.2431,51.86568,geonames-cities500+dr5hn,city,Gloucester,England,GB
+goma,north kivu,democratic republic of congo,"goma, north kivu, democratic republic of congo",29.22845,-1.67409,geonames-cities500+dr5hn,city+state,Goma,North Kivu,CD
+gomel,,belarus,"gomel, belarus",31.01317,52.42389,geonames-cities500+dr5hn,state,Gomel,,BY
+gonbad-qabus,,iran,"gonbad-qabus, iran",53.0,32.0,geonames-cities500+dr5hn,country,Iran,,IR
+gonder,,ethiopia,"gonder, ethiopia",37.46667,12.6,geonames-cities500+dr5hn,city,Gonder,Amhara,ET
+gorgan,,iran,"gorgan, iran",54.44391,36.8427,geonames-cities500+dr5hn,city,Gorgān,Golestan,IR
+gorkha,,nepal,"gorkha, nepal",84.0,28.0,geonames-cities500+dr5hn,country,Nepal,,NP
+gornji vakuf,,bosnia and herzegovina,"gornji vakuf, bosnia and herzegovina",17.58833,43.93806,geonames-cities500+dr5hn,city,Gornji Vakuf,Federation of B&H,BA
+gospic,,croatia,"gospic, croatia",15.37472,44.54611,geonames-cities500+dr5hn,city,Gospić,Lika-Senj,HR
+goteborg,,sweden,"goteborg, sweden",11.96679,57.70716,geonames-cities500+dr5hn,city,Göteborg,Västra Götaland,SE
+gouda,,netherlands,"gouda, netherlands",4.70833,52.01667,geonames-cities500+dr5hn,city,Gouda,South Holland,NL
+goudiri,,senegal,"goudiri, senegal",-14.0,14.0,geonames-cities500+dr5hn,country,Senegal,,SN
+goudomp,,senegal,"goudomp, senegal",-15.87222,12.57778,geonames-cities500+dr5hn,city,Goudomp,Sédhiou,SN
+grand forks,north dakota,usa,"grand forks, north dakota, usa",-97.03285,47.92526,geonames-cities500+dr5hn,city+state,Grand Forks,North Dakota,US
+grand port,,mauritius,"grand port, mauritius",57.61608,-20.38973,geonames-cities500+dr5hn,state,Grand Port,,MU
+grand rapids,michigan,usa,"grand rapids, michigan, usa",-85.66809,42.96336,geonames-cities500+dr5hn,city+state,Grand Rapids,Michigan,US
+great falls,virginia,usa,"great falls, virginia, usa",-77.28832,38.99817,geonames-cities500+dr5hn,city+state,Great Falls,Virginia,US
+great yarmouth,norfolk,uk,"great yarmouth, norfolk, uk",1.73052,52.60831,geonames-cities500+dr5hn,city+state,Great Yarmouth,England,GB
+green bay,wisconsin,usa,"green bay, wisconsin, usa",-88.01983,44.51916,geonames-cities500+dr5hn,city+state,Green Bay,Wisconsin,US
+grenoble,,france,"grenoble, france",5.71479,45.17869,geonames-cities500+dr5hn,city,Grenoble,Rhône-Alpes,FR
+grimsby,lincolnshire,uk,"grimsby, lincolnshire, uk",-0.07553,53.56539,geonames-cities500+dr5hn,city+state,Grimsby,England,GB
+grugliasco,,italy,"grugliasco, italy",7.57954,45.06516,geonames-cities500+dr5hn,city,Grugliasco,Piedmont,IT
+gryfino,western pomerania,poland,"gryfino, western pomerania, poland",14.48831,53.25243,geonames-cities500+dr5hn,city+state,Gryfino,West Pomerania,PL
+guadalajara,jalisco,mexico,"guadalajara, jalisco, mexico",-103.34749,20.67738,geonames-cities500+dr5hn,city+state,Guadalajara,Jalisco,MX
+guangdong province,guangdong,china,"guangdong province, guangdong, china",113.19827,23.13577,geonames-cities500+dr5hn,state,Guangdong,,CN
+guangzhou,,china,"guangzhou, china",113.25,23.11667,geonames-cities500+dr5hn,city,Guangzhou,Guangdong,CN
+guangzhou,guangdong,china,"guangzhou, guangdong, china",113.25,23.11667,geonames-cities500+dr5hn,city+state,Guangzhou,Guangdong,CN
+guatemala city,,guatemala,"guatemala city, guatemala",-90.51327,14.64072,geonames-cities500+dr5hn,city,Guatemala City,Guatemala,GT
+guayaquil,,ecuador,"guayaquil, ecuador",-79.88621,-2.19616,geonames-cities500+dr5hn,city,Guayaquil,Guayas,EC
+guelph,ontario,canada,"guelph, ontario, canada",-80.25599,43.54594,geonames-cities500+dr5hn,city+state,Guelph,Ontario,CA
+guernica,,spain,"guernica, spain",-4.0,40.0,geonames-cities500+dr5hn,country,Spain,,ES
+guiyang,guizhou,china,"guiyang, guizhou, china",106.71667,26.58333,geonames-cities500+dr5hn,city+state,Guiyang,Guizhou,CN
+gujranwala,punjab,pakistan,"gujranwala, punjab, pakistan",74.18705,32.15567,geonames-cities500+dr5hn,city+state,Gujranwala,Punjab,PK
+gunma,,japan,"gunma, japan",139.03348,36.52198,geonames-cities500+dr5hn,state,Gunma,,JP
+guntur,andhra pradesh,india,"guntur, andhra pradesh, india",80.45729,16.29974,geonames-cities500+dr5hn,city+state,Guntur,Andhra Pradesh,IN
+gwangju,,south korea,"gwangju, south korea",126.91556,35.15472,geonames-cities500+dr5hn,city,Gwangju,Gwangju,KR
+haenam,,south korea,"haenam, south korea",126.59889,34.57111,geonames-cities500+dr5hn,city,Haenam,Jeollanam-do,KR
+haifa,,israel,"haifa, israel",34.99928,32.81303,geonames-cities500+dr5hn,city,Haifa,Haifa,IL
+haikou,hainan,china,"haikou, hainan, china",110.34651,20.03421,geonames-cities500+dr5hn,city+state,Haikou,Hainan,CN
+haiphong,,vietnam,"haiphong, vietnam",106.68345,20.86481,geonames-cities500+dr5hn,city,Haiphong,Hai Phong,VN
+hakodate,,japan,"hakodate, japan",140.73667,41.77583,geonames-cities500+dr5hn,city,Hakodate,Hokkaido,JP
+halle,,germany,"halle, germany",8.36083,52.06007,geonames-cities500+dr5hn,city,Halle,North Rhine-Westphalia,DE
+hamburg,,germany,"hamburg, germany",9.99302,53.55073,geonames-cities500+dr5hn,city,Hamburg,Hamburg,DE
+hamilton,,new zealand,"hamilton, new zealand",175.28333,-37.78333,geonames-cities500+dr5hn,city,Hamilton,Waikato Region,NZ
+hamm,,germany,"hamm, germany",7.82089,51.68033,geonames-cities500+dr5hn,city,Hamm,North Rhine-Westphalia,DE
+hammond,indiana,usa,"hammond, indiana, usa",-87.50004,41.58337,geonames-cities500+dr5hn,city+state,Hammond,Indiana,US
+hangzhou,zhejiang,china,"hangzhou, zhejiang, china",120.16142,30.29365,geonames-cities500+dr5hn,city+state,Hangzhou,Zhejiang,CN
+hanoi,,vietnam,"hanoi, vietnam",105.84117,21.0245,geonames-cities500+dr5hn,city,Hanoi,Hanoi,VN
+hanover,new hampshire,usa,"hanover, new hampshire, usa",-72.28954,43.70229,geonames-cities500+dr5hn,city+state,Hanover,New Hampshire,US
+hanover,pennsylvania,usa,"hanover, pennsylvania, usa",-76.98304,39.80066,geonames-cities500+dr5hn,city+state,Hanover,Pennsylvania,US
+harare,,zimbabwe,"harare, zimbabwe",31.05337,-17.82772,geonames-cities500+dr5hn,city,Harare,Harare,ZW
+harbel,,liberia,"harbel, liberia",-10.35642,6.24683,geonames-cities500+dr5hn,city,Harbel,Margibi County,LR
+hardinxveld-giessendam,,netherlands,"hardinxveld-giessendam, netherlands",5.75,52.5,geonames-cities500+dr5hn,country,Netherlands,,NL
+hargeysa,,somalia,"hargeysa, somalia",44.065,9.56,geonames-cities500+dr5hn,city,Hargeysa,Woqooyi Galbeed,SO
+harrisonburg,virginia,usa,"harrisonburg, virginia, usa",-78.86892,38.44957,geonames-cities500+dr5hn,city+state,Harrisonburg,Virginia,US
+harrow,middlesex,uk,"harrow, middlesex, uk",-0.33208,51.57835,geonames-cities500+dr5hn,city,Harrow,England,GB
+hartford,connecticut,usa,"hartford, connecticut, usa",-72.68509,41.76371,geonames-cities500+dr5hn,city+state,Hartford,Connecticut,US
+haslev,,denmark,"haslev, denmark",11.96389,55.32346,geonames-cities500+dr5hn,city,Haslev,Zealand,DK
+hassan,karnataka,india,"hassan, karnataka, india",76.0962,13.00715,geonames-cities500+dr5hn,city+state,Hassan,Karnataka,IN
+havana,,cuba,"havana, cuba",-82.38304,23.13302,geonames-cities500+dr5hn,city,Havana,Havana,CU
+hawler,kurdistan,iraq,"hawler, kurdistan, iraq",44.00943,36.19117,geonames-cities500+dr5hn,city,Erbil,Erbil,IQ
+hazaribagh,jharkhand,india,"hazaribagh, jharkhand, india",85.36162,23.99241,geonames-cities500+dr5hn,city+state,Hazāribāgh,Jharkhand,IN
+hazlehurst,georgia,usa,"hazlehurst, georgia, usa",-82.5943,31.86963,geonames-cities500+dr5hn,city+state,Hazlehurst,Georgia,US
+hazleton,pennsylvania,usa,"hazleton, pennsylvania, usa",-75.97465,40.95842,geonames-cities500+dr5hn,city+state,Hazleton,Pennsylvania,US
+heist-op-den-berg,,belgium,"heist-op-den-berg, belgium",4.72827,51.07537,geonames-cities500+dr5hn,city,Heist-op-den-Berg,Flanders,BE
+helsinki,,finland,"helsinki, finland",24.93545,60.16952,geonames-cities500+dr5hn,city,Helsinki,Uusimaa,FI
+henley on thames,oxfordshire,uk,"henley on thames, oxfordshire, uk",-0.9,51.53333,geonames-cities500+dr5hn,city+state,Henley-on-Thames,England,GB
+herdecke,,germany,"herdecke, germany",7.43584,51.39999,geonames-cities500+dr5hn,city,Herdecke,North Rhine-Westphalia,DE
+herentals,,belgium,"herentals, belgium",4.83248,51.17655,geonames-cities500+dr5hn,city,Herentals,Flanders,BE
+hezuo,gansu,china,"hezuo, gansu, china",102.90944,34.98556,geonames-cities500+dr5hn,city+state,Hezuo,Gansu,CN
+hillsboro,oregon,usa,"hillsboro, oregon, usa",-122.98983,45.52289,geonames-cities500+dr5hn,city+state,Hillsboro,Oregon,US
+ho chi minh city,,vietnam,"ho chi minh city, vietnam",106.62965,10.82302,geonames-cities500+dr5hn,city,Ho Chi Minh City,Ho Chi Minh City (HCMC),VN
+hoffman estates,illinois,usa,"hoffman estates, illinois, usa",-88.0798,42.04281,geonames-cities500+dr5hn,city+state,Hoffman Estates,Illinois,US
+hohhot,inner mongolia,china,"hohhot, inner mongolia, china",111.65222,40.81056,geonames-cities500+dr5hn,city+state,Hohhot,Inner Mongolia,CN
+hola,,kenya,"hola, kenya",40.03341,-1.48256,geonames-cities500+dr5hn,city,Hola,Tana River County,KE
+hollister,california,usa,"hollister, california, usa",-121.4016,36.85245,geonames-cities500+dr5hn,city+state,Hollister,California,US
+hollywood,florida,usa,"hollywood, florida, usa",-80.14949,26.0112,geonames-cities500+dr5hn,city+state,Hollywood,Florida,US
+hong,adamawa,nigeria,"hong, adamawa, nigeria",12.38819,9.51298,geonames-cities500+dr5hn,state,Adamawa,,NG
+hong kong,,china,"hong kong, china",114.17469,22.27832,geonames-cities500+dr5hn,city,Hong Kong,,HK
+honiara,guadalcanal,solomon islands,"honiara, guadalcanal, solomon islands",159.95,-9.43333,geonames-cities500+dr5hn,city+state,Honiara,Honiara,SB
+honolulu,hawaii,usa,"honolulu, hawaii, usa",-157.85833,21.30694,geonames-cities500+dr5hn,city+state,Honolulu,Hawaii,US
+hopkinsville,kentucky,usa,"hopkinsville, kentucky, usa",-87.49117,36.86561,geonames-cities500+dr5hn,city+state,Hopkinsville,Kentucky,US
+horsens,,denmark,"horsens, denmark",9.85034,55.86066,geonames-cities500+dr5hn,city,Horsens,Central Jutland,DK
+hosanna,,ethiopia,"hosanna, ethiopia",38.0,8.0,geonames-cities500+dr5hn,country,Ethiopia,,ET
+hoshiarpur,,india,"hoshiarpur, india",75.91269,31.53723,geonames-cities500+dr5hn,city,Hoshiārpur,Punjab,IN
+hotan,xinjiang,china,"hotan, xinjiang, china",85.46335,42.4805,geonames-cities500+dr5hn,state,Xinjiang,,CN
+houston,texas,usa,"houston, texas, usa",-95.36327,29.76328,geonames-cities500+dr5hn,city+state,Houston,Texas,US
+hsinchu,,taiwan,"hsinchu, taiwan",120.96861,24.80361,geonames-cities500+dr5hn,city,Hsinchu,Taiwan,TW
+huai'an,jiangsu,china,"huai'an, jiangsu, china",119.01917,33.58861,geonames-cities500+dr5hn,city+state,Huai'an,Jiangsu,CN
+huanggang,hubei,china,"huanggang, hubei, china",114.87035,30.45143,geonames-cities500+dr5hn,city+state,Huanggang,Hubei,CN
+huangshan,anhui,china,"huangshan, anhui, china",118.3125,29.71139,geonames-cities500+dr5hn,city+state,Huangshan,Anhui,CN
+huanuco,provincia dos de mayo,peru,"huanuco, provincia dos de mayo, peru",-76.23989,-9.92882,geonames-cities500+dr5hn,city,Huánuco,Huánuco Department,PE
+hubballi,karnataka,india,"hubballi, karnataka, india",75.13378,15.34776,geonames-cities500+dr5hn,city+state,Hubballi,Karnataka,IN
+hucknall,"nottinghamshire, england",uk,"hucknall, nottinghamshire, england, uk",-1.2,53.03333,geonames-cities500+dr5hn,city+state,Hucknall,England,GB
+hudson,new york,usa,"hudson, new york, usa",-73.79096,42.25286,geonames-cities500+dr5hn,city+state,Hudson,New York,US
+hue,,vietnam,"hue, vietnam",107.59546,16.4619,geonames-cities500+dr5hn,city,Huế,Thừa Thiên Huế Province,VN
+huhot,nei meng gu,china,"huhot, nei meng gu, china",111.65222,40.81056,geonames-cities500+dr5hn,city,Hohhot,Inner Mongolia,CN
+hulshout,,belgium,"hulshout, belgium",4.79081,51.07451,geonames-cities500+dr5hn,city,Hulshout,Flanders,BE
+huron,south dakota,usa,"huron, south dakota, usa",-98.21426,44.36332,geonames-cities500+dr5hn,city+state,Huron,South Dakota,US
+hyderabad,,india,"hyderabad, india",78.45636,17.38405,geonames-cities500+dr5hn,city,Hyderabad,Telangana,IN
+hyderabad,andhra pradesh,india,"hyderabad, andhra pradesh, india",78.45636,17.38405,geonames-cities500+dr5hn,city+state,Hyderabad,Telangana,IN
+hyderabad,telangana,india,"hyderabad, telangana, india",78.45636,17.38405,geonames-cities500+dr5hn,city+state,Hyderabad,Telangana,IN
+ibadan,,nigeria,"ibadan, nigeria",3.90591,7.37756,geonames-cities500+dr5hn,city,Ibadan,Oyo State,NG
+ibadan,oyo,nigeria,"ibadan, oyo, nigeria",3.90591,7.37756,geonames-cities500+dr5hn,city+state,Ibadan,Oyo State,NG
+ica,,peru,"ica, peru",-75.73422,-14.07538,geonames-cities500+dr5hn,city,Ica,Ica,PE
+idaho falls,idaho,usa,"idaho falls, idaho, usa",-112.03414,43.46658,geonames-cities500+dr5hn,city+state,Idaho Falls,Idaho,US
+igoumenitsa,,greece,"igoumenitsa, greece",20.26728,39.50342,geonames-cities500+dr5hn,city,Igoumenítsa,Epirus,GR
+ilbague,,colombia,"ilbague, colombia",-75.20289,4.43573,geonames-cities500+dr5hn,city~,Ibagué,Tolima Department,CO
+imatra,,finland,"imatra, finland",28.75242,61.17185,geonames-cities500+dr5hn,city,Imatra,South Karelia,FI
+imo state,imo state,nigeria,"imo state, imo state, nigeria",8.0,10.0,geonames-cities500+dr5hn,country,Nigeria,,NG
+imphal,,india,"imphal, india",93.9442,24.80805,geonames-cities500+dr5hn,city,Imphal,Manipur,IN
+inchon,,south korea,"inchon, south korea",126.70515,37.45646,geonames-cities500+dr5hn,city~,Incheon,Incheon,KR
+ingolstadt,,germany,"ingolstadt, germany",11.42372,48.76508,geonames-cities500+dr5hn,city,Ingolstadt,Bavaria,DE
+innsbruck,,austria,"innsbruck, austria",11.39454,47.26266,geonames-cities500+dr5hn,city,Innsbruck,Tyrol,AT
+ioannina,,greece,"ioannina, greece",20.85187,39.66341,geonames-cities500+dr5hn,city,Ioánnina,Epirus,GR
+iowa city,iowa,usa,"iowa city, iowa, usa",-91.53017,41.66113,geonames-cities500+dr5hn,city+state,Iowa City,Iowa,US
+iquitos,,peru,"iquitos, peru",-73.2529,-3.74814,geonames-cities500+dr5hn,city,Iquitos,Loreto,PE
+irbid,,jordan,"irbid, jordan",35.85,32.55556,geonames-cities500+dr5hn,city,Irbid,Irbid,JO
+irvine,scotland,uk,"irvine, scotland, uk",-4.65508,55.6194,geonames-cities500+dr5hn,city+state,Irvine,Scotland,GB
+irving,texas,usa,"irving, texas, usa",-96.94889,32.81402,geonames-cities500+dr5hn,city+state,Irving,Texas,US
+islamabad,,pakistan,"islamabad, pakistan",73.04329,33.72148,geonames-cities500+dr5hn,city,Islamabad,Islamabad,PK
+isle of arran,scotland,uk,"isle of arran, scotland, uk",-5.21233,55.58145,geonames-cities500+dr5hn,city+state,Isle of Arran,Scotland,GB
+islmamabad,,pakistan,"islmamabad, pakistan",73.04329,33.72148,geonames-cities500+dr5hn,city~,Islamabad,Islamabad,PK
+istanbul,,turkey,"istanbul, turkey",28.94966,41.01384,geonames-cities500+dr5hn,city,Istanbul,Istanbul,TR
+izmail,,ukraine,"izmail, ukraine",28.83751,45.35058,geonames-cities500+dr5hn,city,Izmail,Odessa,UA
+izmir,,turkey,"izmir, turkey",27.13838,38.41273,geonames-cities500+dr5hn,city,İzmir,İzmir Province,TR
+jackson,tennessee,usa,"jackson, tennessee, usa",-88.81395,35.61452,geonames-cities500+dr5hn,city+state,Jackson,Tennessee,US
+jaipur,,india,"jaipur, india",75.78781,26.91962,geonames-cities500+dr5hn,city,Jaipur,Rajasthan,IN
+jakarta,,indonesia,"jakarta, indonesia",106.84513,-6.21462,geonames-cities500+dr5hn,city,Jakarta,Jakarta,ID
+jakarta,,indonesian,"jakarta, indonesian",106.84513,-6.21462,geonames-cities500+dr5hn,city,Jakarta,Jakarta,ID
+jalandhar,,india,"jalandhar, india",75.57917,31.32556,geonames-cities500+dr5hn,city,Jalandhar,Punjab,IN
+jalisco,,mexico,"jalisco, mexico",-91.97499,16.43033,geonames-cities500+dr5hn,city,Jalisco,Chiapas,MX
+jammu,kashmir,india,"jammu, kashmir, india",74.86167,32.73528,geonames-cities500+dr5hn,city+state,Jammu,Jammu and Kashmir,IN
+jamnagar,gujarat,india,"jamnagar, gujarat, india",70.06673,22.47292,geonames-cities500+dr5hn,city+state,Jamnagar,Gujarat,IN
+jamshedpur,jharkhand,india,"jamshedpur, jharkhand, india",86.18545,22.80278,geonames-cities500+dr5hn,city+state,Jamshedpur,Jharkhand,IN
+janow,,poland,"janow, poland",19.43258,50.72314,geonames-cities500+dr5hn,city,Janów,Silesia,PL
+jeffersonville,ohio,usa,"jeffersonville, ohio, usa",-83.56381,39.65367,geonames-cities500+dr5hn,city+state,Jeffersonville,Ohio,US
+jeonju,,south korea,"jeonju, south korea",127.14889,35.82194,geonames-cities500+dr5hn,city,Jeonju,Jeollabuk-do,KR
+jerez de la frontera,,spain,"jerez de la frontera, spain",-6.13606,36.68645,geonames-cities500+dr5hn,city,Jerez de la Frontera,Andalusia,ES
+jersey city,new jersey,usa,"jersey city, new jersey, usa",-74.07764,40.72816,geonames-cities500+dr5hn,city+state,Jersey City,New Jersey,US
+jerusalem,,israel,"jerusalem, israel",35.21633,31.76904,geonames-cities500+dr5hn,city,Jerusalem,Jerusalem,IL
+jianchuan,yunnan,china,"jianchuan, yunnan, china",102.0,25.0,geonames-cities500+dr5hn,state,Yunnan,,CN
+jiaozuo,henan,china,"jiaozuo, henan, china",113.23914,35.23925,geonames-cities500+dr5hn,city+state,Jiaozuo,Henan,CN
+jiddah,,saudi arabia,"jiddah, saudi arabia",39.18624,21.49012,geonames-cities500+dr5hn,city,Jeddah,Mecca Region,SA
+jilandhar,punjab,india,"jilandhar, punjab, india",75.57917,31.32556,geonames-cities500+dr5hn,city~,Jalandhar,Punjab,IN
+jilin city,jilin,china,"jilin city, jilin, china",126.5608,43.84652,geonames-cities500+dr5hn,city+state,Jilin,Jilin,CN
+jingjiang,jiangsu,china,"jingjiang, jiangsu, china",120.0,33.0,geonames-cities500+dr5hn,state,Jiangsu,,CN
+jingmen,hubei,china,"jingmen, hubei, china",112.20472,31.03361,geonames-cities500+dr5hn,city+state,Jingmen,Hubei,CN
+jining,inner mongolia,china,"jining, inner mongolia, china",113.10583,41.0275,geonames-cities500+dr5hn,city+state,Jining,Inner Mongolia,CN
+jiujiang,jiangxi,china,"jiujiang, jiangxi, china",116.00206,29.70475,geonames-cities500+dr5hn,city+state,Jiujiang,Jiangxi,CN
+joensuu,,finland,"joensuu, finland",29.76316,62.60118,geonames-cities500+dr5hn,city,Joensuu,North Karelia,FI
+johor bahru,,malaysia,"johor bahru, malaysia",103.7578,1.4655,geonames-cities500+dr5hn,city,Johor Bahru,Johor,MY
+johor bahru,johor,malaysia,"johor bahru, johor, malaysia",103.7578,1.4655,geonames-cities500+dr5hn,city+state,Johor Bahru,Johor,MY
+juarez,,mexico,"juarez, mexico",-93.19253,17.60747,geonames-cities500+dr5hn,city,Juárez,Chiapas,MX
+juiz de fora,,brazil,"juiz de fora, brazil",-43.35028,-21.76417,geonames-cities500+dr5hn,city,Juiz de Fora,Minas Gerais,BR
+julfa,,azerbaijan,"julfa, azerbaijan",45.69497,39.14114,geonames-cities500+dr5hn,state,Julfa,,AZ
+kabinda,,democratic republic of congo,"kabinda, democratic republic of congo",24.48179,-6.13791,geonames-cities500+dr5hn,city,Kabinda,Lomami,CD
+kabul,,afghanistan,"kabul, afghanistan",69.17233,34.52813,geonames-cities500+dr5hn,city,Kabul,Kabul,AF
+kabul,kandahar,afghanistan,"kabul, kandahar, afghanistan",69.18491,34.52664,geonames-cities500+dr5hn,state,Kabul,,AF
+kabul,zoroastrian,afghanistan,"kabul, zoroastrian, afghanistan",69.17233,34.52813,geonames-cities500+dr5hn,city,Kabul,Kabul,AF
+kadapa,,india,"kadapa, india",78.82346,14.47995,geonames-cities500+dr5hn,city,Kadapa,Andhra Pradesh,IN
+kaduna,,nigeria,"kaduna, nigeria",7.43879,10.52641,geonames-cities500+dr5hn,city,Kaduna,Kaduna State,NG
+kafanchan,,nigeria,"kafanchan, nigeria",8.2926,9.58126,geonames-cities500+dr5hn,city,Kafanchan,Kaduna State,NG
+kaiserslautern,,germany,"kaiserslautern, germany",7.77161,49.443,geonames-cities500+dr5hn,city,Kaiserslautern,Rheinland-Pfalz,DE
+kalamare,,botswana,"kalamare, botswana",26.57032,-22.93369,geonames-cities500+dr5hn,city,Kalamare,Central,BW
+kaltungo,gombe,nigeria,"kaltungo, gombe, nigeria",11.30871,9.81998,geonames-cities500+dr5hn,city+state,Kaltungo,Gombe State,NG
+kampala,,uganda,"kampala, uganda",32.58219,0.31628,geonames-cities500+dr5hn,city,Kampala,Central Region,UG
+kampong speu,,cambodia,"kampong speu, cambodia",104.52085,11.45332,geonames-cities500+dr5hn,city,Kampong Speu,Kampong Speu Province,KH
+kandahar,,afghanistan,"kandahar, afghanistan",65.71013,31.61332,geonames-cities500+dr5hn,city,Kandahār,Kandahar,AF
+kandalaksha,murmanskaya,russia,"kandalaksha, murmanskaya, russia",32.41284,67.15123,geonames-cities500+dr5hn,city+state,Kandalaksha,Murmansk,RU
+kannur,,india,"kannur, india",75.35763,11.86752,geonames-cities500+dr5hn,city,Kannur,Kerala,IN
+kano,,nigeria,"kano, nigeria",8.51672,12.00012,geonames-cities500+dr5hn,city,Kano,Kano State,NG
+kansas city,kansas,usa,"kansas city, kansas, usa",-94.62746,39.11417,geonames-cities500+dr5hn,city+state,Kansas City,Kansas,US
+kansas city,missouri,usa,"kansas city, missouri, usa",-94.57857,39.09973,geonames-cities500+dr5hn,city+state,Kansas City,Missouri,US
+kao-hsiung,,taiwan,"kao-hsiung, taiwan",120.31333,22.61626,geonames-cities500+dr5hn,city~,Kaohsiung,Takao,TW
+kaohsiung,,taiwan,"kaohsiung, taiwan",120.31333,22.61626,geonames-cities500+dr5hn,city,Kaohsiung,Takao,TW
+karachi,,pakistan,"karachi, pakistan",67.0104,24.8608,geonames-cities500+dr5hn,city,Karachi,Sindh,PK
+karachi,sind,pakistan,"karachi, sind, pakistan",67.0104,24.8608,geonames-cities500+dr5hn,city+state,Karachi,Sindh,PK
+karaganda,,kazakhstan,"karaganda, kazakhstan",74.18113,49.17673,geonames-cities500+dr5hn,state,Karaganda,,KZ
+kargali,tatarstan,russia,"kargali, tatarstan, russia",50.47636,55.44822,geonames-cities500+dr5hn,state,Tatarstan,,RU
+karlstad,,sweden,"karlstad, sweden",13.50357,59.3793,geonames-cities500+dr5hn,city,Karlstad,Värmland,SE
+karprenici,,greece,"karprenici, greece",22.0,39.0,geonames-cities500+dr5hn,country,Greece,,GR
+kars,,turkey,"kars, turkey",43.08548,40.59825,geonames-cities500+dr5hn,city,Kars,Kars Province,TR
+karwar,karnataka,india,"karwar, karnataka, india",74.12972,14.81361,geonames-cities500+dr5hn,city+state,Karwar,Karnataka,IN
+kasaragod,kerala,india,"kasaragod, kerala, india",74.98959,12.49838,geonames-cities500+dr5hn,city+state,Kāsaragod,Kerala,IN
+kashgar,,china,"kashgar, china",75.98675,39.46718,geonames-cities500+dr5hn,city,Kashgar,Xinjiang,CN
+kathmandu,,nepal,"kathmandu, nepal",85.3206,27.70169,geonames-cities500+dr5hn,city,Kathmandu,Bagmati Province,NP
+katsina,,nigeria,"katsina, nigeria",7.60177,12.99082,geonames-cities500+dr5hn,city,Katsina,Katsina State,NG
+katunayake,,sri lanka,"katunayake, sri lanka",79.88837,7.16992,geonames-cities500+dr5hn,city~,Katunayaka,Western Province,LK
+kauhava,,finland,"kauhava, finland",23.07129,63.10299,geonames-cities500+dr5hn,city,Kauhava,South Ostrobothnia,FI
+kaunas,,lithuania,"kaunas, lithuania",23.90909,54.90156,geonames-cities500+dr5hn,city,Kaunas,Kaunas,LT
+kawasaki,,japan,"kawasaki, japan",139.71722,35.52056,geonames-cities500+dr5hn,city,Kawasaki,Kanagawa,JP
+kayseri,,turkey,"kayseri, turkey",35.48528,38.73222,geonames-cities500+dr5hn,city,Kayseri,Kayseri,TR
+kediri,java,indonesia,"kediri, java, indonesia",112.01667,-7.81667,geonames-cities500+dr5hn,city+state,Kediri,East Java,ID
+kells,meath,ireland,"kells, meath, ireland",-6.87917,53.72639,geonames-cities500+dr5hn,city+state,Kells,Leinster,IE
+kenitra,,morocco,"kenitra, morocco",-6.5802,34.26101,geonames-cities500+dr5hn,city,Kenitra,Rabat-Salé-Kénitra,MA
+kerala state,kerala state,india,"kerala state, kerala state, india",76.51204,10.35287,geonames-cities500+dr5hn,state,Kerala,,IN
+kerma,,sudan,"kerma, sudan",30.0,15.0,geonames-cities500+dr5hn,country,Sudan,,SD
+kerman,,iran,"kerman, iran",57.07879,30.28321,geonames-cities500+dr5hn,city,Kerman,Kerman,IR
+kerugoya,,kenya,"kerugoya, kenya",37.28031,-0.49887,geonames-cities500+dr5hn,city,Kerugoya,Kirinyaga County,KE
+ketrzyn,,poland,"ketrzyn, poland",21.37527,54.07676,geonames-cities500+dr5hn,city,Kętrzyn,Warmia-Masuria,PL
+khabarovsk,,russia,"khabarovsk, russia",135.0971,48.46204,geonames-cities500+dr5hn,city,Khabarovsk,Khabarovsk,RU
+khamba,,tibet,"khamba, tibet",105.0,35.0,geonames-cities500+dr5hn,country,China,,CN
+khammam,telangana,india,"khammam, telangana, india",80.14368,17.24767,geonames-cities500+dr5hn,city+state,Khammam,Telangana,IN
+khartoum,,sudan,"khartoum, sudan",32.53241,15.55177,geonames-cities500+dr5hn,city,Khartoum,Khartoum,SD
+khistevarz,,tajikistan,"khistevarz, tajikistan",71.0,39.0,geonames-cities500+dr5hn,country,Tajikistan,,TJ
+khombole,,senegal,"khombole, senegal",-16.6916,14.76361,geonames-cities500+dr5hn,city,Khombole,Thiès,SN
+khon kaen,,thailand,"khon kaen, thailand",102.833,16.44671,geonames-cities500+dr5hn,city,Khon Kaen,Khon Kaen,TH
+khoramshahr,khuzestan,iran,"khoramshahr, khuzestan, iran",48.18428,30.44079,geonames-cities500+dr5hn,city~,Khorramshahr,Khuzestan,IR
+khorramshahr,khuzestan,iran,"khorramshahr, khuzestan, iran",48.18428,30.44079,geonames-cities500+dr5hn,city+state,Khorramshahr,Khuzestan,IR
+khouribga,,morocco,"khouribga, morocco",-6.9063,32.88108,geonames-cities500+dr5hn,city,Khouribga,Béni Mellal-Khénifra,MA
+khujand,,tajikistan,"khujand, tajikistan",69.62216,40.28256,geonames-cities500+dr5hn,city,Khujand,Sughd,TJ
+kiev,,ukraine,"kiev, ukraine",30.5238,50.45466,geonames-cities500+dr5hn,city,Kyiv,Kyiv City,UA
+kigoma,,tanzania,"kigoma, tanzania",29.62667,-4.87694,geonames-cities500+dr5hn,city,Kigoma,Kigoma,TZ
+kilkenny,,ireland,"kilkenny, ireland",-7.25222,52.65417,geonames-cities500+dr5hn,city,Kilkenny,Leinster,IE
+kimpo,,south korea,"kimpo, south korea",127.5,37.0,geonames-cities500+dr5hn,country,South Korea,,KR
+kimulaza,uige,angola,"kimulaza, uige, angola",15.47992,-6.95168,geonames-cities500+dr5hn,state,Uíge,,AO
+king george,virginia,usa,"king george, virginia, usa",-77.18442,38.26818,geonames-cities500+dr5hn,city+state,King George,Virginia,US
+kingston,,jamaica,"kingston, jamaica",-76.79358,17.99702,geonames-cities500+dr5hn,city,Kingston,Kingston,JM
+kingston ma,massachusetts,usa,"kingston ma, massachusetts, usa",-70.72448,41.99455,geonames-cities500+dr5hn,city+state,Kingston,Massachusetts,US
+kingstree,south carolina,usa,"kingstree, south carolina, usa",-79.83063,33.66766,geonames-cities500+dr5hn,city+state,Kingstree,South Carolina,US
+kinshasa,,democratic republic of congo,"kinshasa, democratic republic of congo",15.31357,-4.32758,geonames-cities500+dr5hn,city,Kinshasa,Kinshasa,CD
+kirkland,washington,usa,"kirkland, washington, usa",-122.20874,47.68149,geonames-cities500+dr5hn,city+state,Kirkland,Washington,US
+kirkuk,,iraq,"kirkuk, iraq",44.39222,35.46806,geonames-cities500+dr5hn,city,Kirkuk,Kirkuk,IQ
+kirov,kirovskaya,russia,"kirov, kirovskaya, russia",49.65783,58.59809,geonames-cities500+dr5hn,city,Kirov,Kirov Oblast,RU
+kisii,,kenya,"kisii, kenya",34.76666,-0.68174,geonames-cities500+dr5hn,city,Kisii,Kisii County,KE
+klaipeda,,lithuania,"klaipeda, lithuania",21.13912,55.7068,geonames-cities500+dr5hn,city,Klaipėda,Klaipėda County,LT
+klando,,czech republic,"klando, czech republic",15.5,49.75,geonames-cities500+dr5hn,country,Czech Republic,,CZ
+knoxville,tennessee,usa,"knoxville, tennessee, usa",-83.92074,35.96064,geonames-cities500+dr5hn,city+state,Knoxville,Tennessee,US
+kobe,,japan,"kobe, japan",135.183,34.6913,geonames-cities500+dr5hn,city,Kobe,Hyōgo,JP
+kocaeli,,turkey,"kocaeli, turkey",27.51145,39.62497,geonames-cities500+dr5hn,city,Kocaeli,Balıkesir,TR
+kofu,yamanashi prefecture,japan,"kofu, yamanashi prefecture, japan",138.56667,35.66667,geonames-cities500+dr5hn,city+state,Kofu,Yamanashi,JP
+kohtla-jarve,,estonia,"kohtla-jarve, estonia",27.27306,59.39861,geonames-cities500+dr5hn,city,Kohtla-Järve,Ida-Virumaa,EE
+kokshetau,,kazakhstan,"kokshetau, kazakhstan",69.39364,53.28414,geonames-cities500+dr5hn,city,Kokshetau,Aqmola,KZ
+kolkata,,india,"kolkata, india",88.36304,22.56263,geonames-cities500+dr5hn,city,Kolkata,West Bengal,IN
+kolkata,west bengal,india,"kolkata, west bengal, india",88.36304,22.56263,geonames-cities500+dr5hn,city+state,Kolkata,West Bengal,IN
+kolobrzeg,,poland,"kolobrzeg, poland",15.58342,54.17565,geonames-cities500+dr5hn,city,Kołobrzeg,West Pomerania,PL
+kolonia,pohnpei,federated states of micronesia,"kolonia, pohnpei, federated states of micronesia",158.2062,6.964,geonames-cities500+dr5hn,city+state,Kolonia,Pohnpei State,FM
+komaki,,japan,"komaki, japan",136.91667,35.28333,geonames-cities500+dr5hn,city,Komaki,Aichi,JP
+komsomolsk-on-amur,,russia,"komsomolsk-on-amur, russia",137.00995,50.55034,geonames-cities500+dr5hn,city,Komsomolsk-on-Amur,Khabarovsk,RU
+konibodom,,tajikistan,"konibodom, tajikistan",70.43122,40.29414,geonames-cities500+dr5hn,city,Konibodom,Sughd,TJ
+kono,,sierra leone,"kono, sierra leone",-11.5,8.5,geonames-cities500+dr5hn,country,Sierra Leone,,SL
+koronadal,,philippines,"koronadal, philippines",124.84694,6.50306,geonames-cities500+dr5hn,city,Koronadal,Soccsksargen,PH
+kosice,,slovak republic,"kosice, slovak republic",21.25802,48.71441,geonames-cities500+dr5hn,city,Košice,Košice Region,SK
+kostanai,,kazakhstan,"kostanai, kazakhstan",63.62463,53.21435,geonames-cities500+dr5hn,city~,Kostanay,Qostanay,KZ
+koszalin,,poland,"koszalin, poland",16.17222,54.19438,geonames-cities500+dr5hn,city,Koszalin,West Pomerania,PL
+kot kapura,,india,"kot kapura, india",74.82609,30.58061,geonames-cities500+dr5hn,city,Kot Kapūra,Punjab,IN
+kota kinabalu,,malaysia,"kota kinabalu, malaysia",116.0724,5.9749,geonames-cities500+dr5hn,city,Kota Kinabalu,Sabah,MY
+kotorsko,,bosnia and herzegovina,"kotorsko, bosnia and herzegovina",18.0,44.0,geonames-cities500+dr5hn,country,Bosnia and Herzegovina,,BA
+koussi,,senegal,"koussi, senegal",-14.0,14.0,geonames-cities500+dr5hn,country,Senegal,,SN
+kragujevac,,serbia,"kragujevac, serbia",20.91667,44.01667,geonames-cities500+dr5hn,city,Kragujevac,Central Serbia,RS
+krakow,,poland,"krakow, poland",19.93658,50.06143,geonames-cities500+dr5hn,city,Kraków,Lesser Poland,PL
+kraljevo,,serbia,"kraljevo, serbia",20.68944,43.72583,geonames-cities500+dr5hn,city,Kraljevo,Central Serbia,RS
+krasnodar,,russia,"krasnodar, russia",38.98178,45.04534,geonames-cities500+dr5hn,city,Krasnodar,Krasnodar Krai,RU
+krasnoyarsk,,russia,"krasnoyarsk, russia",92.93136,56.03742,geonames-cities500+dr5hn,city,Krasnoyarsk,Krasnoyarsk Krai,RU
+krinkrin,rio coco,nicaragua,"krinkrin, rio coco, nicaragua",-85.0,13.0,geonames-cities500+dr5hn,country,Nicaragua,,NI
+kuala lumpur,,malaysia,"kuala lumpur, malaysia",101.68653,3.1412,geonames-cities500+dr5hn,city,Kuala Lumpur,Kuala Lumpur,MY
+kuching,sarawak,malaysia,"kuching, sarawak, malaysia",110.33333,1.55,geonames-cities500+dr5hn,city+state,Kuching,Sarawak,MY
+kum,rio coco,nicaragua,"kum, rio coco, nicaragua",-85.0,13.0,geonames-cities500+dr5hn,country,Nicaragua,,NI
+kumasi,,ghana,"kumasi, ghana",-1.62443,6.68848,geonames-cities500+dr5hn,city,Kumasi,Ashanti,GH
+kuningan,,indonesia,"kuningan, indonesia",108.48306,-6.97583,geonames-cities500+dr5hn,city,Kuningan,West Java,ID
+kunming,yunnan,china,"kunming, yunnan, china",102.71833,25.03889,geonames-cities500+dr5hn,city+state,Kunming,Yunnan,CN
+kupang,,indonesia,"kupang, indonesia",123.60694,-10.17083,geonames-cities500+dr5hn,city,Kupang,East Nusa Tenggara,ID
+kutch,gujarat,india,"kutch, gujarat, india",71.74526,22.38501,geonames-cities500+dr5hn,state,Gujarat,,IN
+kuwait city,,kuwait,"kuwait city, kuwait",47.97429,29.367,geonames-cities500+dr5hn,city,Kuwait City,Al Asimah,KW
+kyiv,,ukraine,"kyiv, ukraine",30.5238,50.45466,geonames-cities500+dr5hn,city,Kyiv,Kyiv City,UA
+kyoto,,japan,"kyoto, japan",135.75385,35.02107,geonames-cities500+dr5hn,city,Kyoto,Kyoto,JP
+kyustendil,,bulgaria,"kyustendil, bulgaria",22.69224,42.28314,geonames-cities500+dr5hn,city,Kyustendil,Kyustendil,BG
+la ceiba,,honduras,"la ceiba, honduras",-86.78221,15.75971,geonames-cities500+dr5hn,city,La Ceiba,Atlántida Department,HN
+la chaux-de-fonds,,switzerland,"la chaux-de-fonds, switzerland",6.82586,47.09993,geonames-cities500+dr5hn,city,La Chaux-de-Fonds,Neuchâtel,CH
+la coruna,,spain,"la coruna, spain",-8.396,43.37135,geonames-cities500+dr5hn,city~,A Coruña,Galicia,ES
+la grange,georgia,usa,"la grange, georgia, usa",-85.03133,33.03929,geonames-cities500+dr5hn,city~,LaGrange,Georgia,US
+la massana,,andorra,"la massana, andorra",1.51483,42.54499,geonames-cities500+dr5hn,city,la Massana,La Massana,AD
+la paz,,bolivia,"la paz, bolivia",-68.15,-16.5,geonames-cities500+dr5hn,city,La Paz,La Paz Department,BO
+la romana,,dominican republic,"la romana, dominican republic",-68.96635,18.42332,geonames-cities500+dr5hn,city,La Romana,La Romana,DO
+la serena,,chile,"la serena, chile",-71.25014,-29.90591,geonames-cities500+dr5hn,city,La Serena,Coquimbo Region,CL
+la union,,el salvador,"la union, el salvador",-87.84328,13.33915,geonames-cities500+dr5hn,city,La Unión,La Unión,SV
+laayoune,,morocco,"laayoune, morocco",-13.19908,27.15004,geonames-cities500+dr5hn,state,Laâyoune (EH),,MA
+lagos,,nigeria,"lagos, nigeria",3.39467,6.45407,geonames-cities500+dr5hn,city,Lagos,Lagos,NG
+lahore,,pakistan,"lahore, pakistan",74.35071,31.558,geonames-cities500+dr5hn,city,Lahore,Punjab,PK
+lahti,,finland,"lahti, finland",25.66151,60.98267,geonames-cities500+dr5hn,city,Lahti,Paijat-Hame,FI
+lakeland,florida,usa,"lakeland, florida, usa",-81.9498,28.03947,geonames-cities500+dr5hn,city+state,Lakeland,Florida,US
+lakeview,michigan,usa,"lakeview, michigan, usa",-85.2111,42.29838,geonames-cities500+dr5hn,city+state,Lakeview,Michigan,US
+lakselv,,norway,"lakselv, norway",24.97182,70.05133,geonames-cities500+dr5hn,city,Lakselv,Finnmark,NO
+lamas,,peru,"lamas, peru",-76.53333,-6.41667,geonames-cities500+dr5hn,city,Lamas,San Martín Department,PE
+lamentin,,martinique,"lamentin, martinique",-61.0,14.66667,geonames-cities500+dr5hn,country,Martinique,,MQ
+lamotrek island,,federated states of micronesia,"lamotrek island, federated states of micronesia",158.25,6.91667,geonames-cities500+dr5hn,country,Micronesia,,FM
+lancashire,leyland,uk,"lancashire, leyland, uk",-2.56509,53.86117,geonames-cities500+dr5hn,state,Lancashire,,GB
+lancaster,california,usa,"lancaster, california, usa",-118.13674,34.69804,geonames-cities500+dr5hn,city+state,Lancaster,California,US
+lancaster,pennsylvania,usa,"lancaster, pennsylvania, usa",-76.30551,40.03788,geonames-cities500+dr5hn,city+state,Lancaster,Pennsylvania,US
+landerneau,brittany,france,"landerneau, brittany, france",-4.25175,48.4515,geonames-cities500+dr5hn,city+state,Landerneau,Brittany,FR
+landstuhl,,germany,"landstuhl, germany",7.57021,49.41306,geonames-cities500+dr5hn,city,Landstuhl,Rheinland-Pfalz,DE
+langfang,hebei,china,"langfang, hebei, china",116.71471,39.52079,geonames-cities500+dr5hn,city+state,Langfang,Hebei,CN
+lansing,michigan,usa,"lansing, michigan, usa",-84.55553,42.73253,geonames-cities500+dr5hn,city+state,Lansing,Michigan,US
+lanzhou,gansu,china,"lanzhou, gansu, china",103.83987,36.05701,geonames-cities500+dr5hn,city+state,Lanzhou,Gansu,CN
+las cruces,new mexico,usa,"las cruces, new mexico, usa",-106.77834,32.31232,geonames-cities500+dr5hn,city+state,Las Cruces,New Mexico,US
+las palmas,oaxaca,mexico,"las palmas, oaxaca, mexico",-97.04944,16.13944,geonames-cities500+dr5hn,city+state,Las Palmas,Oaxaca,MX
+las pinas,,philippines,"las pinas, philippines",120.98278,14.45056,geonames-cities500+dr5hn,city,Las Piñas,Metro Manila,PH
+launceston,tasmania,australia,"launceston, tasmania, australia",147.13467,-41.43876,geonames-cities500+dr5hn,city+state,Launceston,Tasmania,AU
+laurel,mississippi,usa,"laurel, mississippi, usa",-89.13061,31.69405,geonames-cities500+dr5hn,city+state,Laurel,Mississippi,US
+laurinburg,north carolina,usa,"laurinburg, north carolina, usa",-79.46282,34.77405,geonames-cities500+dr5hn,city+state,Laurinburg,North Carolina,US
+lautem,,timor-leste,"lautem, timor-leste",126.82587,-8.43351,geonames-cities500+dr5hn,state,Lautém,,TL
+lawrenceville,georgia,usa,"lawrenceville, georgia, usa",-83.98796,33.95621,geonames-cities500+dr5hn,city+state,Lawrenceville,Georgia,US
+le shan,sichuan,china,"le shan, sichuan, china",103.76386,29.56227,geonames-cities500+dr5hn,city~,Leshan,Sichuan,CN
+leeds,,uk,"leeds, uk",-1.54785,53.79648,geonames-cities500+dr5hn,city,Leeds,England,GB
+leesburg,virginia,usa,"leesburg, virginia, usa",-77.5636,39.11566,geonames-cities500+dr5hn,city+state,Leesburg,Virginia,US
+legaspi,,philippines,"legaspi, philippines",123.74073,13.14125,geonames-cities500+dr5hn,city,Legaspi,Bicol Region,PH
+leicester,,uk,"leicester, uk",-1.13169,52.6386,geonames-cities500+dr5hn,city,Leicester,England,GB
+leighton buzzard,,uk,"leighton buzzard, uk",-0.65802,51.91722,geonames-cities500+dr5hn,city,Leighton Buzzard,England,GB
+leipzig,,germany,"leipzig, germany",12.37129,51.33962,geonames-cities500+dr5hn,city,Leipzig,Saxony,DE
+lemington spa,warwickshire,uk,"lemington spa, warwickshire, uk",-1.55369,52.32131,geonames-cities500+dr5hn,state,Warwickshire,,GB
+leon,,nicaragua,"leon, nicaragua",-86.87862,12.43527,geonames-cities500+dr5hn,city,León,León Department,NI
+lewistown,pennsylvania,usa,"lewistown, pennsylvania, usa",-77.57138,40.59924,geonames-cities500+dr5hn,city+state,Lewistown,Pennsylvania,US
+lewisville,texas,usa,"lewisville, texas, usa",-96.99417,33.04623,geonames-cities500+dr5hn,city+state,Lewisville,Texas,US
+leworook,nusa tenggara,indonesia,"leworook, nusa tenggara, indonesia",120.0,-8.5,geonames-cities500+dr5hn,state,Nusa Tenggara,,ID
+lhasa,,tibet,"lhasa, tibet",91.1,29.65,geonames-cities500+dr5hn,city+state,Lhasa,Tibet,CN
+libertyville,illinois,usa,"libertyville, illinois, usa",-87.95313,42.28308,geonames-cities500+dr5hn,city+state,Libertyville,Illinois,US
+lidkoping,,sweden,"lidkoping, sweden",13.15765,58.50517,geonames-cities500+dr5hn,city,Lidköping,Västra Götaland,SE
+liege,wallonia,belgium,"liege, wallonia, belgium",5.56749,50.63373,geonames-cities500+dr5hn,city+state,Liège,Wallonia,BE
+lima,,peru,"lima, peru",-77.02824,-12.04318,geonames-cities500+dr5hn,city,Lima,Lima Province,PE
+limerick,,ireland,"limerick, ireland",-8.62306,52.66472,geonames-cities500+dr5hn,city,Limerick,Munster,IE
+limoges,,france,"limoges, france",1.24759,45.83362,geonames-cities500+dr5hn,city,Limoges,Nouvelle-Aquitaine,FR
+lindenhurst,new york,usa,"lindenhurst, new york, usa",-73.37345,40.68677,geonames-cities500+dr5hn,city+state,Lindenhurst,New York,US
+lindsay,ontario,canada,"lindsay, ontario, canada",-78.73286,44.35012,geonames-cities500+dr5hn,city+state,Lindsay,Ontario,CA
+lisbon,,portugal,"lisbon, portugal",-9.1498,38.72509,geonames-cities500+dr5hn,city,Lisbon,Lisbon,PT
+lismore,new south wales,australia,"lismore, new south wales, australia",153.2773,-28.81354,geonames-cities500+dr5hn,city+state,Lismore,New South Wales,AU
+littlehampton,,uk,"littlehampton, uk",-0.54078,50.81137,geonames-cities500+dr5hn,city,Littlehampton,England,GB
+ljubljana,,slovenia,"ljubljana, slovenia",14.50513,46.05108,geonames-cities500+dr5hn,city,Ljubljana,Ljubljana,SI
+lobatse,,botswana,"lobatse, botswana",25.67728,-25.22435,geonames-cities500+dr5hn,city,Lobatse,Lobatse,BW
+lobez,,poland,"lobez, poland",15.62129,53.63918,geonames-cities500+dr5hn,city,Łobez,West Pomerania,PL
+loja,,ecuador,"loja, ecuador",-79.20422,-3.99313,geonames-cities500+dr5hn,city,Loja,Loja,EC
+lome,,togo,"lome, togo",1.22154,6.12874,geonames-cities500+dr5hn,city,Lomé,Maritime,TG
+london,,uk,"london, uk",-0.12574,51.50853,geonames-cities500+dr5hn,city,London,England,GB
+london,england,uk,"london, england, uk",-0.12574,51.50853,geonames-cities500+dr5hn,city+state,London,England,GB
+londonderry,northern ireland,uk,"londonderry, northern ireland, uk",-6.95916,54.58598,geonames-cities500+dr5hn,state,Northern Ireland,,GB
+long an,,vietnam,"long an, vietnam",107.83333,16.16667,geonames-cities500+dr5hn,country,Vietnam,,VN
+long tieng,,laos,"long tieng, laos",105.0,18.0,geonames-cities500+dr5hn,country,Laos,,LA
+long xuyen,,vietnam,"long xuyen, vietnam",105.43518,10.38639,geonames-cities500+dr5hn,city,Long Xuyên,An Giang,VN
+los angeles,california,usa,"los angeles, california, usa",-118.24368,34.05223,geonames-cities500+dr5hn,city+state,Los Angeles,California,US
+los mochis,sinaloa,mexico,"los mochis, sinaloa, mexico",-108.99825,25.79097,geonames-cities500+dr5hn,city+state,Los Mochis,Sinaloa,MX
+louangphabang,,laos,"louangphabang, laos",102.1525,19.8933,geonames-cities500+dr5hn,city,Luang Prabang,Luang Prabang Province,LA
+loudi,hunan,china,"loudi, hunan, china",111.99444,27.73444,geonames-cities500+dr5hn,city+state,Loudi,Hunan,CN
+louisville,kentucky,usa,"louisville, kentucky, usa",-85.75941,38.25424,geonames-cities500+dr5hn,city+state,Louisville,Kentucky,US
+luanda,,angola,"luanda, angola",13.23432,-8.83682,geonames-cities500+dr5hn,city,Luanda,Luanda,AO
+lubango,,angola,"lubango, angola",13.4925,-14.91717,geonames-cities500+dr5hn,city,Lubango,Huíla,AO
+lucerne,,switzerland,"lucerne, switzerland",8.17196,47.09082,geonames-cities500+dr5hn,state,Lucerne,,CH
+ludhiana,,india,"ludhiana, india",75.85379,30.91204,geonames-cities500+dr5hn,city,Ludhiana,Punjab,IN
+luhansk,,ukraine,"luhansk, ukraine",39.30553,48.56814,geonames-cities500+dr5hn,city,Luhansk,Luhansk,UA
+lulea,,sweden,"lulea, sweden",22.15465,65.58415,geonames-cities500+dr5hn,city,Luleå,Norrbotten,SE
+lumberton,north carolina,usa,"lumberton, north carolina, usa",-79.01045,34.61834,geonames-cities500+dr5hn,city+state,Lumberton,North Carolina,US
+luoyang,henan,china,"luoyang, henan, china",112.43684,34.67345,geonames-cities500+dr5hn,city+state,Luoyang,Henan,CN
+lusaka,,zambia,"lusaka, zambia",28.28713,-15.40669,geonames-cities500+dr5hn,city,Lusaka,Lusaka Province,ZM
+luxembourg,,luxembourg,"luxembourg, luxembourg",6.13268,49.60982,geonames-cities500+dr5hn,city,Luxembourg,Luxembourg,LU
+lviv,,ukraine,"lviv, ukraine",24.02324,49.83826,geonames-cities500+dr5hn,city,Lviv,Lviv,UA
+lvivska oblast,,ukraine,"lvivska oblast, ukraine",23.82669,49.65122,geonames-cities500+dr5hn,state,Lvivska,,UA
+lyndhurst,virginia,usa,"lyndhurst, virginia, usa",-78.94502,38.0293,geonames-cities500+dr5hn,city+state,Lyndhurst,Virginia,US
+lynwood,california,usa,"lynwood, california, usa",-118.21146,33.93029,geonames-cities500+dr5hn,city+state,Lynwood,California,US
+macau,,china,"macau, china",113.54611,22.20056,geonames-cities500+dr5hn,city,Macau,,MO
+macon,mississippi,usa,"macon, mississippi, usa",-88.56088,33.1054,geonames-cities500+dr5hn,city+state,Macon,Mississippi,US
+madang,madang province,papua new guinea,"madang, madang province, papua new guinea",145.78695,-5.22152,geonames-cities500+dr5hn,city+state,Madang,Madang Province,PG
+madison,wisconsin,usa,"madison, wisconsin, usa",-89.40123,43.07305,geonames-cities500+dr5hn,city+state,Madison,Wisconsin,US
+madras,,india,"madras, india",80.27847,13.08784,geonames-cities500+dr5hn,city,Chennai,Tamil Nadu,IN
+madras,tamil nadu,india,"madras, tamil nadu, india",80.27847,13.08784,geonames-cities500+dr5hn,city+state,Chennai,Tamil Nadu,IN
+madrid,,spain,"madrid, spain",-3.70256,40.4165,geonames-cities500+dr5hn,city,Madrid,Madrid,ES
+mae suai,chiang rai,thailand,"mae suai, chiang rai, thailand",99.87617,20.43353,geonames-cities500+dr5hn,city~,Mae Sai,Chiang Rai,TH
+maine,,niger,"maine, niger",12.0241,13.21139,geonames-cities500+dr5hn,city~,Maïné Soroa,Diffa,NE
+maitland,,australia,"maitland, australia",151.5574,-32.73308,geonames-cities500+dr5hn,city,Maitland,New South Wales,AU
+malabo,,equatorial guinea,"malabo, equatorial guinea",8.78166,3.75578,geonames-cities500+dr5hn,city,Malabo,Bioko Norte,GQ
+malakal,,sudan,"malakal, sudan",30.0,15.0,geonames-cities500+dr5hn,country,Sudan,,SD
+malang,east java,indonesisa,"malang, east java, indonesisa",112.6304,-7.9797,geonames-cities500+dr5hn,city+state,Malang,East Java,ID
+malmo,,sweden,"malmo, sweden",13.00073,55.60587,geonames-cities500+dr5hn,city,Malmö,Skåne,SE
+malumfashi,,nigeria,"malumfashi, nigeria",7.62061,11.78935,geonames-cities500+dr5hn,city,Malumfashi,Katsina State,NG
+mamou,louisiana,usa,"mamou, louisiana, usa",-92.4193,30.63381,geonames-cities500+dr5hn,city+state,Mamou,Louisiana,US
+managua,,nicaragua,"managua, nicaragua",-86.2504,12.13282,geonames-cities500+dr5hn,city,Managua,Managua Department,NI
+manama,,bahrain,"manama, bahrain",50.58565,26.22787,geonames-cities500+dr5hn,city,Manama,Manama,BH
+manassas,virginia,usa,"manassas, virginia, usa",-77.47527,38.75095,geonames-cities500+dr5hn,city+state,Manassas,Virginia,US
+manchester,connecticut,usa,"manchester, connecticut, usa",-72.52148,41.77593,geonames-cities500+dr5hn,city+state,Manchester,Connecticut,US
+manchester,england,uk,"manchester, england, uk",-2.23743,53.48095,geonames-cities500+dr5hn,city+state,Manchester,England,GB
+manchester,new hampshire,usa,"manchester, new hampshire, usa",-71.45479,42.99564,geonames-cities500+dr5hn,city+state,Manchester,New Hampshire,US
+mandalay,,myanmar,"mandalay, myanmar",96.08359,21.97473,geonames-cities500+dr5hn,city,Mandalay,Mandalay Region,MM
+mandi bahauddin,punjab,pakistan,"mandi bahauddin, punjab, pakistan",73.49123,32.58704,geonames-cities500+dr5hn,city+state,Mandi Bahauddin,Punjab,PK
+mango,,togo,"mango, togo",0.47083,10.35917,geonames-cities500+dr5hn,city,Mango,Savanes,TG
+manila,,philippines,"manila, philippines",120.9822,14.6042,geonames-cities500+dr5hn,city,Manila,Metro Manila,PH
+manipal,karnataka,india,"manipal, karnataka, india",75.72235,14.52039,geonames-cities500+dr5hn,state,Karnataka,,IN
+mannheim,,germany,"mannheim, germany",8.46694,49.4891,geonames-cities500+dr5hn,city,Mannheim,Baden-Wurttemberg,DE
+mansehra,,pakistan,"mansehra, pakistan",73.19679,34.33023,geonames-cities500+dr5hn,city,Mansehra,Khyber Pakhtunkhwa,PK
+mantoudi,,greece,"mantoudi, greece",23.47967,38.79808,geonames-cities500+dr5hn,city,Mantoúdi,Central Greece,GR
+mantua,,italy,"mantua, italy",10.79784,45.16031,geonames-cities500+dr5hn,city,Mantova,Lombardy,IT
+maracaibo,,venezuela,"maracaibo, venezuela",-71.61089,10.64232,geonames-cities500+dr5hn,city,Maracaibo,Zulia,VE
+maracaibo,zulia,venezuela,"maracaibo, zulia, venezuela",-71.61089,10.64232,geonames-cities500+dr5hn,city+state,Maracaibo,Zulia,VE
+maracay,,venezuela,"maracay, venezuela",-67.59475,10.24972,geonames-cities500+dr5hn,city,Maracay,Aragua,VE
+margibi,,liberia,"margibi, liberia",-10.17584,6.60537,geonames-cities500+dr5hn,state,Margibi,,LR
+marsa,,malta,"marsa, malta",14.49462,35.87925,geonames-cities500+dr5hn,city,Marsa,Il-Marsa,MT
+marseille,,france,"marseille, france",5.38107,43.29695,geonames-cities500+dr5hn,city,Marseille,Provence-Alpes-Côte d'Azur,FR
+maryland county,,liberia,"maryland county, liberia",-9.5,6.5,geonames-cities500+dr5hn,country,Liberia,,LR
+masaka,,uganda,"masaka, uganda",31.73409,-0.33379,geonames-cities500+dr5hn,city,Masaka,Central Region,UG
+masan,,south korea,"masan, south korea",126.83149,35.12725,geonames-cities500+dr5hn,city,Masan,Gwangju,KR
+maseno,,kenya,"maseno, kenya",34.60004,-0.00661,geonames-cities500+dr5hn,city,Maseno,Kisumu County,KE
+maseru,,lesotho,"maseru, lesotho",27.48333,-29.31667,geonames-cities500+dr5hn,city,Maseru,Maseru District,LS
+mashhad,,iran,"mashhad, iran",59.60567,36.29807,geonames-cities500+dr5hn,city,Mashhad,Razavi Khorasan,IR
+mataro,catalonia,spain,"mataro, catalonia, spain",2.4445,41.54211,geonames-cities500+dr5hn,city+state,Mataró,Catalonia,ES
+mayaguez,,puerto rico,"mayaguez, puerto rico",-67.13962,18.20107,geonames-cities500+dr5hn,city,Mayagüez,Mayagüez,PR
+mazandran,,iran,"mazandran, iran",53.0,32.0,geonames-cities500+dr5hn,country,Iran,,IR
+mazare sharif,,afghanistan,"mazare sharif, afghanistan",67.11087,36.70904,geonames-cities500+dr5hn,city~,Mazār-e Sharīf,Balkh,AF
+mbuji-mayi,,democratic republic of the congo,"mbuji-mayi, democratic republic of the congo",23.58979,-6.13603,geonames-cities500+dr5hn,city,Mbuji-Mayi,East Kasai,CD
+mcminnville,oregon,usa,"mcminnville, oregon, usa",-123.19872,45.21012,geonames-cities500+dr5hn,city+state,McMinnville,Oregon,US
+mcveigh,kentucky,usa,"mcveigh, kentucky, usa",-85.15514,37.5726,geonames-cities500+dr5hn,state,Kentucky,,US
+mecca,,saudi arabia,"mecca, saudi arabia",39.82563,21.42664,geonames-cities500+dr5hn,city,Makkah,Mecca Region,SA
+mechelen,,belgium,"mechelen, belgium",4.47762,51.02574,geonames-cities500+dr5hn,city,Mechelen,Flanders,BE
+medellin,,colombia,"medellin, colombia",-75.57151,6.245,geonames-cities500+dr5hn,city,Medellín,Antioquia,CO
+medina,,saudi arabia,"medina, saudi arabia",39.61417,24.46861,geonames-cities500+dr5hn,city,Madinah,Medina Region,SA
+meerut,uttar pradesh,india,"meerut, uttar pradesh, india",77.70636,28.98002,geonames-cities500+dr5hn,city+state,Meerut,Uttar Pradesh,IN
+meissen,,germany,"meissen, germany",13.4737,51.16158,geonames-cities500+dr5hn,city,Meissen,Saxony,DE
+meknes,,morocco,"meknes, morocco",-5.54727,33.89352,geonames-cities500+dr5hn,city,Meknes,Fès-Meknès,MA
+melbourne,,australia,"melbourne, australia",144.96332,-37.814,geonames-cities500+dr5hn,city,Melbourne,Victoria,AU
+memphis,tennessee,usa,"memphis, tennessee, usa",-90.04898,35.14953,geonames-cities500+dr5hn,city+state,Memphis,Tennessee,US
+merced,california,usa,"merced, california, usa",-120.48297,37.30216,geonames-cities500+dr5hn,city+state,Merced,California,US
+merida,,venezuela,"merida, venezuela",-71.16922,8.57899,geonames-cities500+dr5hn,city,Mérida,Mérida,VE
+mesa,arizona,usa,"mesa, arizona, usa",-111.82264,33.42227,geonames-cities500+dr5hn,city+state,Mesa,Arizona,US
+metairie,louisiana,usa,"metairie, louisiana, usa",-90.15285,29.98409,geonames-cities500+dr5hn,city+state,Metairie,Louisiana,US
+mexico city,,mexico,"mexico city, mexico",-99.12766,19.42847,geonames-cities500+dr5hn,city,Mexico City,Mexico City,MX
+miami,florida,usa,"miami, florida, usa",-80.19366,25.77427,geonames-cities500+dr5hn,city+state,Miami,Florida,US
+middlesbrough,england,uk,"middlesbrough, england, uk",-1.23483,54.57623,geonames-cities500+dr5hn,city+state,Middlesbrough,England,GB
+mielec,,poland,"mielec, poland",21.4239,50.28709,geonames-cities500+dr5hn,city,Mielec,Subcarpathia,PL
+milan,,italy,"milan, italy",9.18951,45.46427,geonames-cities500+dr5hn,city,Milan,Lombardy,IT
+milford haven,wales,uk,"milford haven, wales, uk",-5.0341,51.71278,geonames-cities500+dr5hn,city+state,Milford Haven,Wales,GB
+milton,florida,usa,"milton, florida, usa",-87.03969,30.63241,geonames-cities500+dr5hn,city+state,Milton,Florida,US
+milwaukee,wisconsin,usa,"milwaukee, wisconsin, usa",-87.90647,43.0389,geonames-cities500+dr5hn,city+state,Milwaukee,Wisconsin,US
+mineola,new york,usa,"mineola, new york, usa",-73.64068,40.74927,geonames-cities500+dr5hn,city+state,Mineola,New York,US
+minneapolis,minnesota,usa,"minneapolis, minnesota, usa",-93.26384,44.97997,geonames-cities500+dr5hn,city+state,Minneapolis,Minnesota,US
+minsk,,belarus,"minsk, belarus",27.56653,53.90019,geonames-cities500+dr5hn,city,Minsk,Minsk City,BY
+minya,,egypt,"minya, egypt",30.75813,28.09193,geonames-cities500+dr5hn,city,Minya,Minya,EG
+mishawaka,indiana,usa,"mishawaka, indiana, usa",-86.15862,41.66199,geonames-cities500+dr5hn,city+state,Mishawaka,Indiana,US
+miskolc,,hungary,"miskolc, hungary",20.77806,48.10327,geonames-cities500+dr5hn,city,Miskolc,Borsod-Abaúj-Zemplén,HU
+mitchell,south dakota,usa,"mitchell, south dakota, usa",-98.0298,43.70943,geonames-cities500+dr5hn,city+state,Mitchell,South Dakota,US
+mitrovice,,kosovo,"mitrovice, kosovo",20.86667,42.88333,geonames-cities500+dr5hn,city,Mitrovicë,Mitrovica,XK
+miyazaki,,japan,"miyazaki, japan",131.41667,31.91667,geonames-cities500+dr5hn,city,Miyazaki,Miyazaki,JP
+moga,,india,"moga, india",75.16878,30.81383,geonames-cities500+dr5hn,city,Moga,Punjab,IN
+moga,punjab,india,"moga, punjab, india",75.16878,30.81383,geonames-cities500+dr5hn,city+state,Moga,Punjab,IN
+mogadishu,,somalia,"mogadishu, somalia",45.34375,2.03711,geonames-cities500+dr5hn,city,Mogadishu,Banaadir,SO
+mombasa,,kenya,"mombasa, kenya",39.66359,-4.05466,geonames-cities500+dr5hn,city,Mombasa,Mombasa County,KE
+monastir,,tunisia,"monastir, tunisia",10.82617,35.77799,geonames-cities500+dr5hn,city,Monastir,Monastir Governorate,TN
+monrovia,,liberia,"monrovia, liberia",-10.7969,6.30054,geonames-cities500+dr5hn,city,Monrovia,Montserrado County,LR
+montego bay,,jamaica,"montego bay, jamaica",-77.91883,18.47116,geonames-cities500+dr5hn,city,Montego Bay,Saint James Parish,JM
+monterey,california,usa,"monterey, california, usa",-121.89468,36.60024,geonames-cities500+dr5hn,city+state,Monterey,California,US
+monterrey,,mexico,"monterrey, mexico",-100.31721,25.68435,geonames-cities500+dr5hn,city,Monterrey,Nuevo León,MX
+montevideo,,uruguay,"montevideo, uruguay",-56.18816,-34.90328,geonames-cities500+dr5hn,city,Montevideo,Montevideo Department,UY
+montgomery,alabama,usa,"montgomery, alabama, usa",-86.29997,32.36681,geonames-cities500+dr5hn,city+state,Montgomery,Alabama,US
+montreal,quebec,canada,"montreal, quebec, canada",-73.58781,45.50884,geonames-cities500+dr5hn,city+state,Montréal,Quebec,CA
+moorhead,minnesota,usa,"moorhead, minnesota, usa",-96.76951,46.87386,geonames-cities500+dr5hn,city+state,Moorhead,Minnesota,US
+morden,manitoba,canada,"morden, manitoba, canada",-98.10136,49.1919,geonames-cities500+dr5hn,city+state,Morden,Manitoba,CA
+mortsel,,belgium,"mortsel, belgium",4.45127,51.16697,geonames-cities500+dr5hn,city,Mortsel,Flanders,BE
+moscow,,russia,"moscow, russia",37.61781,55.75204,geonames-cities500+dr5hn,city,Moscow,Moscow,RU
+mosta,,malta,"mosta, malta",14.42566,35.90942,geonames-cities500+dr5hn,city,Mosta,Il-Mosta,MT
+mostaganem,,algeria,"mostaganem, algeria",0.08918,35.93115,geonames-cities500+dr5hn,city,Mostaganem,Mostaganem,DZ
+mostar,,bosnia and herzegovina,"mostar, bosnia and herzegovina",17.80806,43.34333,geonames-cities500+dr5hn,city,Mostar,Federation of B&H,BA
+mt. holly,north carolina,usa,"mt. holly, north carolina, usa",-81.01591,35.29819,geonames-cities500+dr5hn,city+state,Mount Holly,North Carolina,US
+mt. kisco,new york,usa,"mt. kisco, new york, usa",-73.72708,41.20426,geonames-cities500+dr5hn,city+state,Mount Kisco,New York,US
+mulanje,,malawi,"mulanje, malawi",35.5,-16.03163,geonames-cities500+dr5hn,city,Mulanje,Southern Region,MW
+munich,,germany,"munich, germany",11.57549,48.13743,geonames-cities500+dr5hn,city,Munich,Bavaria,DE
+muri,aargau,switzerland,"muri, aargau, switzerland",8.33854,47.27428,geonames-cities500+dr5hn,city+state,Muri,Aargau,CH
+mykolayiv,,ukraine,"mykolayiv, ukraine",31.99296,46.97625,geonames-cities500+dr5hn,city,Mykolayiv,Mykolaiv,UA
+mymensingh,,bangladesh,"mymensingh, bangladesh",90.40646,24.75636,geonames-cities500+dr5hn,city,Mymensingh,Mymensingh Division,BD
+myrtle beach,south carolina,usa,"myrtle beach, south carolina, usa",-78.88669,33.68906,geonames-cities500+dr5hn,city+state,Myrtle Beach,South Carolina,US
+mysore,,india,"mysore, india",76.63925,12.29791,geonames-cities500+dr5hn,city,Mysuru,Karnataka,IN
+mzimba,,malawi,"mzimba, malawi",33.6,-11.9,geonames-cities500+dr5hn,city,Mzimba,Northern Region,MW
+nachod,,czech republic,"nachod, czech republic",16.16289,50.4167,geonames-cities500+dr5hn,city,Náchod,Královéhradecký kraj,CZ
+nagoya,,japan,"nagoya, japan",136.90641,35.18147,geonames-cities500+dr5hn,city,Nagoya,Aichi,JP
+nagpur,maharashtra,india,"nagpur, maharashtra, india",79.08491,21.14631,geonames-cities500+dr5hn,city+state,Nagpur,Maharashtra,IN
+naha,,japan,"naha, japan",127.67851,26.213,geonames-cities500+dr5hn,city,Naha,Okinawa,JP
+nairobi,,kenya,"nairobi, kenya",36.81667,-1.28333,geonames-cities500+dr5hn,city,Nairobi,Nairobi County,KE
+najran,,saudi arabia,"najran, saudi arabia",44.12766,17.49326,geonames-cities500+dr5hn,city,Najrān,Najran Region,SA
+nakhon si thammarat,,thailand,"nakhon si thammarat, thailand",99.96667,8.43333,geonames-cities500+dr5hn,city,Nakhon Si Thammarat,Nakhon Si Thammarat,TH
+nakuru,,kenya,"nakuru, kenya",36.07225,-0.30719,geonames-cities500+dr5hn,city,Nakuru,Nakuru County,KE
+nanchang,jiangxi,china,"nanchang, jiangxi, china",115.85306,28.68396,geonames-cities500+dr5hn,city+state,Nanchang,Jiangxi,CN
+nanjing,,china,"nanjing, china",118.77778,32.06167,geonames-cities500+dr5hn,city,Nanjing,Jiangsu,CN
+nanning,guangxi,china,"nanning, guangxi, china",108.31667,22.81667,geonames-cities500+dr5hn,city+state,Nanning,Guangxi,CN
+nantong,jiangsu,china,"nantong, jiangsu, china",120.87472,32.03028,geonames-cities500+dr5hn,city+state,Nantong,Jiangsu,CN
+nantou,,taiwan,"nantou, taiwan",120.66387,23.91566,geonames-cities500+dr5hn,city,Nantou,Taiwan,TW
+nanyang,henan,china,"nanyang, henan, china",112.53278,32.99472,geonames-cities500+dr5hn,city+state,Nanyang,Henan,CN
+naples,,italy,"naples, italy",14.26811,40.85216,geonames-cities500+dr5hn,city,Naples,Campania,IT
+nara,,japan,"nara, japan",135.88168,34.29631,geonames-cities500+dr5hn,state,Nara,,JP
+naracoorte,,australia,"naracoorte, australia",140.7383,-36.95785,geonames-cities500+dr5hn,city,Naracoorte,South Australia,AU
+narrabri,new south wales,australia,"narrabri, new south wales, australia",149.78266,-30.32488,geonames-cities500+dr5hn,city+state,Narrabri,New South Wales,AU
+narrandera,new south wales,australia,"narrandera, new south wales, australia",146.55096,-34.74752,geonames-cities500+dr5hn,city+state,Narrandera,New South Wales,AU
+nashville,tennessee,usa,"nashville, tennessee, usa",-86.78444,36.16589,geonames-cities500+dr5hn,city+state,Nashville,Tennessee,US
+nasriah,,iraq,"nasriah, iraq",46.25726,31.05799,geonames-cities500+dr5hn,city~,Nasiriyah,Dhi Qar,IQ
+naxcivan,,azerbaijan,"naxcivan, azerbaijan",45.41222,39.20889,geonames-cities500+dr5hn,city,Naxçıvan,Nakhichevan ASSR,AZ
+naylor,maryland,usa,"naylor, maryland, usa",-76.93821,39.51624,geonames-cities500+dr5hn,state,Maryland,,US
+nazareth,,israel,"nazareth, israel",35.29719,32.70087,geonames-cities500+dr5hn,city,Nazareth,Northern District,IL
+ndjamena,,chad,"ndjamena, chad",15.0444,12.10672,geonames-cities500+dr5hn,city,N'Djamena,N’Djaména,TD
+neiva,,colombia,"neiva, colombia",-75.27973,2.93001,geonames-cities500+dr5hn,city,Neiva,Huila Department,CO
+netanya,,israel,"netanya, israel",34.85992,32.33291,geonames-cities500+dr5hn,city,Netanya,Central District,IL
+new albany,indiana,usa,"new albany, indiana, usa",-85.82413,38.28562,geonames-cities500+dr5hn,city+state,New Albany,Indiana,US
+new britain,connecticut,usa,"new britain, connecticut, usa",-72.77954,41.66121,geonames-cities500+dr5hn,city+state,New Britain,Connecticut,US
+new delhi,,india,"new delhi, india",77.2148,28.62137,geonames-cities500+dr5hn,city,New Delhi,Delhi,IN
+new eagle,pennsylvania,usa,"new eagle, pennsylvania, usa",-79.94699,40.20785,geonames-cities500+dr5hn,city+state,New Eagle,Pennsylvania,US
+new orleans,louisiana,usa,"new orleans, louisiana, usa",-90.07507,29.95465,geonames-cities500+dr5hn,city+state,New Orleans,Louisiana,US
+new york,new york,usa,"new york, new york, usa",-74.00597,40.71427,geonames-cities500+dr5hn,city~,New York City,New York,US
+newcastle,,australia,"newcastle, australia",151.7801,-32.92953,geonames-cities500+dr5hn,city,Newcastle,New South Wales,AU
+newport,rhode island,usa,"newport, rhode island, usa",-71.31283,41.4901,geonames-cities500+dr5hn,city+state,Newport,Rhode Island,US
+nice,,france,"nice, france",7.26608,43.70313,geonames-cities500+dr5hn,city,Nice,Provence-Alpes-Côte d'Azur,FR
+nicosia,,cyprus,"nicosia, cyprus",33.35397,35.17284,geonames-cities500+dr5hn,city,Nicosia,Nicosia,CY
+niedersachsen,,germany,"niedersachsen, germany",9.07596,52.83985,geonames-cities500+dr5hn,state,Lower Saxony,,DE
+nigel,,south africa,"nigel, south africa",28.47713,-26.43138,geonames-cities500+dr5hn,city,Nigel,Gauteng,ZA
+nijmegen,,netherlands,"nijmegen, netherlands",5.85278,51.8425,geonames-cities500+dr5hn,city,Nijmegen,Gelderland,NL
+ningbo,zhejiang,china,"ningbo, zhejiang, china",121.54945,29.87819,geonames-cities500+dr5hn,city+state,Ningbo,Zhejiang,CN
+ninh binh,,vietnam,"ninh binh, vietnam",105.97965,20.25809,geonames-cities500+dr5hn,city,Ninh Bình,Ninh Binh,VN
+nitra,,slovak republic,"nitra, slovak republic",18.08453,48.30763,geonames-cities500+dr5hn,city,Nitra,Nitra Region,SK
+nizhni novgorod,,russia,"nizhni novgorod, russia",44.00205,56.32867,geonames-cities500+dr5hn,city~,Nizhniy Novgorod,Nizhny Novgorod Oblast,RU
+noakhali,,bangladesh,"noakhali, bangladesh",91.0979,22.8691,geonames-cities500+dr5hn,state,Noakhali,,BD
+nokesville,virginia,usa,"nokesville, virginia, usa",-77.57971,38.69873,geonames-cities500+dr5hn,city+state,Nokesville,Virginia,US
+nome,alaska,usa,"nome, alaska, usa",-165.40639,64.50111,geonames-cities500+dr5hn,city+state,Nome,Alaska,US
+nonsan,,south korea,"nonsan, south korea",127.08472,36.20389,geonames-cities500+dr5hn,city,Nonsan,Chungcheongnam-do,KR
+nonthaburi,,thailand,"nonthaburi, thailand",100.49379,13.8429,geonames-cities500+dr5hn,state,Nonthaburi,,TH
+norton,virginia,usa,"norton, virginia, usa",-82.62905,36.93343,geonames-cities500+dr5hn,city+state,Norton,Virginia,US
+norwich,new york,usa,"norwich, new york, usa",-75.52351,42.53118,geonames-cities500+dr5hn,city+state,Norwich,New York,US
+nottingham,,uk,"nottingham, uk",-1.15047,52.9536,geonames-cities500+dr5hn,city,Nottingham,England,GB
+novo hamburgo,rio grande do sul,brazil,"novo hamburgo, rio grande do sul, brazil",-51.13056,-29.67833,geonames-cities500+dr5hn,city+state,Novo Hamburgo,Rio Grande do Sul,BR
+novokuznetsk,,russia,"novokuznetsk, russia",87.13599,53.75752,geonames-cities500+dr5hn,city,Novokuznetsk,Kuzbass,RU
+novosibirsk,,russia,"novosibirsk, russia",82.93175,55.02259,geonames-cities500+dr5hn,city,Novosibirsk,Novosibirsk Oblast,RU
+nowa ruda,,poland,"nowa ruda, poland",16.50164,50.58008,geonames-cities500+dr5hn,city,Nowa Ruda,Lower Silesia,PL
+nowy sacz,,poland,"nowy sacz, poland",20.69705,49.62177,geonames-cities500+dr5hn,city,Nowy Sącz,Lesser Poland,PL
+numb,kashmir,pakistan,"numb, kashmir, pakistan",70.0,30.0,geonames-cities500+dr5hn,country,Pakistan,,PK
+nunspeet,,netherlands,"nunspeet, netherlands",5.78611,52.37917,geonames-cities500+dr5hn,city,Nunspeet,Gelderland,NL
+nuwara eliya,,sri lanka,"nuwara eliya, sri lanka",80.78286,6.97078,geonames-cities500+dr5hn,city,Nuwara Eliya,Central Province,LK
+nyeri,,kenya,"nyeri, kenya",36.94759,-0.42013,geonames-cities500+dr5hn,city,Nyeri,Nyeri County,KE
+oak forest,illinois,usa,"oak forest, illinois, usa",-87.74394,41.60281,geonames-cities500+dr5hn,city+state,Oak Forest,Illinois,US
+oak park,illinois,usa,"oak park, illinois, usa",-87.7845,41.88503,geonames-cities500+dr5hn,city+state,Oak Park,Illinois,US
+oakland,california,usa,"oakland, california, usa",-122.2708,37.80437,geonames-cities500+dr5hn,city+state,Oakland,California,US
+oamaru,,new zealand,"oamaru, new zealand",170.97087,-45.09758,geonames-cities500+dr5hn,city,Oamaru,Otago,NZ
+oceanside,california,usa,"oceanside, california, usa",-117.37948,33.19587,geonames-cities500+dr5hn,city+state,Oceanside,California,US
+odessa,,ukraine,"odessa, ukraine",30.74383,46.48572,geonames-cities500+dr5hn,city~,Odesa,Odessa,UA
+offenbach,,germany,"offenbach, germany",8.76647,50.10061,geonames-cities500+dr5hn,city,Offenbach,Hesse,DE
+ogden,utah,usa,"ogden, utah, usa",-111.97383,41.223,geonames-cities500+dr5hn,city+state,Ogden,Utah,US
+ohara machi,chiba prefecture,japan,"ohara machi, chiba prefecture, japan",140.26473,35.5494,geonames-cities500+dr5hn,state,Chiba,,JP
+ohrid,,macedonia,"ohrid, macedonia",20.80175,41.11701,geonames-cities500+dr5hn,city,Ohrid,Ohrid,MK
+okene,,nigeria,"okene, nigeria",6.23589,7.55122,geonames-cities500+dr5hn,city,Okene,Kogi State,NG
+okinawa,,japan,"okinawa, japan",127.80139,26.33583,geonames-cities500+dr5hn,city,Okinawa,Okinawa,JP
+ola magadan,,russia,"ola magadan, russia",100.0,60.0,geonames-cities500+dr5hn,country,Russia,,RU
+omaha,nebraska,usa,"omaha, nebraska, usa",-95.94043,41.25626,geonames-cities500+dr5hn,city+state,Omaha,Nebraska,US
+onitsha,,nigeria,"onitsha, nigeria",6.78569,6.14978,geonames-cities500+dr5hn,city,Onitsha,Anambra,NG
+oosterbeek,,netherlands,"oosterbeek, netherlands",5.84583,51.98583,geonames-cities500+dr5hn,city,Oosterbeek,Gelderland,NL
+oquawka,illinois,usa,"oquawka, illinois, usa",-90.94709,40.93198,geonames-cities500+dr5hn,city+state,Oquawka,Illinois,US
+orange,virginia,usa,"orange, virginia, usa",-78.11083,38.24541,geonames-cities500+dr5hn,city+state,Orange,Virginia,US
+orange beach,alabama,usa,"orange beach, alabama, usa",-87.57359,30.29437,geonames-cities500+dr5hn,city+state,Orange Beach,Alabama,US
+orange county,california,usa,"orange county, california, usa",-117.85311,33.78779,geonames-cities500+dr5hn,city+state,Orange,California,US
+orhei,,moldova,"orhei, moldova",28.82535,47.38503,geonames-cities500+dr5hn,city,Orhei,Orhei,MD
+orissa,,india,"orissa, india",84.68973,20.54312,geonames-cities500+dr5hn,state,Odisha,,IN
+osaka,,japan,"osaka, japan",135.50107,34.69379,geonames-cities500+dr5hn,city,Osaka,Osaka,JP
+oslo,,norway,"oslo, norway",10.74609,59.91273,geonames-cities500+dr5hn,city,Oslo,Oslo,NO
+ostrava,,czech republic,"ostrava, czech republic",18.28204,49.83465,geonames-cities500+dr5hn,city,Ostrava,Moravskoslezský,CZ
+ostroleka,,poland,"ostroleka, poland",21.57566,53.08621,geonames-cities500+dr5hn,city,Ostrołęka,Mazovia,PL
+osun,masbate,philippines,"osun, masbate, philippines",123.62392,12.37109,geonames-cities500+dr5hn,state,Masbate,,PH
+ottawa,ontario,canada,"ottawa, ontario, canada",-75.69812,45.41117,geonames-cities500+dr5hn,city+state,Ottawa,Ontario,CA
+otwock,,poland,"otwock, poland",21.26129,52.10577,geonames-cities500+dr5hn,city,Otwock,Mazovia,PL
+ouagadougou,,burkina faso,"ouagadougou, burkina faso",-1.53388,12.36566,geonames-cities500+dr5hn,city,Ouagadougou,Centre,BF
+ouanaminthe,,haiti,"ouanaminthe, haiti",-71.72475,19.54934,geonames-cities500+dr5hn,city,Ouanaminthe,Nord-Est,HT
+ouarzazat,,morocco,"ouarzazat, morocco",-6.89341,30.91894,geonames-cities500+dr5hn,city~,Ouarzazate,Drâa-Tafilalet,MA
+oviedo,,spain,"oviedo, spain",-5.84476,43.36029,geonames-cities500+dr5hn,city,Oviedo,Asturias,ES
+oxford,,uk,"oxford, uk",-1.25596,51.75222,geonames-cities500+dr5hn,city,Oxford,England,GB
+ozarow maz,,poland,"ozarow maz, poland",20.0,52.0,geonames-cities500+dr5hn,country,Poland,,PL
+pa'ia,hawai'i,usa,"pa'ia, hawai'i, usa",-156.36944,20.90333,geonames-cities500+dr5hn,city+state,Paia,Hawaii,US
+paducah,kentucky,usa,"paducah, kentucky, usa",-88.60005,37.08339,geonames-cities500+dr5hn,city+state,Paducah,Kentucky,US
+paide,,estonia,"paide, estonia",25.54042,58.88768,geonames-cities500+dr5hn,city,Paide,Järvamaa,EE
+painesville,ohio,usa,"painesville, ohio, usa",-81.24566,41.72449,geonames-cities500+dr5hn,city+state,Painesville,Ohio,US
+paktia,,afghanistan,"paktia, afghanistan",69.40836,33.70572,geonames-cities500+dr5hn,state,Paktia,,AF
+pakxe,,laos,"pakxe, laos",105.79898,15.12022,geonames-cities500+dr5hn,city,Pakse,Champasak Province,LA
+palermo,,italy,"palermo, italy",13.3636,38.1166,geonames-cities500+dr5hn,city,Palermo,Sicily,IT
+palm springs,california,usa,"palm springs, california, usa",-116.54529,33.8303,geonames-cities500+dr5hn,city+state,Palm Springs,California,US
+palmer,alaska,usa,"palmer, alaska, usa",-149.11456,61.59941,geonames-cities500+dr5hn,city+state,Palmer,Alaska,US
+pamplona,,spain,"pamplona, spain",-1.64323,42.81687,geonames-cities500+dr5hn,city,Pamplona,Navarre,ES
+panama city,,panama,"panama city, panama",-79.51973,8.9936,geonames-cities500+dr5hn,city,Panamá,Panamá,PA
+panevezys,,lithuania,"panevezys, lithuania",24.35983,55.73186,geonames-cities500+dr5hn,city,Panevėžys,Panevėžys,LT
+panjakent,,tajikistan,"panjakent, tajikistan",67.60931,39.49524,geonames-cities500+dr5hn,city,Panjakent,Sughd,TJ
+panjin,liaoning,china,"panjin, liaoning, china",122.99555,41.23741,geonames-cities500+dr5hn,state,Liaoning,,CN
+paris,,france,"paris, france",2.3488,48.85341,geonames-cities500+dr5hn,city,Paris,Île-de-France,FR
+parma,ohio,usa,"parma, ohio, usa",-81.72291,41.40477,geonames-cities500+dr5hn,city+state,Parma,Ohio,US
+parnu,,estonia,"parnu, estonia",24.49711,58.38588,geonames-cities500+dr5hn,city,Pärnu,Pärnumaa,EE
+paros,,greece,"paros, greece",25.15,37.08333,geonames-cities500+dr5hn,city,Páros,South Aegean,GR
+pasadena,california,usa,"pasadena, california, usa",-118.14452,34.14778,geonames-cities500+dr5hn,city+state,Pasadena,California,US
+pasaquina,,el salvador,"pasaquina, el salvador",-87.84111,13.58444,geonames-cities500+dr5hn,city,Pasaquina,La Unión,SV
+pasay,,philippines,"pasay, philippines",121.00144,14.53748,geonames-cities500+dr5hn,city,Pasay,Metro Manila,PH
+pasig,,philippiness,"pasig, philippiness",121.0614,14.58691,geonames-cities500+dr5hn,city~,Pasig City,Metro Manila,PH
+pasto,,colombia,"pasto, colombia",-77.27846,1.21456,geonames-cities500+dr5hn,city,Pasto,Nariño,CO
+patna,,india,"patna, india",85.13563,25.59408,geonames-cities500+dr5hn,city,Patna,Bihar,IN
+pei kang,,taiwan,"pei kang, taiwan",121.0,23.5,geonames-cities500+dr5hn,country,Taiwan,,TW
+pelham,new york,usa,"pelham, new york, usa",-73.80791,40.90982,geonames-cities500+dr5hn,city+state,Pelham,New York,US
+pensacola,florida,usa,"pensacola, florida, usa",-87.21691,30.42131,geonames-cities500+dr5hn,city+state,Pensacola,Florida,US
+penza,,russia,"penza, russia",45.01075,53.19568,geonames-cities500+dr5hn,city,Penza,Penza Oblast,RU
+pepeekeo,hawai'i,usa,"pepeekeo, hawai'i, usa",-155.10722,19.83361,geonames-cities500+dr5hn,city+state,Pepeekeo,Hawaii,US
+pereira,,colombia,"pereira, colombia",-75.69488,4.81428,geonames-cities500+dr5hn,city,Pereira,Risaralda Department,CO
+perm,,russia,"perm, russia",56.25017,58.01046,geonames-cities500+dr5hn,city,Perm,Perm Krai,RU
+perth,,australia,"perth, australia",115.8614,-31.95224,geonames-cities500+dr5hn,city,Perth,Western Australia,AU
+peshawar,,pakistan,"peshawar, pakistan",71.57849,34.008,geonames-cities500+dr5hn,city,Peshawar,Khyber Pakhtunkhwa,PK
+petah-tiqwa,,israel,"petah-tiqwa, israel",34.88747,32.08707,geonames-cities500+dr5hn,city~,Petaẖ Tiqva,Central District,IL
+pezenas,,france,"pezenas, france",3.42258,43.45997,geonames-cities500+dr5hn,city,Pézenas,Occitanie,FR
+philadelphia,pennsylvania,usa,"philadelphia, pennsylvania, usa",-75.16362,39.95238,geonames-cities500+dr5hn,city+state,Philadelphia,Pennsylvania,US
+phitsanulok,,thailand,"phitsanulok, thailand",100.25858,16.82481,geonames-cities500+dr5hn,city,Phitsanulok,Phitsanulok,TH
+phnom penh,,cambodia,"phnom penh, cambodia",104.91601,11.56245,geonames-cities500+dr5hn,city,Phnom Penh,Phnom Penh,KH
+phoenix,arizona,usa,"phoenix, arizona, usa",-112.07404,33.44838,geonames-cities500+dr5hn,city+state,Phoenix,Arizona,US
+phrae,,thailand,"phrae, thailand",100.14103,18.14589,geonames-cities500+dr5hn,city,Phrae,Phrae,TH
+piestany,,slovak republic,"piestany, slovak republic",17.82591,48.59479,geonames-cities500+dr5hn,city,Piešťany,Trnava Region,SK
+pike county,kentucky,usa,"pike county, kentucky, usa",-85.15514,37.5726,geonames-cities500+dr5hn,state,Kentucky,,US
+pine bluff,arkansas,usa,"pine bluff, arkansas, usa",-92.0032,34.22843,geonames-cities500+dr5hn,city+state,Pine Bluff,Arkansas,US
+ping tong,,taiwan,"ping tong, taiwan",121.0,23.5,geonames-cities500+dr5hn,country,Taiwan,,TW
+ping tung,,taiwan,"ping tung, taiwan",121.0,23.5,geonames-cities500+dr5hn,country,Taiwan,,TW
+pingdingshan,henan,china,"pingdingshan, henan, china",113.30119,33.73847,geonames-cities500+dr5hn,city+state,Pingdingshan,Henan,CN
+pingtung,,taiwan,"pingtung, taiwan",120.49157,22.66285,geonames-cities500+dr5hn,state,Pingtung,,TW
+pingxiang,jiangxi,china,"pingxiang, jiangxi, china",113.85353,27.61672,geonames-cities500+dr5hn,city+state,Pingxiang,Jiangxi,CN
+pinkoc,,hungary,"pinkoc, hungary",20.0,47.0,geonames-cities500+dr5hn,country,Hungary,,HU
+piraciciaba,,brazil,"piraciciaba, brazil",-47.64917,-22.72528,geonames-cities500+dr5hn,city~,Piracicaba,São Paulo,BR
+pittsburgh,pennsylvania,usa,"pittsburgh, pennsylvania, usa",-79.99589,40.44062,geonames-cities500+dr5hn,city+state,Pittsburgh,Pennsylvania,US
+piura,,peru,"piura, peru",-80.65715,-5.18192,geonames-cities500+dr5hn,city,Piura,Piura,PE
+pizen,,czech republic,"pizen, czech republic",13.37759,49.74747,geonames-cities500+dr5hn,city,Pilsen,Plzeň Region,CZ
+plantersville,arkansas,usa,"plantersville, arkansas, usa",-92.44791,35.20489,geonames-cities500+dr5hn,state,Arkansas,,US
+plovdiv,,bulgaria,"plovdiv, bulgaria",24.75001,42.15387,geonames-cities500+dr5hn,city,Plovdiv,Plovdiv,BG
+plymouth,massachusetts,usa,"plymouth, massachusetts, usa",-70.66726,41.95844,geonames-cities500+dr5hn,city+state,Plymouth,Massachusetts,US
+podgorica,,montenegro,"podgorica, montenegro",19.26309,42.44124,geonames-cities500+dr5hn,city,Podgorica,Podgorica,ME
+pohang,,south korea,"pohang, south korea",129.36481,36.02917,geonames-cities500+dr5hn,city,Pohang,Gyeongsangbuk-do,KR
+point pleasant,new jersey,usa,"point pleasant, new jersey, usa",-74.06819,40.08317,geonames-cities500+dr5hn,city+state,Point Pleasant,New Jersey,US
+pokhara,,nepal,"pokhara, nepal",83.96851,28.26689,geonames-cities500+dr5hn,city,Pokhara,Province 4,NP
+polesworth,staffordshire,uk,"polesworth, staffordshire, uk",-1.61036,52.61962,geonames-cities500+dr5hn,city+state,Polesworth,England,GB
+polokwane,limpopo,south africa,"polokwane, limpopo, south africa",29.46885,-23.90449,geonames-cities500+dr5hn,city+state,Polokwane,Limpopo,ZA
+poltava,,ukraine,"poltava, ukraine",34.55367,49.58925,geonames-cities500+dr5hn,city,Poltava,Poltava,UA
+polva,,estonia,"polva, estonia",27.06944,58.06028,geonames-cities500+dr5hn,city,Põlva,Põlvamaa,EE
+ponce,,puerto rico,"ponce, puerto rico",-66.62398,18.01031,geonames-cities500+dr5hn,city,Ponce,Ponce,PR
+pondicherry,,india,"pondicherry, india",79.82979,11.93381,geonames-cities500+dr5hn,city,Puducherry,Puducherry,IN
+popayan,cauca,colombia,"popayan, cauca, colombia",-76.61316,2.43823,geonames-cities500+dr5hn,city+state,Popayán,Cauca Department,CO
+porsgrunn,,norway,"porsgrunn, norway",9.6561,59.14054,geonames-cities500+dr5hn,city,Porsgrunn,Telemark,NO
+port elizabeth,,south africa,"port elizabeth, south africa",25.61494,-33.96109,geonames-cities500+dr5hn,city,Port Elizabeth,Eastern Cape,ZA
+port louis,,mauritius,"port louis, mauritius",57.49889,-20.16194,geonames-cities500+dr5hn,city,Port Louis,Port Louis,MU
+port moresby,national capital district,papua new guinea,"port moresby, national capital district, papua new guinea",147.15089,-9.47723,geonames-cities500+dr5hn,city+state,Port Moresby,National Capital,PG
+port-au-prince,,haiti,"port-au-prince, haiti",-72.33881,18.54349,geonames-cities500+dr5hn,city,Port-au-Prince,Ouest,HT
+portland,maine,usa,"portland, maine, usa",-70.2589,43.65737,geonames-cities500+dr5hn,city+state,Portland,Maine,US
+portland,oregon,usa,"portland, oregon, usa",-122.67621,45.52345,geonames-cities500+dr5hn,city+state,Portland,Oregon,US
+porto alegre,,brazil,"porto alegre, brazil",-51.23019,-30.03283,geonames-cities500+dr5hn,city,Porto Alegre,Rio Grande do Sul,BR
+poughkeepsie,new york,usa,"poughkeepsie, new york, usa",-73.92097,41.70037,geonames-cities500+dr5hn,city+state,Poughkeepsie,New York,US
+povazska bystrika,,slovakia,"povazska bystrika, slovakia",18.42169,49.12153,geonames-cities500+dr5hn,city~,Považská Bystrica,Trenčín Region,SK
+pozzuoli,,italy,"pozzuoli, italy",14.0952,40.84394,geonames-cities500+dr5hn,city,Pozzuoli,Campania,IT
+prague,,czech republic,"prague, czech republic",14.42076,50.08804,geonames-cities500+dr5hn,city,Prague,Prague,CZ
+pretoria,,south africa,"pretoria, south africa",28.18783,-25.74486,geonames-cities500+dr5hn,city,Pretoria,Gauteng,ZA
+pretoria,transvaal,south africa,"pretoria, transvaal, south africa",28.18783,-25.74486,geonames-cities500+dr5hn,city,Pretoria,Gauteng,ZA
+priluki,,ukraine,"priluki, ukraine",32.0,49.0,geonames-cities500+dr5hn,country,Ukraine,,UA
+prince george,british columbia,canada,"prince george, british columbia, canada",-122.75301,53.9166,geonames-cities500+dr5hn,city+state,Prince George,British Columbia,CA
+prince rupert,british columbia,canada,"prince rupert, british columbia, canada",-130.32098,54.31507,geonames-cities500+dr5hn,city+state,Prince Rupert,British Columbia,CA
+princeton,indiana,usa,"princeton, indiana, usa",-87.56752,38.35532,geonames-cities500+dr5hn,city+state,Princeton,Indiana,US
+prishtina,,kosovo,"prishtina, kosovo",21.16688,42.67272,geonames-cities500+dr5hn,city~,Pristina,Pristina,XK
+providence,rhode island,usa,"providence, rhode island, usa",-71.41283,41.82399,geonames-cities500+dr5hn,city+state,Providence,Rhode Island,US
+przemet,,poland,"przemet, poland",16.30114,52.00808,geonames-cities500+dr5hn,city,Przemęt,Greater Poland,PL
+pskov,,russia,"pskov, russia",28.33181,57.81922,geonames-cities500+dr5hn,city,Pskov,Pskov Oblast,RU
+puebla,,mexico,"puebla, mexico",-98.20723,19.04778,geonames-cities500+dr5hn,city,Puebla,Puebla,MX
+puerto la cruz,,venezuela,"puerto la cruz, venezuela",-64.6328,10.21382,geonames-cities500+dr5hn,city,Puerto La Cruz,Anzoátegui,VE
+puerto_cabezas,,nicaragua,"puerto_cabezas, nicaragua",-83.38882,14.03507,geonames-cities500+dr5hn,city,Puerto Cabezas,North Caribbean Coast,NI
+pune,,india,"pune, india",73.85535,18.51957,geonames-cities500+dr5hn,city,Pune,Maharashtra,IN
+pune,maharashtra,india,"pune, maharashtra, india",73.85535,18.51957,geonames-cities500+dr5hn,city+state,Pune,Maharashtra,IN
+pusan,,south korea,"pusan, south korea",129.03004,35.10168,geonames-cities500+dr5hn,city,Busan,Busan,KR
+qayrawan,,tunisia,"qayrawan, tunisia",10.09633,35.6781,geonames-cities500+dr5hn,city,Kairouan,Kairouan,TN
+qingdao,shandong,china,"qingdao, shandong, china",120.38042,36.06488,geonames-cities500+dr5hn,city+state,Qingdao,Shandong,CN
+qingyuan,guangdong,china,"qingyuan, guangdong, china",113.03333,23.7,geonames-cities500+dr5hn,city+state,Qingyuan,Guangdong,CN
+qinzhou,guangxi,china,"qinzhou, guangxi, china",108.65061,21.98247,geonames-cities500+dr5hn,city+state,Qinzhou,Guangxi,CN
+quang nam,,vietnam,"quang nam, vietnam",108.212,16.068,geonames-cities500+dr5hn,state,Đà Nẵng,,VN
+queens,new york,usa,"queens, new york, usa",-73.83652,40.68149,geonames-cities500+dr5hn,city+state,Queens,New York,US
+queens new york,new york,usa,"queens new york, new york, usa",-74.00597,40.71278,geonames-cities500+dr5hn,state,New York,,US
+quezon city,,philippines,"quezon city, philippines",121.0509,14.6488,geonames-cities500+dr5hn,city,Quezon City,Metro Manila,PH
+quincy,florida,usa,"quincy, florida, usa",-84.58325,30.58714,geonames-cities500+dr5hn,city+state,Quincy,Florida,US
+rabat,,morocco,"rabat, morocco",-6.83255,34.01325,geonames-cities500+dr5hn,city,Rabat,Rabat-Salé-Kénitra,MA
+rach gia,kien giang,vietnam,"rach gia, kien giang, vietnam",105.08091,10.01245,geonames-cities500+dr5hn,city,Rạch Giá,An Giang,VN
+radstadt,,austria,"radstadt, austria",13.45,47.38333,geonames-cities500+dr5hn,city,Radstadt,Salzburg,AT
+raj nagar,rajasthan,india,"raj nagar, rajasthan, india",73.76845,26.81058,geonames-cities500+dr5hn,state,Rajasthan,,IN
+rajkot,,india,"rajkot, india",70.79322,22.29161,geonames-cities500+dr5hn,city,Rājkot,Gujarat,IN
+rajkot,gujarat,india,"rajkot, gujarat, india",70.79322,22.29161,geonames-cities500+dr5hn,city+state,Rājkot,Gujarat,IN
+raleigh,north carolina,usa,"raleigh, north carolina, usa",-78.63861,35.7721,geonames-cities500+dr5hn,city+state,Raleigh,North Carolina,US
+ramallah,,palestine,"ramallah, palestine",35.20422,31.89964,geonames-cities500+dr5hn,city,Ramallah,West Bank,PS
+ramsey,,isle of man,"ramsey, isle of man",-4.38526,54.32273,geonames-cities500+dr5hn,city,Ramsey,Ramsey,IM
+ramsey mn,minnesota,usa,"ramsey mn, minnesota, usa",-93.45,45.2611,geonames-cities500+dr5hn,city+state,Ramsey,Minnesota,US
+ramun,,israel (occupied territory),"ramun, israel (occupied territory)",34.75,31.5,geonames-cities500+dr5hn,country,Israel,,IL
+rapla,,estonia,"rapla, estonia",24.79386,59.00759,geonames-cities500+dr5hn,city,Rapla,Raplamaa,EE
+ras al khaimah,,united arab emirates,"ras al khaimah, united arab emirates",55.9432,25.78953,geonames-cities500+dr5hn,city~,Ras Al Khaimah City,Raʼs al Khaymah,AE
+ravenna,,italy,"ravenna, italy",12.20121,44.41344,geonames-cities500+dr5hn,city,Ravenna,Emilia-Romagna,IT
+rawalpindi,,pakistan,"rawalpindi, pakistan",73.0479,33.59733,geonames-cities500+dr5hn,city,Rawalpindi,Punjab,PK
+razlog,,bulgaria,"razlog, bulgaria",23.46714,41.8863,geonames-cities500+dr5hn,city,Razlog,Blagoevgrad,BG
+reading,pennsylvania,usa,"reading, pennsylvania, usa",-75.92687,40.33565,geonames-cities500+dr5hn,city+state,Reading,Pennsylvania,US
+recife,,brazil,"recife, brazil",-34.88111,-8.05389,geonames-cities500+dr5hn,city,Recife,Pernambuco,BR
+redwood falls,minnesota,usa,"redwood falls, minnesota, usa",-95.11694,44.5394,geonames-cities500+dr5hn,city+state,Redwood Falls,Minnesota,US
+regina,saskatchewan,canada,"regina, saskatchewan, canada",-104.6178,50.45008,geonames-cities500+dr5hn,city+state,Regina,Saskatchewan,CA
+rehoboth,,namibia,"rehoboth, namibia",17.09,-23.317,geonames-cities500+dr5hn,city,Rehoboth,Hardap Region,NA
+reims,,france,"reims, france",4.02853,49.26526,geonames-cities500+dr5hn,city,Reims,Grand Est,FR
+rennes,,france,"rennes, france",-1.67431,48.11109,geonames-cities500+dr5hn,city,Rennes,Brittany,FR
+reno,nevada,usa,"reno, nevada, usa",-119.8138,39.52963,geonames-cities500+dr5hn,city+state,Reno,Nevada,US
+reston,virginia,usa,"reston, virginia, usa",-77.3411,38.96872,geonames-cities500+dr5hn,city+state,Reston,Virginia,US
+reykjavik,,iceland,"reykjavik, iceland",-21.89541,64.13548,geonames-cities500+dr5hn,city,Reykjavík,Capital Region,IS
+richmond,british columbia,canada,"richmond, british columbia, canada",-123.13683,49.17003,geonames-cities500+dr5hn,city+state,Richmond,British Columbia,CA
+richmond,virginia,usa,"richmond, virginia, usa",-77.46026,37.55376,geonames-cities500+dr5hn,city+state,Richmond,Virginia,US
+riga,,latvia,"riga, latvia",24.10589,56.946,geonames-cities500+dr5hn,city,Riga,Riga,LV
+riihimaki,,finland,"riihimaki, finland",24.77726,60.73769,geonames-cities500+dr5hn,city,Riihimäki,Kanta-Häme,FI
+rijeka,,croatia,"rijeka, croatia",14.44241,45.32673,geonames-cities500+dr5hn,city,Rijeka,Primorje-Gorski Kotar,HR
+rimouski,quebec,canada,"rimouski, quebec, canada",-68.52396,48.44879,geonames-cities500+dr5hn,city+state,Rimouski,Quebec,CA
+rio claro,sao paulo,brazil,"rio claro, sao paulo, brazil",-47.56139,-22.41139,geonames-cities500+dr5hn,city+state,Rio Claro,São Paulo,BR
+rio de janeiro,,brazil,"rio de janeiro, brazil",-43.18223,-22.90642,geonames-cities500+dr5hn,city,Rio de Janeiro,Rio de Janeiro,BR
+rio piedras,,puerto rico,"rio piedras, puerto rico",-66.5,18.25,geonames-cities500+dr5hn,country,Puerto Rico,,PR
+rishon,,israel,"rishon, israel",34.78939,31.97102,geonames-cities500+dr5hn,city,Rishon LeTsiyyon,Central District,IL
+riverside,california,usa,"riverside, california, usa",-117.39616,33.95335,geonames-cities500+dr5hn,city+state,Riverside,California,US
+riverside,small malaita,solomon islands,"riverside, small malaita, solomon islands",159.0,-8.0,geonames-cities500+dr5hn,country,Solomon Islands,,SB
+riyadh,,saudi arabia,"riyadh, saudi arabia",46.72185,24.68773,geonames-cities500+dr5hn,city,Riyadh,Riyadh Region,SA
+roanoke,virginia,usa,"roanoke, virginia, usa",-79.94143,37.27097,geonames-cities500+dr5hn,city+state,Roanoke,Virginia,US
+rochester,minnesota,usa,"rochester, minnesota, usa",-92.4699,44.02163,geonames-cities500+dr5hn,city+state,Rochester,Minnesota,US
+rochester,new york,usa,"rochester, new york, usa",-77.61556,43.15478,geonames-cities500+dr5hn,city+state,Rochester,New York,US
+rome,,italy,"rome, italy",12.51133,41.89193,geonames-cities500+dr5hn,city,Rome,Lazio,IT
+ronkonkoma,new york,usa,"ronkonkoma, new york, usa",-73.143,40.821,geonames-cities500+dr5hn,city+state,Ronkonkoma,New York,US
+ronse,,belgium,"ronse, belgium",3.6005,50.74574,geonames-cities500+dr5hn,city,Ronse,Flanders,BE
+ropar,punjab,india,"ropar, punjab, india",76.52695,30.96896,geonames-cities500+dr5hn,city+state,Ropar,Punjab,IN
+rosario,,argentina,"rosario, argentina",-60.63932,-32.94682,geonames-cities500+dr5hn,city,Rosario,Santa Fe,AR
+rosario do sul,,brazil,"rosario do sul, brazil",-54.91417,-30.25833,geonames-cities500+dr5hn,city,Rosário do Sul,Rio Grande do Sul,BR
+rose hill,,mauritius,"rose hill, mauritius",57.55,-20.28333,geonames-cities500+dr5hn,country,Mauritius,,MU
+rostov na donu,,russia,"rostov na donu, russia",39.70769,47.21997,geonames-cities500+dr5hn,city,Rostov-na-Donu,Rostov,RU
+rota,,spain,"rota, spain",-6.35997,36.62364,geonames-cities500+dr5hn,city,Rota,Andalusia,ES
+rotterdam,,netherlands,"rotterdam, netherlands",4.47917,51.9225,geonames-cities500+dr5hn,city,Rotterdam,South Holland,NL
+rotuma,rotuma,fiji,"rotuma, rotuma, fiji",177.07242,-12.50251,geonames-cities500+dr5hn,state,Rotuma,,FJ
+rouen,,france,"rouen, france",1.09932,49.44313,geonames-cities500+dr5hn,city,Rouen,Normandy,FR
+rufisque,,senegal,"rufisque, senegal",-17.27334,14.71542,geonames-cities500+dr5hn,city,Rufisque,Dakar,SN
+rumbek,boherat,sudan,"rumbek, boherat, sudan",30.0,15.0,geonames-cities500+dr5hn,country,Sudan,,SD
+ruse,,bulgaria,"ruse, bulgaria",25.9534,43.84872,geonames-cities500+dr5hn,city,Ruse,Ruse,BG
+russellville,kentucky,usa,"russellville, kentucky, usa",-86.88722,36.84532,geonames-cities500+dr5hn,city+state,Russellville,Kentucky,US
+rutland,england,uk,"rutland, england, uk",-0.66326,52.6423,geonames-cities500+dr5hn,state,Rutland,,GB
+sabt alalaya,,saudi arabia,"sabt alalaya, saudi arabia",41.96357,19.5773,geonames-cities500+dr5hn,city~,Sabt Alalayah,'Asir Region,SA
+sackville,new brunswick,canada,"sackville, new brunswick, canada",-64.36836,45.89868,geonames-cities500+dr5hn,city+state,Sackville,New Brunswick,CA
+sacramento,california,usa,"sacramento, california, usa",-121.4944,38.58157,geonames-cities500+dr5hn,city+state,Sacramento,California,US
+saigon,,vietnam,"saigon, vietnam",106.62965,10.82302,geonames-cities500+dr5hn,city,Ho Chi Minh City,Ho Chi Minh City (HCMC),VN
+saint anne's bay,,jamaica,"saint anne's bay, jamaica",-77.20098,18.43581,geonames-cities500+dr5hn,city~,Saint Ann’s Bay,Saint Ann Parish,JM
+saint johns,,antigua and barbuda,"saint johns, antigua and barbuda",-61.84329,17.12096,geonames-cities500+dr5hn,city,Saint John’s,Saint John Parish,AG
+saint louis,,senegal,"saint louis, senegal",-16.48962,16.01793,geonames-cities500+dr5hn,city,Saint-Louis,Saint-Louis,SN
+saipan,saipan,northern mariana islands,"saipan, saipan, northern mariana islands",145.7545,15.21233,geonames-cities500+dr5hn,city+state,Saipan,Saipan,MP
+saitama,,japan,"saitama, japan",139.65657,35.90807,geonames-cities500+dr5hn,city,Saitama,Saitama,JP
+saky,,ukraine,"saky, ukraine",32.0,49.0,geonames-cities500+dr5hn,country,Ukraine,,UA
+sale,,morocco,"sale, morocco",-6.79846,34.0531,geonames-cities500+dr5hn,city,Salé,Rabat-Salé-Kénitra,MA
+salford,lancashire,uk,"salford, lancashire, uk",-2.29042,53.48771,geonames-cities500+dr5hn,city+state,Salford,England,GB
+salina,kansas,usa,"salina, kansas, usa",-97.61142,38.84028,geonames-cities500+dr5hn,city+state,Salina,Kansas,US
+salinas,,brazil,"salinas, brazil",-42.29028,-16.17028,geonames-cities500+dr5hn,city,Salinas,Minas Gerais,BR
+salisbury,north carolina,usa,"salisbury, north carolina, usa",-80.47423,35.67097,geonames-cities500+dr5hn,city+state,Salisbury,North Carolina,US
+salisbury mills,new york,usa,"salisbury mills, new york, usa",-74.11903,41.43065,geonames-cities500+dr5hn,city+state,Salisbury Mills,New York,US
+salvador,,brazil,"salvador, brazil",-38.49096,-12.97563,geonames-cities500+dr5hn,city,Salvador,Bahia,BR
+samail,,oman,"samail, oman",57.0,21.0,geonames-cities500+dr5hn,country,Oman,,OM
+samarkand,,uzbekistan,"samarkand, uzbekistan",66.96445,39.65456,geonames-cities500+dr5hn,city,Samarkand,Samarqand Region,UZ
+san cristobal,,dominican republic,"san cristobal, dominican republic",-70.10682,18.41713,geonames-cities500+dr5hn,city,San Cristóbal,San Cristóbal,DO
+san diego,california,usa,"san diego, california, usa",-117.16472,32.71571,geonames-cities500+dr5hn,city+state,San Diego,California,US
+san fernando,,chile,"san fernando, chile",-71.0,-30.0,geonames-cities500+dr5hn,country,Chile,,CL
+san fernando,la union,philippines,"san fernando, la union, philippines",120.68445,15.03425,geonames-cities500+dr5hn,city+state,San Fernando,Central Luzon,PH
+san fernando,pampanga,philippines,"san fernando, pampanga, philippines",120.68445,15.03425,geonames-cities500+dr5hn,city+state,San Fernando,Central Luzon,PH
+san francisco,california,usa,"san francisco, california, usa",-122.41942,37.77493,geonames-cities500+dr5hn,city+state,San Francisco,California,US
+san jose,,costa rica,"san jose, costa rica",-84.08489,9.93388,geonames-cities500+dr5hn,city,San José,San José,CR
+san jose ca,california,usa,"san jose ca, california, usa",-121.89496,37.33939,geonames-cities500+dr5hn,city+state,San Jose,California,US
+san juan,,puerto rico,"san juan, puerto rico",-66.10572,18.46633,geonames-cities500+dr5hn,city,San Juan,San Juan,PR
+san leandro,california,usa,"san leandro, california, usa",-122.15608,37.72493,geonames-cities500+dr5hn,city+state,San Leandro,California,US
+san luis de la reina,,el salvador,"san luis de la reina, el salvador",-88.91667,13.83333,geonames-cities500+dr5hn,country,El Salvador,,SV
+san miguel,,el salvador,"san miguel, el salvador",-88.18211,13.48261,geonames-cities500+dr5hn,city,San Miguel,San Miguel Department,SV
+san pedro laguna,,philippines,"san pedro laguna, philippines",122.0,13.0,geonames-cities500+dr5hn,country,Philippines,,PH
+san salvador,,el salvador,"san salvador, el salvador",-89.18718,13.68935,geonames-cities500+dr5hn,city,San Salvador,San Salvador Department,SV
+san salvador,,el salvadore,"san salvador, el salvadore",-89.18718,13.68935,geonames-cities500+dr5hn,city,San Salvador,San Salvador Department,SV
+sanaa,,yemen,"sanaa, yemen",44.20646,15.35452,geonames-cities500+dr5hn,city,Sanaa,Amanat Alasimah,YE
+sanandaj,,iran,"sanandaj, iran",46.99883,35.31495,geonames-cities500+dr5hn,city,Sanandaj,Kurdistan Province,IR
+sanliurfa,,turkey,"sanliurfa, turkey",38.79392,37.16708,geonames-cities500+dr5hn,city,Şanlıurfa,Şanlıurfa,TR
+santa ana,,el salvador,"santa ana, el salvador",-89.55685,13.98827,geonames-cities500+dr5hn,city,Santa Ana,Santa Ana Department,SV
+santa clara,san vicente,el salvador,"santa clara, san vicente, el salvador",-88.7397,13.52749,geonames-cities500+dr5hn,state,San Vicente,,SV
+santa cruz,,bolivia,"santa cruz, bolivia",-63.18117,-17.78629,geonames-cities500+dr5hn,city~,Santa Cruz de la Sierra,Santa Cruz Department,BO
+santa maria,rio grande do sul,brazil,"santa maria, rio grande do sul, brazil",-53.80694,-29.68417,geonames-cities500+dr5hn,city+state,Santa Maria,Rio Grande do Sul,BR
+santa marta,,colombia,"santa marta, colombia",-74.19427,11.23855,geonames-cities500+dr5hn,city,Santa Marta,Magdalena Department,CO
+santa rosa,,honduras,"santa rosa, honduras",-88.7756,14.77388,geonames-cities500+dr5hn,city~,Santa Rosa de Copán,Copán Department,HN
+santa rosa,texas,usa,"santa rosa, texas, usa",-97.825,26.25674,geonames-cities500+dr5hn,city+state,Santa Rosa,Texas,US
+santiago,,chile,"santiago, chile",-70.64827,-33.45694,geonames-cities500+dr5hn,city,Santiago,Santiago Metropolitan,CL
+santiago de cuba,,cuba,"santiago de cuba, cuba",-75.82171,20.02287,geonames-cities500+dr5hn,city,Santiago de Cuba,Santiago de Cuba Province,CU
+santiago-dr,,dominican republic,"santiago-dr, dominican republic",-70.69085,19.45036,geonames-cities500+dr5hn,city~,Santiago de los Caballeros,Santiago Province,DO
+santo domingo,,dominican republic,"santo domingo, dominican republic",-69.89232,18.47186,geonames-cities500+dr5hn,city,Santo Domingo,Nacional,DO
+santos,,brazil,"santos, brazil",-46.33361,-23.96083,geonames-cities500+dr5hn,city,Santos,São Paulo,BR
+santurce,,puerto rico,"santurce, puerto rico",-66.5,18.25,geonames-cities500+dr5hn,country,Puerto Rico,,PR
+sao jose do rio preto,,brazil,"sao jose do rio preto, brazil",-49.37944,-20.81972,geonames-cities500+dr5hn,city,São José do Rio Preto,São Paulo,BR
+sao paulo,,brazil,"sao paulo, brazil",-46.63611,-23.5475,geonames-cities500+dr5hn,city,São Paulo,São Paulo,BR
+sao paulo,sao paulo,brazil,"sao paulo, sao paulo, brazil",-46.63611,-23.5475,geonames-cities500+dr5hn,city+state,São Paulo,São Paulo,BR
+sarajevo,,bosnia and herzegovina,"sarajevo, bosnia and herzegovina",18.35644,43.84864,geonames-cities500+dr5hn,city,Sarajevo,Federation of B&H,BA
+saransk,,russia,"saransk, russia",45.17166,54.18485,geonames-cities500+dr5hn,city,Saransk,Mordoviya Republic,RU
+sardinia,,italy,"sardinia, italy",9.03058,40.09128,geonames-cities500+dr5hn,state,Sardinia,,IT
+sargodha,,pakistan,"sargodha, pakistan",72.67418,32.08586,geonames-cities500+dr5hn,city,Sargodha,Punjab,PK
+sarnia,ontario,canada,"sarnia, ontario, canada",-82.40407,42.97866,geonames-cities500+dr5hn,city+state,Sarnia,Ontario,CA
+saskatoon,saskatchewan,canada,"saskatoon, saskatchewan, canada",-106.66892,52.13238,geonames-cities500+dr5hn,city+state,Saskatoon,Saskatchewan,CA
+satawal island,yap state,federated states of micronesia,"satawal island, yap state, federated states of micronesia",158.25,6.91667,geonames-cities500+dr5hn,country,Micronesia,,FM
+satkhira,,bangladesh,"satkhira, bangladesh",89.07185,22.70817,geonames-cities500+dr5hn,city,Sātkhira,Khulna Division,BD
+savannakhet,,laos,"savannakhet, laos",104.7622,16.5703,geonames-cities500+dr5hn,city,Savannakhet,Savannakhet Province,LA
+savasleyka,,russia,"savasleyka, russia",42.3207,55.4606,geonames-cities500+dr5hn,city,Savasleyka,Nizhny Novgorod Oblast,RU
+savusavu,vanua levu,fiji,"savusavu, vanua levu, fiji",179.33564,-16.77942,geonames-cities500+dr5hn,city,Savusavu,Northern,FJ
+schiedam,,netherlands,"schiedam, netherlands",4.38889,51.91917,geonames-cities500+dr5hn,city,Schiedam,South Holland,NL
+schupfheim,,switzerland,"schupfheim, switzerland",8.01723,46.95161,geonames-cities500+dr5hn,city,Schüpfheim,Lucerne,CH
+seattle,washington,usa,"seattle, washington, usa",-122.33207,47.60621,geonames-cities500+dr5hn,city+state,Seattle,Washington,US
+segou,,mali,"segou, mali",-6.25947,13.44032,geonames-cities500+dr5hn,city,Ségou,Ségou,ML
+semey,,kazakhstan,"semey, kazakhstan",80.25025,50.42064,geonames-cities500+dr5hn,city,Semey,Abai Region,KZ
+sens,,france,"sens, france",3.28328,48.19738,geonames-cities500+dr5hn,city,Sens,Bourgogne,FR
+seongnam,,south korea,"seongnam, south korea",127.13778,37.43861,geonames-cities500+dr5hn,city~,Seongnam-si,Gyeonggi-do,KR
+seoul,,south korea,"seoul, south korea",126.9784,37.566,geonames-cities500+dr5hn,city,Seoul,Seoul,KR
+seremban,negeri sembilan,malaysia,"seremban, negeri sembilan, malaysia",101.9381,2.7297,geonames-cities500+dr5hn,city+state,Seremban,Negeri Sembilan,MY
+settat,,morocco,"settat, morocco",-7.61662,33.00103,geonames-cities500+dr5hn,city,Settat,Casablanca-Settat,MA
+seville,,spain,"seville, spain",-5.97317,37.38283,geonames-cities500+dr5hn,city,Sevilla,Andalusia,ES
+shady grove,maryland,usa,"shady grove, maryland, usa",-76.93821,39.51624,geonames-cities500+dr5hn,state,Maryland,,US
+shaidon,,tajikistan,"shaidon, tajikistan",71.0,39.0,geonames-cities500+dr5hn,country,Tajikistan,,TJ
+shanghai,,china,"shanghai, china",121.45806,31.22222,geonames-cities500+dr5hn,city,Shanghai,Shanghai,CN
+shangrao,jiangxi,china,"shangrao, jiangxi, china",117.94287,28.45179,geonames-cities500+dr5hn,city+state,Shangrao,Jiangxi,CN
+shangri-la,yunnan,china,"shangri-la, yunnan, china",99.70779,27.82511,geonames-cities500+dr5hn,city+state,Shangri-La,Yunnan,CN
+shanklin,isle of wight,uk,"shanklin, isle of wight, uk",-1.1785,50.62613,geonames-cities500+dr5hn,city+state,Shanklin,England,GB
+shanxi province,shanxi,china,"shanxi province, shanxi, china",112.0,37.0,geonames-cities500+dr5hn,state,Shanxi,,CN
+shaoxing,zhejiang,china,"shaoxing, zhejiang, china",120.57864,30.00237,geonames-cities500+dr5hn,city+state,Shaoxing,Zhejiang,CN
+sharjah,,united arab emirates,"sharjah, united arab emirates",55.41221,25.3342,geonames-cities500+dr5hn,city,Sharjah,Sharjah,AE
+shawinigan,quebec,canada,"shawinigan, quebec, canada",-72.74913,46.56675,geonames-cities500+dr5hn,city+state,Shawinigan,Quebec,CA
+shenyang,liaoning,china,"shenyang, liaoning, china",123.43278,41.79222,geonames-cities500+dr5hn,city+state,Shenyang,Liaoning,CN
+shenzhen,,china,"shenzhen, china",114.0683,22.54554,geonames-cities500+dr5hn,city,Shenzhen,Guangdong,CN
+shenzhen,guangdong,china,"shenzhen, guangdong, china",114.0683,22.54554,geonames-cities500+dr5hn,city+state,Shenzhen,Guangdong,CN
+shi jia zhuang,hebei,china,"shi jia zhuang, hebei, china",114.47861,38.04139,geonames-cities500+dr5hn,city~,Shijiazhuang,Hebei,CN
+shiraz,,iran,"shiraz, iran",52.53113,29.61031,geonames-cities500+dr5hn,city,Shiraz,Fars,IR
+shunde,guangdong,china,"shunde, guangdong, china",113.19827,23.13577,geonames-cities500+dr5hn,state,Guangdong,,CN
+sialkot,,pakistan,"sialkot, pakistan",74.53134,32.49268,geonames-cities500+dr5hn,city,Sialkot,Punjab,PK
+sialkot,punjab,pakistan,"sialkot, punjab, pakistan",74.53134,32.49268,geonames-cities500+dr5hn,city+state,Sialkot,Punjab,PK
+sianow,,poland,"sianow, poland",16.29127,54.22646,geonames-cities500+dr5hn,city,Sianów,West Pomerania,PL
+siaya,,kenya,"siaya, kenya",34.28806,0.0607,geonames-cities500+dr5hn,city,Siaya,Siaya County,KE
+sibutu,,philippines,"sibutu, philippines",122.0,13.0,geonames-cities500+dr5hn,country,Philippines,,PH
+siem reap,,cambodia,"siem reap, cambodia",103.86056,13.36179,geonames-cities500+dr5hn,city,Siem Reap,Siem Reap,KH
+silver spring,maryland,usa,"silver spring, maryland, usa",-77.02609,38.99067,geonames-cities500+dr5hn,city+state,Silver Spring,Maryland,US
+singapore,,singapore,"singapore, singapore",103.85007,1.28967,geonames-cities500+dr5hn,city,Singapore,,SG
+sint niklaas,,belgium,"sint niklaas, belgium",4.1437,51.16509,geonames-cities500+dr5hn,city,Sint-Niklaas,Flanders,BE
+sint-niklaas,,belgium,"sint-niklaas, belgium",4.1437,51.16509,geonames-cities500+dr5hn,city,Sint-Niklaas,Flanders,BE
+siracusa,sicily,italy,"siracusa, sicily, italy",15.28664,37.07542,geonames-cities500+dr5hn,city+state,Siracusa,Sicily,IT
+sivas,,turkey,"sivas, turkey",37.01611,39.74833,geonames-cities500+dr5hn,city,Sivas,Sivas,TR
+skopje,,macedonia,"skopje, macedonia",21.43141,41.99646,geonames-cities500+dr5hn,city,Skopje,Grad Skopje,MK
+slovenj gradec,,slovenia,"slovenj gradec, slovenia",15.08377,46.51088,geonames-cities500+dr5hn,city,Slovenj Gradec,Slovenj Gradec,SI
+smith island,maryland,usa,"smith island, maryland, usa",-76.93821,39.51624,geonames-cities500+dr5hn,state,Maryland,,US
+sochi,,russia,"sochi, russia",39.72477,43.59699,geonames-cities500+dr5hn,city,Sochi,Krasnodar Krai,RU
+sofia,,bulgaria,"sofia, bulgaria",23.32415,42.69751,geonames-cities500+dr5hn,city,Sofia,Sofia-Capital,BG
+sokcho,,south korea,"sokcho, south korea",128.59181,38.20701,geonames-cities500+dr5hn,city,Sokcho,Gangwon-do,KR
+sokoto,,nigeria,"sokoto, nigeria",5.24322,13.06269,geonames-cities500+dr5hn,city,Sokoto,Sokoto,NG
+sollentuna,,sweden,"sollentuna, sweden",17.95093,59.42804,geonames-cities500+dr5hn,city,Sollentuna,Stockholm,SE
+solna,,sweden,"solna, sweden",18.00086,59.36004,geonames-cities500+dr5hn,city,Solna,Stockholm,SE
+solotvino,,ukraine,"solotvino, ukraine",23.87433,47.94728,geonames-cities500+dr5hn,city~,Solotvyno,Zakarpattia,UA
+songkhla,,thailand,"songkhla, thailand",100.5951,7.19882,geonames-cities500+dr5hn,city,Songkhla,Songkhla,TH
+songyuan,jilin,china,"songyuan, jilin, china",124.82769,45.12902,geonames-cities500+dr5hn,city+state,Songyuan,Jilin,CN
+sonsonate,,el salvador,"sonsonate, el salvador",-89.72304,13.71726,geonames-cities500+dr5hn,city,Sonsonate,Sonsonate Department,SV
+south riding,virginia,usa,"south riding, virginia, usa",-77.50388,38.92094,geonames-cities500+dr5hn,city+state,South Riding,Virginia,US
+southhampton,,uk,"southhampton, uk",-1.40428,50.90395,geonames-cities500+dr5hn,city~,Southampton,England,GB
+southport,,australia,"southport, australia",133.0,-27.0,geonames-cities500+dr5hn,country,Australia,,AU
+spaichingen,,germany,"spaichingen, germany",8.73508,48.07477,geonames-cities500+dr5hn,city,Spaichingen,Baden-Wurttemberg,DE
+spartanburg,south carolina,usa,"spartanburg, south carolina, usa",-81.93205,34.94957,geonames-cities500+dr5hn,city+state,Spartanburg,South Carolina,US
+split,,croatia,"split, croatia",16.43915,43.50891,geonames-cities500+dr5hn,city,Split,Split-Dalmatia,HR
+spokane,washington,usa,"spokane, washington, usa",-117.42908,47.65966,geonames-cities500+dr5hn,city+state,Spokane,Washington,US
+sreepur,,bangladesh,"sreepur, bangladesh",90.0,24.0,geonames-cities500+dr5hn,country,Bangladesh,,BD
+st. albans,hertfordshire,uk,"st. albans, hertfordshire, uk",-0.33333,51.75,geonames-cities500+dr5hn,city+state,St Albans,England,GB
+st. augustine,,trinidad,"st. augustine, trinidad",-61.0,11.0,geonames-cities500+dr5hn,country,Trinidad and Tobago,,TT
+st. charles,illinois,usa,"st. charles, illinois, usa",-88.30869,41.91419,geonames-cities500+dr5hn,city+state,St. Charles,Illinois,US
+st. etienne,,france,"st. etienne, france",4.39,45.43389,geonames-cities500+dr5hn,city,Saint-Étienne,Rhône-Alpes,FR
+st. george,queensland,australia,"st. george, queensland, australia",144.58449,-22.16468,geonames-cities500+dr5hn,state,Queensland,,AU
+st. helens,merseyside,uk,"st. helens, merseyside, uk",-2.73333,53.45,geonames-cities500+dr5hn,city,St Helens,England,GB
+st. laurent d'onay,,france,"st. laurent d'onay, france",4.56335,45.94432,geonames-cities500+dr5hn,city~,Saint-Laurent-d'Oingt,Rhône-Alpes,FR
+st. louis,missouri,usa,"st. louis, missouri, usa",-90.19789,38.62727,geonames-cities500+dr5hn,city+state,St. Louis,Missouri,US
+st. louis fr,,france,"st. louis fr, france",7.55923,47.59206,geonames-cities500+dr5hn,city~,Saint-Louis,Grand Est,FR
+st. mary's,ontario,canada,"st. mary's, ontario, canada",-81.13304,43.25009,geonames-cities500+dr5hn,city+state,St. Marys,Ontario,CA
+st. marys,ontario,canada,"st. marys, ontario, canada",-81.13304,43.25009,geonames-cities500+dr5hn,city+state,St. Marys,Ontario,CA
+st. paul,minnesota,usa,"st. paul, minnesota, usa",-93.09327,44.94441,geonames-cities500+dr5hn,city+state,Saint Paul,Minnesota,US
+st. petersburg,,russia,"st. petersburg, russia",30.31413,59.93863,geonames-cities500+dr5hn,city,Saint Petersburg,St.-Petersburg,RU
+st. thomas,,us virgin islands,"st. thomas, us virgin islands",-64.9189,18.34291,geonames-cities500+dr5hn,state,Saint Thomas,,VI
+staffordshire,,uk,"staffordshire, uk",-2.00745,52.82469,geonames-cities500+dr5hn,state,Staffordshire,,GB
+stara zagora,,bulgaria,"stara zagora, bulgaria",25.64262,42.43205,geonames-cities500+dr5hn,city,Stara Zagora,Stara Zagora,BG
+staten island,new york,usa,"staten island, new york, usa",-74.13986,40.56233,geonames-cities500+dr5hn,city+state,Staten Island,New York,US
+stavropol,,russia,"stavropol, russia",41.9642,45.03442,geonames-cities500+dr5hn,city,Stavropol’,Stavropol Kray,RU
+stip,,macedonia,"stip, macedonia",22.19359,41.73747,geonames-cities500+dr5hn,state,Štip,,MK
+stockholm,,sweden,"stockholm, sweden",18.06871,59.32938,geonames-cities500+dr5hn,city,Stockholm,Stockholm,SE
+stokholm,,sweden,"stokholm, sweden",18.06871,59.32938,geonames-cities500+dr5hn,city~,Stockholm,Stockholm,SE
+strabane,northern ireland,uk,"strabane, northern ireland, uk",-7.46916,54.82373,geonames-cities500+dr5hn,city+state,Strabane,Northern Ireland,GB
+strasbourg,,france,"strasbourg, france",7.74553,48.58392,geonames-cities500+dr5hn,city,Strasbourg,Grand Est,FR
+strattford-on-avon,,uk,"strattford-on-avon, uk",-1.70734,52.19166,geonames-cities500+dr5hn,city~,Stratford-upon-Avon,England,GB
+stringtown,oklahoma,usa,"stringtown, oklahoma, usa",-97.43662,35.5545,geonames-cities500+dr5hn,state,Oklahoma,,US
+stuttgart,,germany,"stuttgart, germany",9.17702,48.78232,geonames-cities500+dr5hn,city,Stuttgart,Baden-Wurttemberg,DE
+sukhbaatar,,mongolia,"sukhbaatar, mongolia",113.50772,46.20934,geonames-cities500+dr5hn,state,Sükhbaatar,,MN
+sukhothai,,thailand,"sukhothai, thailand",99.823,17.00778,geonames-cities500+dr5hn,city,Sukhothai,Sukhothai,TH
+sulaymaniyah,,iraq,"sulaymaniyah, iraq",45.4352,35.55747,geonames-cities500+dr5hn,state,Sulaymaniyah,,IQ
+sumatera,,indonesia,"sumatera, indonesia",102.0,0.0,geonames-cities500+dr5hn,state,Sumatera,,ID
+summit,new jersey,usa,"summit, new jersey, usa",-74.36468,40.71562,geonames-cities500+dr5hn,city+state,Summit,New Jersey,US
+sunchun,,south korea,"sunchun, south korea",127.48784,34.9505,geonames-cities500+dr5hn,city,Suncheon,Jeollanam-do,KR
+sunds,,denmark,"sunds, denmark",9.01386,56.20743,geonames-cities500+dr5hn,city,Sunds,Central Jutland,DK
+superior,colorado,usa,"superior, colorado, usa",-105.1686,39.95276,geonames-cities500+dr5hn,city+state,Superior,Colorado,US
+surat,,india,"surat, india",72.83023,21.19594,geonames-cities500+dr5hn,city,Surat,Gujarat,IN
+surat,gujarat,india,"surat, gujarat, india",72.83023,21.19594,geonames-cities500+dr5hn,city+state,Surat,Gujarat,IN
+surin,,thailand,"surin, thailand",103.49364,14.88181,geonames-cities500+dr5hn,city,Surin,Surin,TH
+suva,,fiji,"suva, fiji",178.42531,-18.13683,geonames-cities500+dr5hn,city,Suva,Central,FJ
+suwon,,south korea,"suwon, south korea",127.00889,37.29111,geonames-cities500+dr5hn,city,Suwon,Gyeonggi-do,KR
+suzhou,jiangsu,china,"suzhou, jiangsu, china",120.59538,31.30408,geonames-cities500+dr5hn,city+state,Suzhou,Jiangsu,CN
+sydney,,australia,"sydney, australia",151.20732,-33.86785,geonames-cities500+dr5hn,city,Sydney,New South Wales,AU
+sydney,nova scotia,canada,"sydney, nova scotia, canada",-60.1831,46.1351,geonames-cities500+dr5hn,city+state,Sydney,Nova Scotia,CA
+sylhet,,bangladesh,"sylhet, bangladesh",91.87198,24.89904,geonames-cities500+dr5hn,city,Sylhet,Sylhet Division,BD
+syracuse,new york,usa,"syracuse, new york, usa",-76.14742,43.04812,geonames-cities500+dr5hn,city+state,Syracuse,New York,US
+szeged,,hungary,"szeged, hungary",20.14824,46.253,geonames-cities500+dr5hn,city,Szeged,Csongrád,HU
+taegu,,south korea,"taegu, south korea",128.59111,35.87028,geonames-cities500+dr5hn,city,Daegu,Daegu,KR
+taejon,,south korea,"taejon, south korea",127.38493,36.34913,geonames-cities500+dr5hn,city,Daejeon,Daejeon,KR
+tai chung,,taiwan,"tai chung, taiwan",120.6839,24.1469,geonames-cities500+dr5hn,city~,Taichung,Taiwan,TW
+taichung,,taiwan,"taichung, taiwan",120.6839,24.1469,geonames-cities500+dr5hn,city,Taichung,Taiwan,TW
+taif,,saudi arabia,"taif, saudi arabia",40.41583,21.27028,geonames-cities500+dr5hn,city,Ta’if,Mecca Region,SA
+tainan,,taiwan,"tainan, taiwan",120.21333,22.99083,geonames-cities500+dr5hn,city,Tainan,Taiwan,TW
+taipei,,taiwan,"taipei, taiwan",121.52639,25.05306,geonames-cities500+dr5hn,city,Taipei,Taiwan,TW
+taishan,guangdong,china,"taishan, guangdong, china",112.7799,22.25135,geonames-cities500+dr5hn,city+state,Taishan,Guangdong,CN
+taiyuan,shanxi,china,"taiyuan, shanxi, china",112.56028,37.86944,geonames-cities500+dr5hn,city+state,Taiyuan,Shanxi,CN
+taizhou,jiangsu,china,"taizhou, jiangsu, china",119.90812,32.49069,geonames-cities500+dr5hn,city+state,Taizhou,Jiangsu,CN
+taizhou,zhejiang,china,"taizhou, zhejiang, china",121.43312,28.66266,geonames-cities500+dr5hn,city+state,Taizhou,Zhejiang,CN
+tallinn,,estonia,"tallinn, estonia",24.75353,59.43696,geonames-cities500+dr5hn,city,Tallinn,Harjumaa,EE
+tambacounda,,senegal,"tambacounda, senegal",-13.66734,13.77073,geonames-cities500+dr5hn,city,Tambacounda,Tambacounda,SN
+tampa,florida,usa,"tampa, florida, usa",-82.45843,27.94752,geonames-cities500+dr5hn,city+state,Tampa,Florida,US
+tampere,,finland,"tampere, finland",23.78712,61.49911,geonames-cities500+dr5hn,city,Tampere,Pirkanmaa,FI
+tamworth,,australia,"tamworth, australia",150.92905,-31.09048,geonames-cities500+dr5hn,city,Tamworth,New South Wales,AU
+tandil,,argentina,"tandil, argentina",-59.1369,-37.3287,geonames-cities500+dr5hn,city,Tandil,Buenos Aires,AR
+tanga,,tanzania,"tanga, tanzania",39.09875,-5.06893,geonames-cities500+dr5hn,city,Tanga,Tanga,TZ
+tangier island,virginia,usa,"tangier island, virginia, usa",-78.49277,37.12322,geonames-cities500+dr5hn,state,Virginia,,US
+taoyuan,,taiwan,"taoyuan, taiwan",121.3187,24.9896,geonames-cities500+dr5hn,city,Taoyuan,Taiwan,TW
+tarlac city,,philippines,"tarlac city, philippines",120.59794,15.48017,geonames-cities500+dr5hn,city,Tarlac City,Central Luzon,PH
+tarnaveni,,romania,"tarnaveni, romania",24.29662,46.33191,geonames-cities500+dr5hn,city,Târnăveni,Mureș County,RO
+tarragona,,spain,"tarragona, spain",1.24544,41.11905,geonames-cities500+dr5hn,city,Tarragona,Catalonia,ES
+tarshiha-maalot,,israel,"tarshiha-maalot, israel",34.75,31.5,geonames-cities500+dr5hn,country,Israel,,IL
+tartu,,estonia,"tartu, estonia",26.72509,58.38062,geonames-cities500+dr5hn,city,Tartu,Tartu,EE
+tashkent,,uzbekistan,"tashkent, uzbekistan",69.21627,41.26465,geonames-cities500+dr5hn,city,Tashkent,Tashkent,UZ
+tata,,morocco,"tata, morocco",-7.973,29.74409,geonames-cities500+dr5hn,city,Tata,Souss-Massa,MA
+taunggyi,,myanmar,"taunggyi, myanmar",97.03776,20.78919,geonames-cities500+dr5hn,city,Taunggyi,Shan State,MM
+tbilisi,,republic of georgia,"tbilisi, republic of georgia",44.83412,41.69143,geonames-cities500+dr5hn,city,Tbilisi,Tbilisi,GE
+tefki,,ethiopia,"tefki, ethiopia",38.0,8.0,geonames-cities500+dr5hn,country,Ethiopia,,ET
+tegucigalpa,,honduras,"tegucigalpa, honduras",-87.20681,14.0818,geonames-cities500+dr5hn,city,Tegucigalpa,Francisco Morazán Department,HN
+tehran,,iran,"tehran, iran",51.42151,35.69439,geonames-cities500+dr5hn,city,Tehran,Tehran,IR
+tejupilco,,mexico,"tejupilco, mexico",-100.15275,18.90475,geonames-cities500+dr5hn,city~,Tejupilco de Hidalgo,México,MX
+tel aviv,,israel,"tel aviv, israel",34.78057,32.08088,geonames-cities500+dr5hn,city,Tel Aviv,Tel Aviv,IL
+tela atlantida,,honduras,"tela atlantida, honduras",-86.5,15.0,geonames-cities500+dr5hn,country,Honduras,,HN
+tema,,ghana,"tema, ghana",-0.01657,5.6698,geonames-cities500+dr5hn,city,Tema,Greater Accra,GH
+tenali,,india,"tenali, india",80.63982,16.24253,geonames-cities500+dr5hn,city~,Thenali,Andhra Pradesh,IN
+tenkodogo,,burkina faso,"tenkodogo, burkina faso",-0.36972,11.78,geonames-cities500+dr5hn,city,Tenkodogo,Centre-Est,BF
+teramo,,italy,"teramo, italy",13.69901,42.66123,geonames-cities500+dr5hn,city,Teramo,Abruzzo,IT
+tervuren,,belgium,"tervuren, belgium",4.51418,50.82372,geonames-cities500+dr5hn,city,Tervuren,Flanders,BE
+teslic,,bosnia and herzegovina,"teslic, bosnia and herzegovina",17.85972,44.60639,geonames-cities500+dr5hn,city,Teslić,Srpska,BA
+tianjin,,china,"tianjin, china",117.17667,39.14222,geonames-cities500+dr5hn,city,Tianjin,Tianjin,CN
+tianjin,hebei,china,"tianjin, hebei, china",117.17667,39.14222,geonames-cities500+dr5hn,city+state,Tianjin,Tianjin,CN
+tie ling,liaoning,china,"tie ling, liaoning, china",123.84139,42.29306,geonames-cities500+dr5hn,city~,Tieling,Liaoning,CN
+tijuana,,mexico,"tijuana, mexico",-117.00371,32.5027,geonames-cities500+dr5hn,city,Tijuana,Baja California,MX
+tilburg,,netherlands,"tilburg, netherlands",5.0913,51.55551,geonames-cities500+dr5hn,city,Tilburg,North Brabant,NL
+timisoara,,romania,"timisoara, romania",21.22571,45.75372,geonames-cities500+dr5hn,city,Timişoara,Timiș County,RO
+tirana,,albania,"tirana, albania",19.81866,41.32744,geonames-cities500+dr5hn,city,Tirana,Tirana,AL
+tokyo,,japan,"tokyo, japan",139.69171,35.6895,geonames-cities500+dr5hn,city,Tokyo,Tokyo,JP
+tolcsva,borsod,hungary,"tolcsva, borsod, hungary",21.45,48.28333,geonames-cities500+dr5hn,city+state,Tolcsva,Borsod-Abaúj-Zemplén,HU
+toluca,,mexico,"toluca, mexico",-99.65324,19.28786,geonames-cities500+dr5hn,city,Toluca,México,MX
+tomislavgrad,,bosnia and herzegovina,"tomislavgrad, bosnia and herzegovina",17.22515,43.71849,geonames-cities500+dr5hn,city,Tomislavgrad,Federation of B&H,BA
+tongcheng,anhui,china,"tongcheng, anhui, china",117.0,32.0,geonames-cities500+dr5hn,state,Anhui,,CN
+tongliao,inner mongolia,china,"tongliao, inner mongolia, china",122.26528,43.6125,geonames-cities500+dr5hn,city+state,Tongliao,Inner Mongolia,CN
+toronto,ontario,canada,"toronto, ontario, canada",-79.39864,43.70643,geonames-cities500+dr5hn,city+state,Toronto,Ontario,CA
+torrington,connecticut,usa,"torrington, connecticut, usa",-73.12122,41.80065,geonames-cities500+dr5hn,city+state,Torrington,Connecticut,US
+torshavn,,faroe islands,"torshavn, faroe islands",-6.77164,62.00973,geonames-cities500+dr5hn,city,Tórshavn,Streymoy,FO
+torun,,poland,"torun, poland",18.59814,53.01375,geonames-cities500+dr5hn,city,Toruń,Kujawsko-Pomorskie,PL
+toulouse,,france,"toulouse, france",1.44367,43.60426,geonames-cities500+dr5hn,city,Toulouse,Occitanie,FR
+townsville,queensland,australia,"townsville, queensland, australia",146.80569,-19.26639,geonames-cities500+dr5hn,city+state,Townsville,Queensland,AU
+toyama,,japan,"toyama, japan",137.21667,36.7,geonames-cities500+dr5hn,city,Toyama,Toyama,JP
+travnik,,bosnia and herzegovina,"travnik, bosnia and herzegovina",17.66583,44.22637,geonames-cities500+dr5hn,city,Travnik,Federation of B&H,BA
+trencin,,slovakia,"trencin, slovakia",18.04436,48.89452,geonames-cities500+dr5hn,city,Trenčín,Trenčín Region,SK
+trento,,italy,"trento, italy",11.12108,46.06787,geonames-cities500+dr5hn,city,Trento,Trentino-Alto Adige,IT
+trenton,michigan,usa,"trenton, michigan, usa",-83.17826,42.13949,geonames-cities500+dr5hn,city+state,Trenton,Michigan,US
+trenton,nova scotia,canada,"trenton, nova scotia, canada",-63.16538,45.19604,geonames-cities500+dr5hn,state,Nova Scotia,,CA
+trieste,,italy,"trieste, italy",13.77678,45.64953,geonames-cities500+dr5hn,city,Trieste,Friuli Venezia Giulia,IT
+tripoli,,libya,"tripoli, libya",13.18733,32.88743,geonames-cities500+dr5hn,city,Tripoli,Tripoli,LY
+trivandrum,kerala,india,"trivandrum, kerala, india",76.51204,10.35287,geonames-cities500+dr5hn,state,Kerala,,IN
+trois-rivieres,quebec,canada,"trois-rivieres, quebec, canada",-72.5477,46.34515,geonames-cities500+dr5hn,city+state,Trois-Rivières,Quebec,CA
+troy,new york,usa,"troy, new york, usa",-73.69179,42.72841,geonames-cities500+dr5hn,city+state,Troy,New York,US
+trujillo,,peru,"trujillo, peru",-79.02998,-8.11599,geonames-cities500+dr5hn,city,Trujillo,La Libertad,PE
+trzebnica,,poland,"trzebnica, poland",17.06331,51.31076,geonames-cities500+dr5hn,city,Trzebnica,Lower Silesia,PL
+tunis,,tunisia,"tunis, tunisia",10.16579,36.81897,geonames-cities500+dr5hn,city,Tunis,Tunis Governorate,TN
+turin,,italy,"turin, italy",7.68682,45.07049,geonames-cities500+dr5hn,city,Turin,Piedmont,IT
+turkmenabat,,turkmenistan,"turkmenabat, turkmenistan",63.57861,39.07328,geonames-cities500+dr5hn,city,Türkmenabat,Lebap,TM
+turnhout,,belgium,"turnhout, belgium",4.94471,51.32254,geonames-cities500+dr5hn,city,Turnhout,Flanders,BE
+turpan,xin jiang,china,"turpan, xin jiang, china",89.17886,42.94769,geonames-cities500+dr5hn,city+state,Turpan,Xinjiang,CN
+tuzla,,bosnia and herzegovina,"tuzla, bosnia and herzegovina",18.66709,44.53842,geonames-cities500+dr5hn,city,Tuzla,Federation of B&H,BA
+tyre,,lebanon,"tyre, lebanon",35.19389,33.27333,geonames-cities500+dr5hn,city,Tyre,South Governorate,LB
+uberlandia,,brazil,"uberlandia, brazil",-48.27722,-18.91861,geonames-cities500+dr5hn,city,Uberlândia,Minas Gerais,BR
+uddevalla,,sweden,"uddevalla, sweden",11.9424,58.34784,geonames-cities500+dr5hn,city,Uddevalla,Västra Götaland,SE
+ui jong bu,,south korea,"ui jong bu, south korea",127.0474,37.7415,geonames-cities500+dr5hn,city,Uijeongbu-si,Gyeonggi-do,KR
+ulaanbaatar,,mongolia,"ulaanbaatar, mongolia",106.9177,47.91847,geonames-cities500+dr5hn,state,Ulaanbaatar,,MN
+ulsan,,south korea,"ulsan, south korea",129.31667,35.53722,geonames-cities500+dr5hn,city,Ulsan,Ulsan,KR
+umea,,sweden,"umea, sweden",20.25972,63.82842,geonames-cities500+dr5hn,city,Umeå,Västerbotten,SE
+unije,,croatia,"unije, croatia",15.5,45.16667,geonames-cities500+dr5hn,country,Croatia,,HR
+unizah,,saudi arabia,"unizah, saudi arabia",44.0,26.1,geonames-cities500+dr5hn,city~,Unaizah,Al-Qassim Region,SA
+uppsala,,sweden,"uppsala, sweden",17.63889,59.85882,geonames-cities500+dr5hn,city,Uppsala,Uppsala,SE
+urdaneta,luzon,philippines,"urdaneta, luzon, philippines",120.57111,15.97611,geonames-cities500+dr5hn,city,Urdaneta,Ilocos,PH
+urmia,,iran,"urmia, iran",45.07605,37.55274,geonames-cities500+dr5hn,city,Orūmīyeh,West Azerbaijan,IR
+urumqi,xin jiang,china,"urumqi, xin jiang, china",87.60046,43.80096,geonames-cities500+dr5hn,city+state,Ürümqi,Xinjiang,CN
+urumqi,xinjiang,china,"urumqi, xinjiang, china",87.60046,43.80096,geonames-cities500+dr5hn,city+state,Ürümqi,Xinjiang,CN
+uster,,switzerland,"uster, switzerland",8.72091,47.34713,geonames-cities500+dr5hn,city,Uster,Zurich,CH
+usulutan,,el salvador,"usulutan, el salvador",-88.43994,13.34467,geonames-cities500+dr5hn,city,Usulután,Usulután,SV
+uyo,akwa ibom,nigeria,"uyo, akwa ibom, nigeria",7.9335,5.05127,geonames-cities500+dr5hn,city+state,Uyo,Akwa Ibom State,NG
+valencia,,spain,"valencia, spain",-0.37966,39.47391,geonames-cities500+dr5hn,city,Valencia,Valencia,ES
+vancouver,british columbia,canada,"vancouver, british columbia, canada",-123.11934,49.24966,geonames-cities500+dr5hn,city+state,Vancouver,British Columbia,CA
+vancouver wa,washington,usa,"vancouver wa, washington, usa",-122.66149,45.63873,geonames-cities500+dr5hn,city+state,Vancouver,Washington,US
+varna,,bulgaria,"varna, bulgaria",27.91024,43.21912,geonames-cities500+dr5hn,city,Varna,Varna,BG
+vatukoula,,fiji,"vatukoula, fiji",177.84983,-17.50136,geonames-cities500+dr5hn,city,Vatukoula,Western,FJ
+velika plana,,serbia,"velika plana, serbia",21.0,44.0,geonames-cities500+dr5hn,country,Serbia,,RS
+velky osek,,czech republic,"velky osek, czech republic",15.18629,50.09867,geonames-cities500+dr5hn,city,Velký Osek,Central Bohemia,CZ
+velsen,,netherlands,"velsen, netherlands",4.65,52.46,geonames-cities500+dr5hn,city~,Velsen-Zuid,North Holland,NL
+veracruz,,mexico,"veracruz, mexico",-96.1429,19.18095,geonames-cities500+dr5hn,city,Veracruz,Veracruz,MX
+vetlanda,,sweden,"vetlanda, sweden",15.07762,57.42887,geonames-cities500+dr5hn,city,Vetlanda,Jönköping,SE
+vicenza,,italy,"vicenza, italy",11.5475,45.54672,geonames-cities500+dr5hn,city,Vicenza,Veneto,IT
+vicenza,veneto,italy,"vicenza, veneto, italy",11.5475,45.54672,geonames-cities500+dr5hn,city+state,Vicenza,Veneto,IT
+vichy,,france,"vichy, france",3.42577,46.12709,geonames-cities500+dr5hn,city,Vichy,Rhône-Alpes,FR
+victoria,british columbia,canada,"victoria, british columbia, canada",-123.35155,48.4359,geonames-cities500+dr5hn,city+state,Victoria,British Columbia,CA
+vienna,,austria,"vienna, austria",16.37208,48.20849,geonames-cities500+dr5hn,city,Vienna,Vienna,AT
+vienna,virginia,usa,"vienna, virginia, usa",-77.26526,38.90122,geonames-cities500+dr5hn,city+state,Vienna,Virginia,US
+vientiane,,laos,"vientiane, laos",102.6,17.96667,geonames-cities500+dr5hn,city,Vientiane,Vientiane Prefecture,LA
+vijayawada,andhra pradesh,india,"vijayawada, andhra pradesh, india",80.6466,16.50745,geonames-cities500+dr5hn,city+state,Vijayawada,Andhra Pradesh,IN
+viljandi,,estonia,"viljandi, estonia",25.59159,58.36319,geonames-cities500+dr5hn,city,Viljandi,Viljandimaa,EE
+villach,,austria,"villach, austria",13.85583,46.61028,geonames-cities500+dr5hn,city,Villach,Carinthia,AT
+villalba,,puerto rico,"villalba, puerto rico",-66.49212,18.12718,geonames-cities500+dr5hn,city,Villalba,Villalba,PR
+vilnius,,lithuania,"vilnius, lithuania",25.2798,54.68916,geonames-cities500+dr5hn,city,Vilnius,Vilnius,LT
+vina del mar,,chile,"vina del mar, chile",-71.55183,-33.02457,geonames-cities500+dr5hn,city,Viña del Mar,Valparaíso,CL
+vinh long,,vietnam,"vinh long, vietnam",105.9722,10.25369,geonames-cities500+dr5hn,city,Vĩnh Long,Vinh Long,VN
+virginia,,south africa,"virginia, south africa",26.86593,-28.10391,geonames-cities500+dr5hn,city,Virginia,Free State,ZA
+visaginas,,lithuania,"visaginas, lithuania",26.43984,55.59678,geonames-cities500+dr5hn,city,Visaginas,Utena,LT
+vishakhapatnam,andhra pradesh,india,"vishakhapatnam, andhra pradesh, india",83.20161,17.68009,geonames-cities500+dr5hn,city~,Visakhapatnam,Andhra Pradesh,IN
+vitoria,,brazil,"vitoria, brazil",-40.33778,-20.31944,geonames-cities500+dr5hn,city,Vitória,Espírito Santo,BR
+vizcaya,,spain,"vizcaya, spain",-4.0,40.0,geonames-cities500+dr5hn,country,Spain,,ES
+vlaams-brabant,,belgium,"vlaams-brabant, belgium",4.78862,50.86865,geonames-cities500+dr5hn,state,Flemish Brabant,,BE
+vladikavkaz,,russia,"vladikavkaz, russia",44.66986,43.04101,geonames-cities500+dr5hn,city,Vladikavkaz,North Ossetia–Alania,RU
+vladivostok,,russia,"vladivostok, russia",131.87353,43.10562,geonames-cities500+dr5hn,city,Vladivostok,Primorye,RU
+vlore,,albania,"vlore, albania",19.48379,40.4696,geonames-cities500+dr5hn,city,Vlorë,Vlorë County,AL
+volda,,norway,"volda, norway",6.07108,62.146,geonames-cities500+dr5hn,city,Volda,Møre og Romsdal,NO
+volta redonda,,brazil,"volta redonda, brazil",-44.10417,-22.52306,geonames-cities500+dr5hn,city,Volta Redonda,Rio de Janeiro,BR
+voru,,estonia,"voru, estonia",27.01944,57.83389,geonames-cities500+dr5hn,city,Võru,Võrumaa,EE
+votuporanga,,brazil,"votuporanga, brazil",-49.97278,-20.42278,geonames-cities500+dr5hn,city,Votuporanga,São Paulo,BR
+vranje,,serbia,"vranje, serbia",21.90028,42.55139,geonames-cities500+dr5hn,city,Vranje,Central Serbia,RS
+wa,,ghana,"wa, ghana",-2.50192,10.06069,geonames-cities500+dr5hn,city,Wa,Upper West,GH
+waconia,minnesota,usa,"waconia, minnesota, usa",-93.78691,44.8508,geonames-cities500+dr5hn,city+state,Waconia,Minnesota,US
+wadesboro,north carolina,usa,"wadesboro, north carolina, usa",-80.07673,34.96821,geonames-cities500+dr5hn,city+state,Wadesboro,North Carolina,US
+wakefield,ohio,usa,"wakefield, ohio, usa",-82.68814,40.22536,geonames-cities500+dr5hn,state,Ohio,,US
+walakitang,rio coco,nicaragua,"walakitang, rio coco, nicaragua",-85.0,13.0,geonames-cities500+dr5hn,country,Nicaragua,,NI
+walton-on-thames,surrey,uk,"walton-on-thames, surrey, uk",-0.41319,51.38678,geonames-cities500+dr5hn,city+state,Walton-on-Thames,England,GB
+wanganui,,new zealand,"wanganui, new zealand",175.05,-39.93333,geonames-cities500+dr5hn,city~,Whanganui,Manawatu-Wanganui,NZ
+warren,michigan,usa,"warren, michigan, usa",-83.01304,42.49044,geonames-cities500+dr5hn,city+state,Warren,Michigan,US
+warrenton,virginia,usa,"warrenton, virginia, usa",-77.79527,38.71345,geonames-cities500+dr5hn,city+state,Warrenton,Virginia,US
+warsaw,,poland,"warsaw, poland",21.01178,52.22977,geonames-cities500+dr5hn,city,Warsaw,Mazovia,PL
+washington,dc,usa,"washington, dc, usa",-77.03637,38.89511,geonames-cities500+dr5hn,city+state,Washington,District of Columbia,US
+washington,district of columbia,usa,"washington, district of columbia, usa",-77.03637,38.89511,geonames-cities500+dr5hn,city+state,Washington,District of Columbia,US
+waspam,rio coco,nicaragua,"waspam, rio coco, nicaragua",-85.0,13.0,geonames-cities500+dr5hn,country,Nicaragua,,NI
+watertown,new york,usa,"watertown, new york, usa",-75.91076,43.97478,geonames-cities500+dr5hn,city+state,Watertown,New York,US
+wattala,,sri lanka,"wattala, sri lanka",79.89167,6.98918,geonames-cities500+dr5hn,city,Wattala,Western Province,LK
+weifang,shandong,china,"weifang, shandong, china",119.10194,36.71,geonames-cities500+dr5hn,city+state,Weifang,Shandong,CN
+wellga,,ethiopia,"wellga, ethiopia",38.0,8.0,geonames-cities500+dr5hn,country,Ethiopia,,ET
+wellington,,new zealand,"wellington, new zealand",174.77557,-41.28664,geonames-cities500+dr5hn,city,Wellington,Wellington Region,NZ
+weno,chuuk,federated states of micronesia,"weno, chuuk, federated states of micronesia",151.84135,7.44648,geonames-cities500+dr5hn,city+state,Weno,Chuuk,FM
+wenzhou,zhejiang,china,"wenzhou, zhejiang, china",120.66682,27.99942,geonames-cities500+dr5hn,city+state,Wenzhou,Zhejiang,CN
+werder,,ethiopia,"werder, ethiopia",38.0,8.0,geonames-cities500+dr5hn,country,Ethiopia,,ET
+west covina,california,usa,"west covina, california, usa",-117.93895,34.06862,geonames-cities500+dr5hn,city+state,West Covina,California,US
+west jordan,utah,usa,"west jordan, utah, usa",-111.9391,40.60967,geonames-cities500+dr5hn,city+state,West Jordan,Utah,US
+west palm beach,florida,usa,"west palm beach, florida, usa",-80.05337,26.71534,geonames-cities500+dr5hn,city+state,West Palm Beach,Florida,US
+westmoreland,,jamaica,"westmoreland, jamaica",-77.97932,18.2104,geonames-cities500+dr5hn,state,Westmoreland,,JM
+wichita,kansas,usa,"wichita, kansas, usa",-97.33754,37.69224,geonames-cities500+dr5hn,city+state,Wichita,Kansas,US
+wiesbaden,,germany,"wiesbaden, germany",8.24435,50.08601,geonames-cities500+dr5hn,city,Wiesbaden,Hesse,DE
+wilkes-barre,pennsylvania,usa,"wilkes-barre, pennsylvania, usa",-75.88131,41.24591,geonames-cities500+dr5hn,city+state,Wilkes-Barre,Pennsylvania,US
+willemstad,,curacao,"willemstad, curacao",-68.88641,12.12246,geonames-cities500+dr5hn,city,Willemstad,,CW
+williamson,west virginia,usa,"williamson, west virginia, usa",-82.27736,37.67427,geonames-cities500+dr5hn,city+state,Williamson,West Virginia,US
+wilmington nc,north carolina,usa,"wilmington nc, north carolina, usa",-77.94604,34.23556,geonames-cities500+dr5hn,city+state,Wilmington,North Carolina,US
+wilrijk,,belgium,"wilrijk, belgium",4.39513,51.16734,geonames-cities500+dr5hn,city,Wilrijk,Flanders,BE
+windsor,,australia,"windsor, australia",133.0,-27.0,geonames-cities500+dr5hn,country,Australia,,AU
+windsor,,uk,"windsor, uk",-0.6,51.48333,geonames-cities500+dr5hn,city,Windsor,England,GB
+windsor,ontario,canada,"windsor, ontario, canada",-83.01654,42.30008,geonames-cities500+dr5hn,city+state,Windsor,Ontario,CA
+winfield,illinois,usa,"winfield, illinois, usa",-88.1609,41.8617,geonames-cities500+dr5hn,city+state,Winfield,Illinois,US
+winnfield,louisiana,usa,"winnfield, louisiana, usa",-92.64131,31.92558,geonames-cities500+dr5hn,city+state,Winnfield,Louisiana,US
+winnipeg,manitoba,canada,"winnipeg, manitoba, canada",-97.14704,49.8844,geonames-cities500+dr5hn,city+state,Winnipeg,Manitoba,CA
+winston salem,north carolina,usa,"winston salem, north carolina, usa",-80.24422,36.09986,geonames-cities500+dr5hn,city+state,Winston-Salem,North Carolina,US
+winston-salem,north carolina,usa,"winston-salem, north carolina, usa",-80.24422,36.09986,geonames-cities500+dr5hn,city+state,Winston-Salem,North Carolina,US
+winterthur,,switzerland,"winterthur, switzerland",8.72413,47.50564,geonames-cities500+dr5hn,city,Winterthur,Zurich,CH
+wisconsin rapids,wisconsin,usa,"wisconsin rapids, wisconsin, usa",-89.81735,44.38358,geonames-cities500+dr5hn,city+state,Wisconsin Rapids,Wisconsin,US
+wise,virginia,usa,"wise, virginia, usa",-82.57571,36.97593,geonames-cities500+dr5hn,city+state,Wise,Virginia,US
+wolanow,,poland,"wolanow, poland",20.97702,51.3803,geonames-cities500+dr5hn,city,Wolanów,Mazovia,PL
+wolin,,poland,"wolin, poland",14.61465,53.84214,geonames-cities500+dr5hn,city,Wolin,West Pomerania,PL
+woodbridge,virginia,usa,"woodbridge, virginia, usa",-77.2497,38.65817,geonames-cities500+dr5hn,city+state,Woodbridge,Virginia,US
+woonsocket,rhode island,usa,"woonsocket, rhode island, usa",-71.51478,42.00288,geonames-cities500+dr5hn,city+state,Woonsocket,Rhode Island,US
+worcester,massachusetts,usa,"worcester, massachusetts, usa",-71.80229,42.26259,geonames-cities500+dr5hn,city+state,Worcester,Massachusetts,US
+wrexham,wales,uk,"wrexham, wales, uk",-2.99132,53.04664,geonames-cities500+dr5hn,city+state,Wrexham,Wales,GB
+wroclaw,,poland,"wroclaw, poland",17.03006,51.10286,geonames-cities500+dr5hn,city,Wrocław,Lower Silesia,PL
+wuhai,,china,"wuhai, china",106.81583,39.68442,geonames-cities500+dr5hn,city,Wuhai,Inner Mongolia,CN
+wuhan,hubei,china,"wuhan, hubei, china",114.26667,30.58333,geonames-cities500+dr5hn,city+state,Wuhan,Hubei,CN
+wuhu,anhui,china,"wuhu, anhui, china",118.42947,31.35259,geonames-cities500+dr5hn,city+state,Wuhu,Anhui,CN
+wuppertal,,germany,"wuppertal, germany",7.14816,51.25627,geonames-cities500+dr5hn,city,Wuppertal,North Rhine-Westphalia,DE
+wurzburg,,germany,"wurzburg, germany",9.95121,49.79391,geonames-cities500+dr5hn,city,Würzburg,Bavaria,DE
+wuxi,jiangsu,china,"wuxi, jiangsu, china",120.28857,31.56887,geonames-cities500+dr5hn,city+state,Wuxi,Jiangsu,CN
+wynnewood,pennsylvania,usa,"wynnewood, pennsylvania, usa",-77.72788,40.96999,geonames-cities500+dr5hn,state,Pennsylvania,,US
+xi'an,shanxi,china,"xi'an, shanxi, china",108.92861,34.25833,geonames-cities500+dr5hn,city+state,Xi’an,Shaanxi,CN
+xiamen,fujian,china,"xiamen, fujian, china",118.08187,24.47979,geonames-cities500+dr5hn,city+state,Xiamen,Fujian,CN
+xiangtan,hunan,china,"xiangtan, hunan, china",112.9,27.85,geonames-cities500+dr5hn,city+state,Xiangtan,Hunan,CN
+xuzhou,jiangsu,china,"xuzhou, jiangsu, china",117.28386,34.20442,geonames-cities500+dr5hn,city+state,Xuzhou,Jiangsu,CN
+yabello,burana,ethiopia,"yabello, burana, ethiopia",38.08333,4.88333,geonames-cities500+dr5hn,city~,Yabēlo,Oromiya,ET
+yakutsk,,russia,"yakutsk, russia",129.72288,62.03114,geonames-cities500+dr5hn,city,Yakutsk,Sakha,RU
+yanbian,jilin,china,"yanbian, jilin, china",126.54957,43.83788,geonames-cities500+dr5hn,state,Jilin,,CN
+yangon,,myanmar,"yangon, myanmar",96.15611,16.80528,geonames-cities500+dr5hn,city,Yangon,Yangon,MM
+yangxin,hubei,china,"yangxin, hubei, china",112.0,31.0,geonames-cities500+dr5hn,state,Hubei,,CN
+yantai,shandong,china,"yantai, shandong, china",121.44081,37.47649,geonames-cities500+dr5hn,city+state,Yantai,Shandong,CN
+yap island,,federated states of micronesia,"yap island, federated states of micronesia",158.25,6.91667,geonames-cities500+dr5hn,country,Micronesia,,FM
+yazd,,iran,"yazd, iran",54.3675,31.89722,geonames-cities500+dr5hn,city,Yazd,Yazd Province,IR
+yeadon,pennsylvania,usa,"yeadon, pennsylvania, usa",-75.25546,39.939,geonames-cities500+dr5hn,city+state,Yeadon,Pennsylvania,US
+yehud,,israel,"yehud, israel",34.89091,32.03317,geonames-cities500+dr5hn,city,Yehud,Central District,IL
+yekaterinburg,,russia,"yekaterinburg, russia",60.61529,56.85733,geonames-cities500+dr5hn,city,Yekaterinburg,Sverdlovsk Oblast,RU
+yerevan,,armenia,"yerevan, armenia",44.5126,40.17765,geonames-cities500+dr5hn,city,Yerevan,Yerevan,AM
+yokohama,,japan,"yokohama, japan",139.65,35.43333,geonames-cities500+dr5hn,city,Yokohama,Kanagawa,JP
+yokosuka,,japan,"yokosuka, japan",139.66722,35.28361,geonames-cities500+dr5hn,city,Yokosuka,Kanagawa,JP
+yole,,india,"yole, india",77.0,20.0,geonames-cities500+dr5hn,country,India,,IN
+york,,uk,"york, uk",-1.08271,53.95763,geonames-cities500+dr5hn,city,York,England,GB
+yorkton,saskatchewan,canada,"yorkton, saskatchewan, canada",-102.46766,51.2167,geonames-cities500+dr5hn,city+state,Yorkton,Saskatchewan,CA
+yorktown,virginia,usa,"yorktown, virginia, usa",-78.49277,37.12322,geonames-cities500+dr5hn,state,Virginia,,US
+youngstown,ohio,usa,"youngstown, ohio, usa",-80.64952,41.09978,geonames-cities500+dr5hn,city+state,Youngstown,Ohio,US
+yulin,shanxi,china,"yulin, shanxi, china",112.0,37.0,geonames-cities500+dr5hn,state,Shanxi,,CN
+zabbougha,,lebanon,"zabbougha, lebanon",35.83333,33.83333,geonames-cities500+dr5hn,country,Lebanon,,LB
+zacatecas,,mexico,"zacatecas, mexico",-102.58141,22.76843,geonames-cities500+dr5hn,city,Zacatecas,Zacatecas,MX
+zaporizhzhya,,ukraine,"zaporizhzhya, ukraine",35.11714,47.85167,geonames-cities500+dr5hn,city,Zaporizhzhya,Zaporizhzhia,UA
+zaragoza,,spain,"zaragoza, spain",-0.87734,41.65606,geonames-cities500+dr5hn,city,Zaragoza,Aragon,ES
+zenica,,bosnia and herzegovina,"zenica, bosnia and herzegovina",17.90397,44.20169,geonames-cities500+dr5hn,city,Zenica,Federation of B&H,BA
+zhengzhou,henan,china,"zhengzhou, henan, china",113.64861,34.75778,geonames-cities500+dr5hn,city+state,Zhengzhou,Henan,CN
+zhezkazgan,,kazakhstan,"zhezkazgan, kazakhstan",67.70628,47.79411,geonames-cities500+dr5hn,city,Zhezqazghan,Ulytau Region,KZ
+zhuzhou,hunan,china,"zhuzhou, hunan, china",113.15,27.83333,geonames-cities500+dr5hn,city+state,Zhuzhou,Hunan,CN
+zibo,shandong,china,"zibo, shandong, china",118.06333,36.79056,geonames-cities500+dr5hn,city+state,Zibo,Shandong,CN
+ziguinchor,,senegal,"ziguinchor, senegal",-16.27326,12.56801,geonames-cities500+dr5hn,city,Ziguinchor,Ziguinchor,SN
+zofingen,,switzerland,"zofingen, switzerland",7.94586,47.28779,geonames-cities500+dr5hn,city,Zofingen,Aargau,CH
+zrenjanin,serbia,serbia,"zrenjanin, serbia, serbia",20.38194,45.38361,geonames-cities500+dr5hn,city,Zrenjanin,Vojvodina,RS
+zurich,,switzerland,"zurich, switzerland",8.55,47.36667,geonames-cities500+dr5hn,city,Zürich,Zurich,CH
+zwolle,,netherlands,"zwolle, netherlands",6.09444,52.5125,geonames-cities500+dr5hn,city,Zwolle,Overijssel,NL

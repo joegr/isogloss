@@ -35,8 +35,9 @@ CREATE INDEX IF NOT EXISTS saa_speaker_lang ON saa_speaker (native_language);
 
 -- One row per distinct birthplace. `query` is the 'city, state, country' string
 -- a geocoder was given; `source` says which gazetteer answered and `match` how
--- (exact city+state, city+country, country centroid…), so coarse fixes can be
--- told apart from good ones and down-weighted.
+-- (city+state, city, city~ close spelling, state centroid, country centroid —
+-- backend/app/datasets/geocode.py), so coarse fixes can be told apart from good
+-- ones and down-weighted. Coordinates come from db/data/saa_birthplaces.csv.
 CREATE TABLE IF NOT EXISTS saa_birthplace (
   city               text NOT NULL DEFAULT '',
   state_or_province  text NOT NULL DEFAULT '',
@@ -45,18 +46,26 @@ CREATE TABLE IF NOT EXISTS saa_birthplace (
   geog               geography(Point, 4326),
   source             text,
   match              text,
+  matched_name       text,
+  matched_admin1     text,
+  country_code       text,
   PRIMARY KEY (city, state_or_province, country)
 );
+ALTER TABLE saa_birthplace ADD COLUMN IF NOT EXISTS matched_name text;
+ALTER TABLE saa_birthplace ADD COLUMN IF NOT EXISTS matched_admin1 text;
+ALTER TABLE saa_birthplace ADD COLUMN IF NOT EXISTS country_code text;
 CREATE INDEX IF NOT EXISTS saa_birthplace_gg ON saa_birthplace USING GIST (geog);
 
 -- -- load ---------------------------------------------------------------------
 
 BEGIN;
-CREATE TEMP TABLE saa_load (LIKE saa_speaker) ON COMMIT DROP;
+CREATE TEMP TABLE saa_load ON COMMIT DROP AS
+  SELECT speakerid, speaker, native_language, alternative_native_language, city, state_or_province, country, age, gender, onset_age, english_residence, length_of_residence, learning_style, speech_sample, phonetic_transcription, map, ethnologue_language_code, notes FROM saa_speaker WITH NO DATA;
 COPY saa_load FROM '/docker-entrypoint-initdb.d/data/saa_speakers.csv'
   WITH (FORMAT csv, HEADER true, NULL '');
 
-INSERT INTO saa_speaker SELECT * FROM saa_load
+INSERT INTO saa_speaker (speakerid, speaker, native_language, alternative_native_language, city, state_or_province, country, age, gender, onset_age, english_residence, length_of_residence, learning_style, speech_sample, phonetic_transcription, map, ethnologue_language_code, notes)
+SELECT * FROM saa_load
 ON CONFLICT (speakerid) DO UPDATE SET
   speaker = EXCLUDED.speaker, native_language = EXCLUDED.native_language,
   alternative_native_language = EXCLUDED.alternative_native_language,
@@ -68,8 +77,27 @@ ON CONFLICT (speakerid) DO UPDATE SET
   phonetic_transcription = EXCLUDED.phonetic_transcription, map = EXCLUDED.map,
   ethnologue_language_code = EXCLUDED.ethnologue_language_code, notes = EXCLUDED.notes;
 
--- Every birthplace gets a row, geocoded or not, so "what is still missing" is
--- a query rather than a guess.
+CREATE TEMP TABLE saa_geo_load (
+  city text, state_or_province text, country text, query text,
+  lon float8, lat float8, source text, match text,
+  matched_name text, matched_admin1 text, country_code text
+) ON COMMIT DROP;
+COPY saa_geo_load FROM '/docker-entrypoint-initdb.d/data/saa_birthplaces.csv'
+  WITH (FORMAT csv, HEADER true, NULL '');
+
+INSERT INTO saa_birthplace (city, state_or_province, country, query, geog, source, match,
+                            matched_name, matched_admin1, country_code)
+SELECT COALESCE(city, ''), COALESCE(state_or_province, ''), COALESCE(country, ''), query,
+       CASE WHEN lon IS NOT NULL THEN ST_MakePoint(lon, lat)::geography END,
+       source, match, matched_name, matched_admin1, country_code
+FROM saa_geo_load
+ON CONFLICT (city, state_or_province, country) DO UPDATE SET
+  query = EXCLUDED.query, geog = EXCLUDED.geog, source = EXCLUDED.source,
+  match = EXCLUDED.match, matched_name = EXCLUDED.matched_name,
+  matched_admin1 = EXCLUDED.matched_admin1, country_code = EXCLUDED.country_code;
+
+-- Any birthplace the geocode file has not seen still gets a row, so "what is
+-- still missing" is a query rather than a guess.
 INSERT INTO saa_birthplace (city, state_or_province, country, query)
 SELECT DISTINCT COALESCE(city, ''), COALESCE(state_or_province, ''), COALESCE(country, ''),
        concat_ws(', ', city, state_or_province, country)
@@ -77,21 +105,3 @@ FROM saa_speaker
 WHERE city IS NOT NULL OR country IS NOT NULL
 ON CONFLICT DO NOTHING;
 COMMIT;
-
--- -- the view the audio field reads ---------------------------------------------
---
--- Native English speakers are flagged rather than filtered. Their birthplace is
--- dialect geography; for everyone else it is the geography of the first
--- language, which shapes the English accent along a different axis (README:
--- "L2 accent is a different axis from dialect geography").
-
-CREATE OR REPLACE VIEW saa_speaker_geo AS
-SELECT s.*,
-       s.native_language = 'english' AS native_english,
-       b.query AS birthplace,
-       b.geog, b.source AS geocode_source, b.match AS geocode_match
-FROM saa_speaker s
-LEFT JOIN saa_birthplace b
-  ON b.city = COALESCE(s.city, '')
- AND b.state_or_province = COALESCE(s.state_or_province, '')
- AND b.country = COALESCE(s.country, '');

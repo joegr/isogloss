@@ -39,6 +39,9 @@ jobs:
       - name: Speech Accent Archive table
         run: python3 backend/tests/test_saa.py
 
+      - name: Birthplace geocoding
+        run: python3 backend/tests/test_geocode.py
+
       # presets.js is generated from the SQL seed. If someone edits the seed and
       # forgets to regenerate, the site silently ships stale varieties — so the
       # check is that regenerating produces no diff.
@@ -91,7 +94,7 @@ jobs:
               IF (SELECT count(*) FROM site_cell) = 0 THEN RAISE 'no Voronoi cells'; END IF;
               IF (SELECT count(*) FROM interaction_edge) = 0 THEN RAISE 'no interaction graph'; END IF;
               IF (SELECT count(*) FROM isogloss) = 0 THEN RAISE 'no isoglosses'; END IF;
-              IF (SELECT count(*) FROM saa_birthplace) = 0 THEN RAISE 'no birthplaces'; END IF;
+              IF (SELECT count(geog) FROM saa_speaker_geo) < 3000 THEN RAISE 'birthplaces not geocoded'; END IF;
             END \$\$;"
 
   deploy:

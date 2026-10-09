@@ -57,8 +57,8 @@ psql: ## Open a psql shell on the field
 	$(COMPOSE) exec db psql -U isogloss -d isogloss
 
 .PHONY: migrate
-migrate: ## Apply the additive scripts (audio nodes, Speech Accent Archive) to an existing volume
-	@for f in 07_audio_nodes.sql 08_speech_accent_archive.sql; do \
+migrate: ## Apply the additive scripts (audio nodes, Speech Accent Archive, speaker records) to an existing volume
+	@for f in 07_audio_nodes.sql 08_speech_accent_archive.sql 09_speaker_records.sql; do \
 		$(COMPOSE) exec -T db psql -U isogloss -d isogloss -v ON_ERROR_STOP=1 -q \
 			-f /docker-entrypoint-initdb.d/$$f && echo "applied $$f"; done
 

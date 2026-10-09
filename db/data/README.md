@@ -59,11 +59,43 @@ value can be traced to its source cell:
 Nothing else is corrected: place names keep their spelling, and no row is
 dropped.
 
-**In the database** (`db/08_speech_accent_archive.sql`):
+## `saa_birthplaces.csv` — those birthplaces, geocoded
 
-* `saa_speaker` — the CSV, one row per speaker;
-* `saa_birthplace` — one row per distinct birthplace (1,627), with `geog`,
-  `source` and `match` empty until a geocoder fills them;
-* `saa_speaker_geo` — the join, plus `native_english`. For native English
-  speakers the birthplace is dialect geography; for everyone else it locates
-  the first language, which is a different axis of accent.
+One row per distinct `(city, state_or_province, country)` — 1,627 — with a
+point and a record of how it was found. Produced by
+`backend/app/datasets/geocode.py` against GeoNames cities500 (CC BY 4.0, via
+github.com/lmfmaier/cities-json) and the dr5hn country/state tables (ODbL 1.0).
+Rebuild with `cd backend && python -m app.datasets.geocode` (fetches the
+gazetteer into `~/.cache/isogloss/gazetteer` the first time).
+
+`match` is the rung of the cascade that answered, most specific first:
+
+| match | meaning | places | speakers |
+|---|---|---:|---:|
+| `city+state` | the city, inside the named state | 519 | 776 |
+| `city` | exact name within the country (largest if several) | 847 | 1,905 |
+| `city~` | close spelling, or the head of a longer name (Frankfurt → Frankfurt am Main) | 73 | 108 |
+| `state` | state/province centroid | 92 | 121 |
+| `country` | country centroid | 96 | 117 |
+
+620 of the 658 native English speakers are placed at a city. The 4 synthesized
+samples have no birthplace and no point. Treat `state` and `country` fixes as
+coarse: they are a few hundred kilometres wide, and the audio field should
+weight or drop them accordingly. Known limits: misspellings beyond the alias
+tables fall back to a centroid rather than guess; a city typed with the wrong
+state (`bangalore, kerala`) lands at the state's centroid.
+
+## In the database
+
+`db/08_speech_accent_archive.sql` loads both files; `db/09_speaker_records.sql`
+adds what the map's speaker-dot module writes:
+
+* `saa_speaker` — the CSV, one row per speaker; UI-created speakers share the
+  table with `origin = 'ui'`, ids from 100001, and an optional map `pin`;
+* `saa_birthplace` — one row per distinct birthplace, with `geog`, `source`,
+  `match` and the gazetteer name it matched;
+* `saa_entity` — named entities found in each speaker's free text;
+* `saa_speaker_geo` — the join, plus `native_english`, the point (a pin wins
+  over the geocode) and a recording count. For native English speakers the
+  birthplace is dialect geography; for everyone else it locates the first
+  language, which is a different axis of accent.
