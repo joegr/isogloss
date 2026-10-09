@@ -2,7 +2,7 @@
 Core functionality for the Phonemescape IPA library.
 """
 
-from typing import Dict, List, Optional, Tuple, Union
+from typing import TYPE_CHECKING, Dict, List, Optional, Tuple, Union
 
 import numpy as np
 
@@ -11,9 +11,11 @@ from .data import (
     TONE_DIACRITICS, TONE_LETTERS,
 )
 from .features import FEATURE_NAMES, parse_value, to_symbols
-from .plotting import IPAPlotter
 from .segments import Token, get_segment, tokenize
 from .similarity import MouthShapeSimilarity
+
+if TYPE_CHECKING:
+    from .plotting import IPAPlotter
 
 #: Chart attributes that ``find_phonemes_by_features`` understands.
 CHART_ATTRIBUTES = ('type', 'height', 'backness', 'roundedness', 'manner', 'place',
@@ -36,9 +38,17 @@ class Phonemescape:
         #: All consonant symbols of the chart (pulmonic + other + non-pulmonic).
         self.consonants = ALL_CONSONANTS
         self.pulmonic_consonants = IPA_CONSONANTS
-        self.plotter = IPAPlotter()
+        self._plotter = None
         self.similarity_calculator = MouthShapeSimilarity()
         self.graph = None
+
+    @property
+    def plotter(self) -> 'IPAPlotter':
+        """Created on first use, so the non-plotting API never imports matplotlib."""
+        if self._plotter is None:
+            from .plotting import IPAPlotter
+            self._plotter = IPAPlotter()
+        return self._plotter
 
     # ------------------------------------------------------------------
     # sample graph (local Neo4j)
