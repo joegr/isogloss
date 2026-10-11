@@ -8,3 +8,9 @@ venv/
 .DS_Store
 .pytest_cache/
 out/
+
+# frontend (Demogi) build and test output
+node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/

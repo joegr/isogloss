@@ -1,5 +1,6 @@
-# Isogloss — two services: PostGIS holds the accent field and does all the
-# geometry; the API does the signal processing and the linear algebra.
+# Isogloss — PostGIS holds the accent field and does all the geometry; the API
+# does the signal processing, the linear algebra and the speaker records; the
+# web gateway serves the speaker map (frontend/, from Demogi) and proxies /api.
 #
 # The db/*.sql files are mounted into the Postgres entrypoint directory, so a
 # fresh volume builds the whole field — schema, functions, phonetics, geography,
@@ -32,7 +33,9 @@ services:
       start_period: 20s
 
   api:
-    build: ./backend
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
     image: isogloss/api:latest
     restart: unless-stopped
     environment:
@@ -45,11 +48,24 @@ services:
     ports:
       - "${API_PORT:-8000}:8000"
     healthcheck:
-      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      # Python rather than curl: the slim image ships no curl, and this check
+      # needs nothing the API does not already have.
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=4)"]
       interval: 15s
       timeout: 5s
       retries: 5
       start_period: 10s
+
+  web:
+    build: ./frontend
+    image: isogloss/web:latest
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "${WEB_PORT:-8080}:8080"
 
 volumes:
   isogloss-db:
