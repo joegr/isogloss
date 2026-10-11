@@ -205,7 +205,7 @@ jobs:
       - name: Build the speaker map
         working-directory: speaker-map
         env:
-          API_BASE: ${{ vars.API_BASE }}
+          API_BASE: ${{ vars.API_BASE || 'https://joegr-demogi-api.fly.dev' }}
         run: |
           npm ci --no-audit --no-fund
           npm run build
@@ -248,5 +248,5 @@ jobs:
 
       - name: Build
         env:
-          API_BASE: ${{ vars.API_BASE }}
+          API_BASE: ${{ vars.API_BASE || 'https://joegr-demogi-api.fly.dev' }}
         run: npm run build
