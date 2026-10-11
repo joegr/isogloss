@@ -10,7 +10,7 @@ which is a phonological description of the audio that does not depend on the
 recogniser having picked the right phone, only on it having spread its mass
 over phonetically similar ones. Averaged over speech frames it is one block of
 the embedding (featurize.py); restricted to a natural class it is the target of
-a sound-production surface (model.py, docs/AUDIO_FIELD.md §8).
+a sound-production surface (service.py, docs/AUDIO_FIELD.md §9).
 """
 
 from __future__ import annotations

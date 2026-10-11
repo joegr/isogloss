@@ -21,9 +21,10 @@ compiled:
 window.SPEAKER_MAP_CONFIG = { apiBase: "https://api.example.org" };
 ```
 
-* **On GitHub Pages** set the repository variable `API_BASE` (Settings → Secrets
-  and variables → Actions → Variables) and re-run the workflow; it writes
-  `config.js` from it. It must be `https://` — Pages is HTTPS, and browsers block
+* **On GitHub Pages** the default is the Fly.io deployment of the Demogi backend,
+  `https://joegr-demogi-api.fly.dev`. To point elsewhere, set the repository
+  variable `API_BASE` (Settings → Secrets and variables → Actions → Variables) and
+  re-run the workflow; it writes `config.js` from it. It must be `https://` — Pages is HTTPS, and browsers block
   calls from it to plain HTTP.
 * **Anywhere else** build with `API_BASE=https://… npm run build`, or edit
   `config.js` in the built `dist/` by hand.
