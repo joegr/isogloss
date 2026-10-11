@@ -23,6 +23,12 @@ That one decision is why barriers, settlement hierarchy and migration links are
 inherited by the interpolator instead of bolted onto it, and it is why the
 output type is a `MULTIPOLYGON` rather than a coordinate pair.
 
+**[docs/AUDIO_FIELD.md](docs/AUDIO_FIELD.md)** derives the learned version: training
+nodes holding raw recordings, a graph-kernel Gaussian process over them, and
+the two answers it gives — where a recording was produced, and how likely a
+sound is to be produced at each place. **[docs/PRIMER.md](docs/PRIMER.md)** is the
+background math, with small worked examples.
+
 ---
 
 ## Run it
@@ -193,13 +199,15 @@ backend/  FastAPI + numpy/scipy; the signal chain and the linear algebra
   app/speakers.py  the speaker-dot cascade; app/ner.py its NER
   app/datasets/    archive import (saa.py) and birthplace geocoding (geocode.py)
   app/field/       the audio field: nodes holding raw audio, a graph-heat-kernel
-                   GP over them in PyTorch (work in progress)
+                   GP over them in PyTorch (docs/AUDIO_FIELD.md; not yet served)
   app/voice/    the formant synthesiser and the round-trip harness
   app/static/   vanilla client, SVG GeoJSON renderer, no tiles or CDN
 frontend/ the speaker map — Demogi's TypeScript/D3 globe (src/speakers/)
+speaker-map/  the same map as a static Pages site, for the Demogi backend
 libs/phonemescape/  IPA segments and distinctive features (from joegr/ipaba)
 web/      the static Pages site: the synthesiser ported to run in a browser
-docs/     DIFFUSION.md — the design argument; VOICE.md — the synthesiser
+docs/     DIFFUSION.md — the design argument; AUDIO_FIELD.md — the audio field,
+          derived; PRIMER.md — the background math; VOICE.md — the synthesiser
 ```
 
 `web/synth.js` is a port of the Python synthesiser, not a client for it, because
