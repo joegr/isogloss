@@ -62,8 +62,58 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      # The synthesiser is the site root; the speaker map is built into
+      # speaker-map/ beside it (the speaker-map job tests it).
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: speaker-map/package-lock.json
+      - name: Build the speaker map
+        working-directory: speaker-map
+        env:
+          API_BASE: ${{ vars.API_BASE }}
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+          cp -r dist ../web/speaker-map
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web
       - id: deploy
         uses: actions/deploy-pages@v4
+
+  # speaker-map/ is a static frontend for the Demogi/Isogloss backend, which is
+  # hosted elsewhere. config.js is its only knowledge of that backend: the build
+  # writes it from the API_BASE repository variable (Settings → Secrets and
+  # variables → Actions → Variables), so moving the backend is a variable change
+  # and a re-run, never a code change. Unset → the page says no backend is
+  # configured instead of failing silently.
+  speaker-map:
+    name: speaker map
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: speaker-map
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: speaker-map/package-lock.json
+
+      - name: Install
+        run: npm ci --no-audit --no-fund
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Unit tests
+        run: npx vitest run
+
+      - name: Build
+        env:
+          API_BASE: ${{ vars.API_BASE }}
+        run: npm run build

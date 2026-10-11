@@ -3,6 +3,10 @@
 **[Try the synthesiser →](https://joegr.github.io/isogloss/)** — an accent is
 fourteen numbers; move a slider and hear what changes. Runs entirely in the tab.
 
+**[The speaker map →](https://joegr.github.io/isogloss/speaker-map/)** — one dot
+per speaker at their birthplace; needs a backend (see
+[speaker-map/](speaker-map/README.md)).
+
 Record speech. Get back the phones, the language, fourteen sociophonetic
 measurements, and **where the accent is from — as a probability distribution
 drawn on a map.**
